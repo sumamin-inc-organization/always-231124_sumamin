@@ -1,0 +1,19 @@
+{
+  "name": "always-231124_sumamin",
+  "version": "1.0.0",
+  "description": "LP for Always",
+  "main": "bundle.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
