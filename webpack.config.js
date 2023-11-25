@@ -1,9 +1,19 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+const pages = ["index", "about","blog","contact","notice","price","recruit"];
 module.exports = {
     mode:"development",
-    entry:"./src/index.js",
+    entry: pages.reduce((config, page) => {
+      config[page] = `./src/${page}.js`;
+      return config;
+    }, {}),
+    optimization: {
+      splitChunks: {
+        chunks: "all",
+      },
+    },
     devtool: 'inline-source-map',
     devServer:{
       static:{
@@ -21,18 +31,24 @@ module.exports = {
         path:path.resolve(__dirname,"dist"),
         clean: true,
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-          title: 'Always',
-          filename:'index.html',
-          template:`./src/assets/html/index.html`,
-        }),
-      ],
+    plugins: [].concat(
+      pages.map(
+        (page) =>
+          new HtmlWebpackPlugin({
+            inject: true,
+            template: `./src/assets/html/${page}.html`,
+            filename: `${page}.html`,
+            chunks: [page],
+            title: "ALWAYS",
+          })
+      ),
+      new MiniCssExtractPlugin({ filename: "[name].css" }), // Add this line
+    ),
     module: {
         rules: [
           {
             test: /\.css$/i,
-            use: ['style-loader', 'css-loader'],
+            use: [MiniCssExtractPlugin.loader, 'css-loader'],
           },
           {
             test: /\.html$/i,
