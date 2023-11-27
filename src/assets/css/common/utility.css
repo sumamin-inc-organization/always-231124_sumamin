@@ -6,3 +6,16 @@
     display: grid;
     grid-template-columns: 240px 1fr 240px;
 }
+
+.section_btn{
+    background-color: #002D80;
+    border: none;
+    border-radius: 30px;
+    padding: 14.6px 41.4px 16.4px 53.6px  ;
+    margin-top: 66.3px;
+}
+
+
+.section_btn:hover{
+    cursor: pointer;
+}
