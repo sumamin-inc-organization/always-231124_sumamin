@@ -1,5 +1,25 @@
 #about {
-    height: 1000px;
+    z-index: 1;
+    /* height: 1000px; */
     background-color: #2BB9FC;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+  }
+
+  .kv2{
+    width: 1084px;
+    height: 568px;
+    transform: translateY(-35%);
+    z-index: -1;
+  }
+
+  .about-img_container{
+    position: relative;
+    /* border: 5px solid red; */
+  }
+  .about_title{
+    position: absolute;
+    z-index: 2;
+    bottom: 30%;
+    left: 12%;
+    
   }

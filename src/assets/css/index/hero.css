@@ -1,7 +1,9 @@
 /* ------------------- */
 /* HERO / KV    */
 /* ------------------- */
-
+#hero{
+    z-index: 2;
+}
 .kv_container {
   grid-column: 2;
   position: relative;
