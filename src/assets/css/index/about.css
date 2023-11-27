@@ -6,9 +6,6 @@
   }
 
   .kv2{
-    width: 1084px;
-    height: 568px;
-    transform: translateY(-35%);
     z-index: -1;
   }
 
@@ -19,7 +16,23 @@
   .about_title{
     position: absolute;
     z-index: 2;
-    bottom: 30%;
-    left: 12%;
+    bottom: 28%;
+    left: 15%;
+    
+  }
+
+  .filter_wrapper{
+    position: relative;
+    border: 1px soild red;
+    width: 1084px;
+    height: 568px;
+    transform: translateY(-35%);
+  }
+
+  .filter{
+    position: absolute;
+    inset: 0;
+    opacity: .6;
+    z-index: 2;
     
   }

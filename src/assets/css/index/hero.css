@@ -59,7 +59,7 @@
   position: absolute;
   bottom: -20%;
   left: 35%;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
   border-radius: 20px 0 0 20px;
   /* border: 1px solid black; */
