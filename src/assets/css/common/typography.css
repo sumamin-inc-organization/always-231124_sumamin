@@ -15,7 +15,7 @@ body {
 }
 
 /* ------------------- */
-/* typography Utilities */
+/* Font weights */
 /* ------------------- */
 .regular {
   font-weight: 400;
@@ -80,4 +80,22 @@ body {
 }
 .fs-17 {
   font-size: 17px;
+}
+
+
+/* ------------------- */
+/* Font Colors */
+/* ------------------- */
+
+
+.yellow{
+  color:#FFFF00 ;
+}
+
+.white{
+  color:#FFFFFF;
+}
+
+.blue{
+  color: #002D80;
 }
