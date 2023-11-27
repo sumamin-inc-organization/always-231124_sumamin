@@ -1,3 +1,43 @@
 /* ------------------- */
 /* HERO / KV    */
 /* ------------------- */
+
+.kv_container{
+    grid-column: 2;
+    position: relative;
+    border: 1px solid red;
+    height: fit-content;
+    display: grid;
+    place-content: center;
+}
+
+.kv{
+    width: 960px;
+    height: 600px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.hero-decor{
+    position: absolute;
+    width: 248.95px;
+    height: 370.15px;
+    z-index: 2;
+    top: 13%;
+    left: 4%;
+    z-index: 2;
+}
+.kv-subtitle_container{
+    position: absolute;
+    z-index: 3;
+    top: 15%;
+    right: 45%;
+    /* border: 1px solid yellow; */
+}
+
+/* .kv-title{
+    z-index: 3;
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    border: 1px solid green;
+} */
