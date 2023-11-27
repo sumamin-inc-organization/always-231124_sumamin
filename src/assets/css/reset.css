@@ -90,6 +90,7 @@ select {
 
 /* hide overflow x 
 横方向のオーバーフローを非表示にする*/
-html, body {
-  overflow-x:hidden 
-} 
+html,
+body {
+  overflow-x: hidden;
+}

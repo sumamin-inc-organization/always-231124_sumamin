@@ -17,67 +17,67 @@ body {
 /* ------------------- */
 /* typography Utilities */
 /* ------------------- */
-.regular{
-    font-weight: 400;
+.regular {
+  font-weight: 400;
 }
-.medium{
-    font-weight: 500;
+.medium {
+  font-weight: 500;
 }
-.bold{
-    font-weight: 700;
+.bold {
+  font-weight: 700;
 }
-.gothic-italic{
-    font-family: var(--trade-gothic);
-    font-weight: 400;
-    font-style: italic;
+.gothic-italic {
+  font-family: var(--trade-gothic);
+  font-weight: 400;
+  font-style: italic;
 }
 
 /* ------------------- */
 /* Font sizes */
 /* ------------------- */
 
-.fs-16{
-    font-size: 16px;
+.fs-16 {
+  font-size: 16px;
 }
-.fs-64{
-    font-size: 64px;
+.fs-64 {
+  font-size: 64px;
 }
-.fs-86{
-    font-size: 86px;
+.fs-86 {
+  font-size: 86px;
 }
-.fs-40{
-    font-size: 40px;
+.fs-40 {
+  font-size: 40px;
 }
-.fs-18{
-    font-size: 18px;
+.fs-18 {
+  font-size: 18px;
 }
-.fs-20{
-    font-size: 20px;
+.fs-20 {
+  font-size: 20px;
 }
-.fs-24{
-    font-size: 24px;
+.fs-24 {
+  font-size: 24px;
 }
-.fs-14{
-    font-size: 14px;
+.fs-14 {
+  font-size: 14px;
 }
-.fs-12{
-    font-size: 12;
+.fs-12 {
+  font-size: 12;
 }
-.fs-27{
-    font-size: 27px;
+.fs-27 {
+  font-size: 27px;
 }
-.fs-32{
-    font-size: 32px;
+.fs-32 {
+  font-size: 32px;
 }
-.fs-28{
-    font-size: 28px;
+.fs-28 {
+  font-size: 28px;
 }
-.fs-49{
-    font-size: 49px;
+.fs-49 {
+  font-size: 49px;
 }
-.fs-30{
-    font-size: 30px;
+.fs-30 {
+  font-size: 30px;
 }
-.fs-17{
-    font-size: 17px;
+.fs-17 {
+  font-size: 17px;
 }
