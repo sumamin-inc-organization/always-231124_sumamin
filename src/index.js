@@ -1,2 +1,2 @@
+import "./assets/css/reset.css"
 import "./assets/css/main.css"
-console.log("hello webpack");
