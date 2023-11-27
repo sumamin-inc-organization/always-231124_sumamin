@@ -87,3 +87,9 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* hide overflow x 
+横方向のオーバーフローを非表示にする*/
+html, body {
+  overflow-x:hidden 
+} 
