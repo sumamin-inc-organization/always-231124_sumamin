@@ -42,7 +42,7 @@ module.exports = {
             title: "ALWAYS",
           })
       ),
-      new MiniCssExtractPlugin({ filename: "[name].css" }), // Add this line
+      new MiniCssExtractPlugin({ filename: "[name].[contenthash].css" }), // Add this line
     ),
     module: {
         rules: [
