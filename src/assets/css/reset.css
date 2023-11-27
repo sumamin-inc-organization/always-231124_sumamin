@@ -4,49 +4,71 @@
 
 /* https://piccalil.li/blog/a-modern-css-reset/ */
 
-/* Box sizing */
+/* Box sizing rules */
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* Reset margins */
+/* Remove default margin */
 body,
 h1,
 h2,
 h3,
 h4,
-h5,
 p,
 figure,
-picture {
-    margin: 0;
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
 }
 
-/* set up the body */
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
 body {
-    line-height: 1.5;
-    min-height: 100vh;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
 }
 
-/* make images easier to work with */
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
 img,
-picutre {
-    max-width: 100%;
-    display: block;
+picture {
+  max-width: 100%;
+  display: block;
 }
 
-/* make form elements easier to work with */
+/* Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
-/* remove animations for people who've turned them off */
-@media (prefers-reduced-motion: reduce) {  
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
   *,
   *::before,
   *::after {
