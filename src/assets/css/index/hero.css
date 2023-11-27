@@ -22,22 +22,23 @@
     width: 248.95px;
     height: 370.15px;
     z-index: 2;
-    top: 13%;
-    left: 4%;
+    top: 17%;
+    left: 3%;
     z-index: 2;
 }
 .kv-subtitle_container{
     position: absolute;
     z-index: 3;
-    top: 15%;
-    right: 45%;
+    top: 20%;
+    right: 46%;
     /* border: 1px solid yellow; */
 }
-
-/* .kv-title{
-    z-index: 3;
-    position: absolute;
-    top: 30%;
-    right: 45%;
-    border: 1px solid green;
-} */
+.kv_subtitle {
+    background-image: linear-gradient(90deg,#49C9FF,#002D80);
+    width: fit-content;
+    padding: 3px;
+    margin: 10px;
+}
+.kv-title{
+    margin-top: 10px ;
+}
