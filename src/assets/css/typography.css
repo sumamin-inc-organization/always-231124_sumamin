@@ -1,0 +1,12 @@
+/* import fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+/* ------------------- */
+/* variables              */
+/* ------------------- */
+
+  :root{
+    --noto-sans:'Noto Sans JP', sans-serif;
+    --trade-gothic:'trade-gothic-next', sans-serif;
+    
+  }
