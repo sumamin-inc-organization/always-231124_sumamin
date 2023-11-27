@@ -82,20 +82,18 @@ body {
   font-size: 17px;
 }
 
-
 /* ------------------- */
 /* Font Colors */
 /* ------------------- */
 
-
-.yellow{
-  color:#FFFF00 ;
+.yellow {
+  color: #ffff00;
 }
 
-.white{
-  color:#FFFFFF;
+.white {
+  color: #ffffff;
 }
 
-.blue{
-  color: #002D80;
+.blue {
+  color: #002d80;
 }

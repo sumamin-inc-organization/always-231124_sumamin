@@ -1,13 +1,13 @@
 /* ------------------- */
 /* HERO / KV    */
 /* ------------------- */
-#hero{
-    z-index: 2;
+#hero {
+  z-index: 2;
 }
 .kv_container {
   grid-column: 2;
   position: relative;
-  /* border: 1px solid red; */
+
   height: fit-content;
   display: grid;
   place-content: center;
@@ -32,7 +32,6 @@
   z-index: 3;
   top: 20%;
   right: 46%;
-  /* border: 1px solid yellow; */
 }
 .kv_subtitle {
   background-image: linear-gradient(90deg, #49c9ff, #002d80);
@@ -46,7 +45,7 @@
 .scroll-img {
   z-index: 3;
   position: absolute;
-  /* border: 1px solid green; */
+
   bottom: -15%;
   left: 26%;
 }
@@ -62,7 +61,6 @@
   z-index: 3;
   width: 100%;
   border-radius: 20px 0 0 20px;
-  /* border: 1px solid black; */
 }
 .kv-news {
   display: flex;
@@ -75,7 +73,6 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  /* border: 1px solid red; */
   margin-top: 33px;
 }
 .topic {
