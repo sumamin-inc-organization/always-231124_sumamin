@@ -2,20 +2,55 @@
 /* Utility             */
 /* ------------------- */
 
-.main-grid{
-    display: grid;
-    grid-template-columns: 240px 1fr 240px;
+.main-grid {
+  display: grid;
+  grid-template-columns: 240px 1fr 240px;
 }
 
-.section_btn{
+.about-grid{
+   
+  display: grid;
+  grid-template-columns:16% 1fr 240px;
+}
+
+.section_btn {
+  background-color: #002d80;
+  border: none;
+  border-radius: 30px;
+  padding: 14.6px 41.4px 16.4px 53.6px;
+  margin-top: 66.3px;
+}
+
+
+
+.section_btn:hover {
+  cursor: pointer;
+}
+
+.btn_a {
+  text-decoration: none;
+  position: relative;
+  /* border: 1px solid red; */
+}
+.btn_a::after {
+    content: "";
+    width: 35px;
+    height: 1px;
     background-color: #002D80;
-    border: none;
-    border-radius: 30px;
-    padding: 14.6px 41.4px 16.4px 53.6px  ;
-    margin-top: 66.3px;
-}
+    position: absolute;
+    right: -53%;
+    top: 50%;
+    transform: translateY(-60%);
 
+  }
+  .btn_a::before {
+    content: "";
+    width: 35px;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: -30%;
+    top: 50%;
+    transform: translateY(-60%);
 
-.section_btn:hover{
-    cursor: pointer;
-}
+  }
