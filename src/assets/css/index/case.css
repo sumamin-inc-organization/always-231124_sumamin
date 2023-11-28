@@ -1,7 +1,7 @@
 #case {
   background: url(../../images/caseSection/casebgS.jpg);
   width: 100%;
-  height: 2164.87px;
+  min-height: 2164.87px;
   clip-path: polygon(0 76%, 0 0, 100% 0, 100% 77%, 48% 91%);
   z-index: 2;
   /* margin-top: 0; */
@@ -53,3 +53,21 @@
 }
 
 
+/* ------------------- */
+/* case card   */
+/* ------------------- */
+.case-card_wrapper{
+    border: 1px solid red;
+    grid-column: 2;
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.case-card{
+
+    width: 400px;
+    height: 300px;
+    background-color: #002D80;
+    border-radius: 10px;
+}
