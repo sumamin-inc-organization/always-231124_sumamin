@@ -18,3 +18,12 @@ z-index: 2;
     inset: 0;
     opacity: .6;
 }
+
+.case-banner_text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 4;
+}
