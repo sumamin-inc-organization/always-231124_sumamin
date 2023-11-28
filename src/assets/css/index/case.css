@@ -15,6 +15,12 @@
     padding: 0;
     margin-bottom: -15px;
 }
+.case_subtitle{
+    grid-column: 2;
+    text-align: end;
+    margin-top: 44px;
+    margin-bottom: 76.5px;
+}
 .case-title_wrapper{
     width: 50%;
    padding-top: 0;
@@ -58,14 +64,12 @@
 /* case card   */
 /* ------------------- */
 .case-card_wrapper{
- 
     grid-column: 2;
     width: 100%;
     display: grid;
     place-items: center;
 }
 .case-card_list{
-    border: 1px solid red;
     width: min-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
