@@ -10,18 +10,19 @@ import "./assets/css/common/typography.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+//parallax animations for the decor in the case section
+//ケースセクションのデコレーションに対するパララックスアニメーション
 
 gsap.registerPlugin(ScrollTrigger);
 
-let images = gsap.utils.toArray('.case-decor');
+let images = gsap.utils.toArray(".case-decor");
 
-images.forEach(image=> {
-    gsap.to(image,{
-        yPercent:-100 * image.dataset.speed,
-        ease:'none',
-        scrollTrigger:{
-            scrub:image.dataset.speed
-        }
-    })
-})
-
+images.forEach((image) => {
+  gsap.to(image, {
+    yPercent: -100 * image.dataset.speed,
+    ease: "none",
+    scrollTrigger: {
+      scrub: image.dataset.speed,
+    },
+  });
+});

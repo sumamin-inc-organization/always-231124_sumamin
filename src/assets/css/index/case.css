@@ -5,19 +5,16 @@
   min-height: 2164.87px;
   clip-path: polygon(0 76%, 0 0, 100% 0, 100% 77%, 48% 91%);
   z-index: 2;
-  /* margin-top: 0; */
   padding-bottom: 300px;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-perspective: 1px;
-  /* perspective: 1px; */
 }
 .case-main {
   justify-items: end;
 }
 .case_title {
-  /* border: 1px solid red; */
   padding: 0;
   margin-bottom: -15px;
 }
@@ -51,7 +48,6 @@
   z-index: -1;
   margin-top: -650px;
   position: relative;
- /* border: 1px solid red; */
 }
 
 .case-banner_filter {
@@ -60,8 +56,7 @@
   inset: 0;
   opacity: 0.6;
 }
-.case-banner{
-  
+.case-banner {
 }
 .case-banner_text {
   position: absolute;
@@ -80,7 +75,6 @@
   width: min-content;
   display: grid;
   place-items: center;
-  /* border: 1px solid red; */
 }
 .case-card_list {
   width: min-content;
@@ -115,7 +109,6 @@
 }
 
 .case-card_top {
-  /* border: 1px solid red; */
   display: grid;
   justify-content: space-between;
   align-items: center;
@@ -125,12 +118,9 @@
 
 .case_number {
   grid-column: 1;
-  /* height: 100%; */
-  /* border: 1px solid green; */
   margin: 0;
 }
 .case-card_title {
-  /* border: 1px solid white; */
   grid-column: 2;
   margin: 0;
   text-align: end;
@@ -139,44 +129,39 @@
 /* ------------------- */
 /* case decor  */
 /* ------------------- */
-.case-card{
-    
+.case-card {
 }
-.case-decor{
-    position: absolute;
-    width: 248.95px;
-    height: 370.15px;
-    
-  
+.case-decor {
+  position: absolute;
+  width: 248.95px;
+  height: 370.15px;
 }
-.case-decor_1{
-    top: 850px;
-    left: 300px;
-  
+.case-decor_1 {
+  top: 850px;
+  left: 300px;
 }
 
-.case-decor_2{
+.case-decor_2 {
+  top: 55%;
+  right: 400px;
+  z-index: -2;
+}
+.case-decor_3 {
+  top: 85%;
+  left: 300px;
+}
+
+@media (max-width: 1900px) {
+  .case-decor_1 {
+    top: 900px;
+    left: 200px;
+  }
+  .case-decor_2 {
     top: 55%;
-    right: 400px;
-    z-index: -2;
-}
-.case-decor_3{
+    right: 300px;
+  }
+  .case-decor_3 {
     top: 85%;
-    left: 300px;
-}
-
-@media(max-width:1900px){
-    .case-decor_1{
-        top: 900px;
-        left: 200px;
-      
-    }
-    .case-decor_2{
-        top: 55%;
-        right: 300px;
-    }
-    .case-decor_3{
-        top: 85%;
-        left: 200px;
-    }
+    left: 200px;
+  }
 }
