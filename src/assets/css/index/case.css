@@ -113,6 +113,7 @@
 /* border: 1px solid red; */
 display: grid;
 justify-content: space-between;
+align-items: center;
 grid-template-columns: 1fr fit-content;
 grid-template-rows: 1fr;
 }
