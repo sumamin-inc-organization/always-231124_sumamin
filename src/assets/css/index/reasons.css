@@ -12,16 +12,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.reasons-title_wrapper{
 
-   
-}
 .reasons-content{
     grid-column: 2/3;
+    /* border: 1px solid black; */
 }
 .reasons_bottom{
     grid-column: 3/4;
     grid-row: 2;
+    /* border:1px solid red; */
+    transform: translateY(-100px);
+
 }
 /* ------------------- */
 /* reasons top styles   */
