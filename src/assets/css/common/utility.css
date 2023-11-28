@@ -6,6 +6,10 @@
   display: grid;
   grid-template-columns: 240px 1fr 240px;
 }
+.center-grid {
+  display: grid;
+  place-content: center;
+}
 
 .about-grid {
   display: grid;

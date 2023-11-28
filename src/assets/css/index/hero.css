@@ -7,12 +7,14 @@
 .kv_container {
   grid-column: 2;
   position: relative;
-
+border: 1px solid red;
   height: fit-content;
   display: grid;
   place-content: center;
+  width: min-content;
 }
 .kv {
+  max-width: revert;
   width: 960px;
   height: 600px;
   border-radius: 20px;
@@ -23,8 +25,8 @@
   width: 248.95px;
   height: 370.15px;
   z-index: 2;
-  top: 17%;
-  left: 3%;
+  top: 16%;
+  left: -200px;
   z-index: 2;
 }
 .kv-subtitle_container {
