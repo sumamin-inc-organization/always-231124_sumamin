@@ -1,6 +1,13 @@
+/* ------------------- */
+/* REASONS SECTION   */
+/* ------------------- */
+
 #reasons{
     min-height: 1000px;
 }
+/* ------------------- */
+/* reasons alignment  */
+/* ------------------- */
 .reasons-main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -12,7 +19,13 @@
 .reasons-content{
     grid-column: 2/3;
 }
-
+.reasons_bottom{
+    grid-column: 3/4;
+    grid-row: 2;
+}
+/* ------------------- */
+/* reasons top styles   */
+/* ------------------- */
 .reasons-title_wrapper{
     width: 100%;
     padding-top: 0;
@@ -51,3 +64,59 @@
     top: 50%;
     transform: translateY(-60%);
   }
+
+  /* ------------------- */
+/* reasons bottom styles   */
+/* ------------------- */
+
+.reasons_list{
+    width: 657.63px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border:1px solid #2BB9FC;
+    position: relative;
+}
+
+.reasons-list_item{
+    height:266.67px ;
+    width: 200px;
+    position: absolute;
+}
+
+.reasons-list_item:first-child{
+    transform: translate(250px ,-50px);
+    background-color: red;
+    z-index: 2;
+    
+}
+.reasons-list_item:nth-child(2){
+    transform: translateX(400px);
+    background-color: blue;
+    z-index: 1;
+}
+.reasons-list_item:nth-child(3){
+    z-index: 3;
+    background-color: green;
+    transform: translateX(100px);
+ }
+.reasons-list_item:nth-child(4){
+   bottom: 0;
+   transform: translate(240px ,-50px); 
+   background-color: palegoldenrod;
+   z-index: 1;
+}
+
+.reasons-list_item:nth-child(5){
+    bottom: 0;
+    transform: translate(100px ,50px);   
+    background-color: aquamarine;
+    z-index: 2;
+}
+
+.reasons-list_item:nth-child(6){
+    bottom: 0;  
+    transform: translate(-50px ,-50px);
+    background-color: cornflowerblue;
+    z-index: 3;
+}
+
