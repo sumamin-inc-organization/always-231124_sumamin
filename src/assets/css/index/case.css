@@ -146,15 +146,29 @@
     position: absolute;
     width: 248.95px;
     height: 370.15px;
+    
+  
+}
+.case-decor_1{
     top: 850px;
     left: 300px;
   
 }
 
+.case-decor_2{
+    top: 55%;
+    right: 400px;
+    z-index: -2;
+}
+
 @media(max-width:1900px){
-    .case-decor{
+    .case-decor_1{
         top: 900px;
         left: 200px;
       
+    }
+    .case-decor_2{
+        top: 55%;
+        right: 300px;
     }
 }
