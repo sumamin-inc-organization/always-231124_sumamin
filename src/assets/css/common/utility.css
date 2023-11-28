@@ -70,3 +70,15 @@ background-clip: text;
   -ms-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
 }
+
+/* ------------------- */
+/*background colors           */
+/* ------------------- */
+
+
+.bg-dark_blue{
+  background-color: #002d80;
+}
+.bg-light_blue{
+  background-color:#49c9ff;
+}

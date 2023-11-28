@@ -81,42 +81,43 @@
     height:266.67px ;
     width: 200px;
     position: absolute;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .reasons-list_item:first-child{
     transform: translate(250px ,-50px);
-    background-color: red;
     z-index: 2;
+    
     
 }
 .reasons-list_item:nth-child(2){
-    transform: translateX(400px);
-    background-color: blue;
+    transform: translate(430px ,50px);
     z-index: 1;
+    /* border: 2px solid red; */
 }
 .reasons-list_item:nth-child(3){
     z-index: 3;
-    background-color: green;
-    transform: translateX(100px);
+    transform: translate(70px ,50px);
  }
 .reasons-list_item:nth-child(4){
    bottom: 0;
-   transform: translate(240px ,-50px); 
-   background-color: palegoldenrod;
+   transform: translate(270px ,-50px); 
    z-index: 1;
 }
 
 .reasons-list_item:nth-child(5){
     bottom: 0;
     transform: translate(100px ,50px);   
-    background-color: aquamarine;
     z-index: 2;
 }
 
 .reasons-list_item:nth-child(6){
     bottom: 0;  
-    transform: translate(-50px ,-50px);
-    background-color: cornflowerblue;
+    transform: translate(-80px ,-50px);
     z-index: 3;
+
 }
 
