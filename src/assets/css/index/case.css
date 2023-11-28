@@ -5,6 +5,7 @@
   clip-path: polygon(0 76%, 0 0, 100% 0, 100% 77%, 48% 91%);
   z-index: 2;
   /* margin-top: 0; */
+  padding-bottom: 300px;
 }
 .case-main{
     justify-items: end
@@ -57,17 +58,39 @@
 /* case card   */
 /* ------------------- */
 .case-card_wrapper{
-    border: 1px solid red;
+ 
     grid-column: 2;
     width: 100%;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
+    display: grid;
+    place-items: center;
 }
-
+.case-card_list{
+    border: 1px solid red;
+    width: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
 .case-card{
-
     width: 400px;
     height: 300px;
     background-color: #002D80;
     border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.case-card_1,
+.case-card_3,
+.case-card_5,
+.case-card_7
+{
+    grid-column: 2;
+}
+
+.case-card_2,
+.case-card_4,
+.case-card_6,
+.case-card_8{
+    grid-column: 1;
+    transform: translateY(-150px);
 }
