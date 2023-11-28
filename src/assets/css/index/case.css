@@ -160,6 +160,10 @@
     right: 400px;
     z-index: -2;
 }
+.case-decor_3{
+    top: 85%;
+    left: 300px;
+}
 
 @media(max-width:1900px){
     .case-decor_1{
@@ -170,5 +174,9 @@
     .case-decor_2{
         top: 55%;
         right: 300px;
+    }
+    .case-decor_3{
+        top: 85%;
+        left: 200px;
     }
 }
