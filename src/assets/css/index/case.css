@@ -7,6 +7,11 @@
   z-index: 2;
   /* margin-top: 0; */
   padding-bottom: 300px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  /* perspective: 1px; */
 }
 .case-main {
   justify-items: end;
@@ -44,8 +49,9 @@
 /* ------------------- */
 .case-banner_wrapper {
   z-index: -1;
-  margin-top: -600px;
+  margin-top: -650px;
   position: relative;
+ /* border: 1px solid red; */
 }
 
 .case-banner_filter {
@@ -54,7 +60,9 @@
   inset: 0;
   opacity: 0.6;
 }
-
+.case-banner{
+  
+}
 .case-banner_text {
   position: absolute;
   top: 70%;
@@ -126,4 +134,27 @@
   grid-column: 2;
   margin: 0;
   text-align: end;
+}
+
+/* ------------------- */
+/* case decor  */
+/* ------------------- */
+.case-card{
+    
+}
+.case-decor{
+    position: absolute;
+    width: 248.95px;
+    height: 370.15px;
+    top: 850px;
+    left: 300px;
+  
+}
+
+@media(max-width:1900px){
+    .case-decor{
+        top: 900px;
+        left: 200px;
+      
+    }
 }
