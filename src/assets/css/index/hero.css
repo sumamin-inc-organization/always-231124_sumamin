@@ -7,7 +7,6 @@
 .kv_container {
   grid-column: 2;
   position: relative;
-border: 1px solid red;
   height: fit-content;
   display: grid;
   place-content: center;
