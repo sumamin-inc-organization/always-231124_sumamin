@@ -12,28 +12,34 @@
 
 .about-img_container {
   position: relative;
-  /* border: 5px solid red; */
+  /* border: 1px solid red; */
+  transform: translateY(-35%);
+  /* height: max-content; */
+  width: 60vw;
+  height: 661.48px;
+  background-image: url(../../images/hero/index_kv2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .about_title {
   position: absolute;
+  padding: 0;
+  margin: 0;
+  height: min-content;
   z-index: 2;
-  bottom: 3%;
+  bottom: -25px;
   left: 16.5%;
-}
-
-.filter_wrapper {
-  position: relative;
-  width: 1084;
-  width: 70%;
-  height: 568px;
-  transform: translateY(-35%);
 }
 
 .filter {
   position: absolute;
   inset: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
   opacity: 0.6;
   z-index: 2;
+  border: 1px solid green;
 }
 
 .about-main {
@@ -41,11 +47,8 @@
   z-index: 3;
   transform: translateY(-8%);
   display: flex;
-position: relative;
-  /* gap: 48.4px; */
+  position: relative;
   gap: 60px;
- 
-  /* border: 1px solid red; */
 }
 
 .about-main_description {
@@ -60,18 +63,17 @@ position: relative;
   right: 20%;
 }
 
-@media (max-width:1800px){
-
-.about-logo {
-  width: 478.38px;
-  height: 661.48px;
-  position: absolute;
-  top: -100px;
-  right: 20%;
+@media (max-width: 1800px) {
+  .about-logo {
+    width: 478.38px;
+    height: 661.48px;
+    position: absolute;
+    top: -100px;
+    right: 20%;
+  }
 }
-}
 
-@media (min-width:1200px){
+@media (min-width: 1200px) {
   .about-main {
     width: 1340px;
     /* border: 1px solid red; */
