@@ -33,6 +33,11 @@
    margin-top: -35px;
 }
 
+.case-main{
+    display: grid;
+    place-content: center;
+}
+
 
 /* ------------------- */
 /* case banner   */
@@ -82,6 +87,9 @@
     background-color: #002D80;
     border-radius: 10px;
     margin-bottom: 60px;
+    padding-top: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .case-card_1,
@@ -100,7 +108,25 @@
     transform: translateY(-150px);
 }
 
-.case-main{
-    display: grid;
-    place-content: center;
+
+.case-card_top{
+/* border: 1px solid red; */
+display: grid;
+justify-content: space-between;
+grid-template-columns: 1fr fit-content;
+grid-template-rows: 1fr;
+}
+
+.case_number{
+    grid-column: 1;
+    /* height: 100%; */
+    /* border: 1px solid green; */
+    margin: 0;
+}
+.case-card_title{
+    /* border: 1px solid white; */
+    grid-column: 2;
+    margin: 0;
+    text-align: end;
+   
 }
