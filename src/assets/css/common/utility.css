@@ -9,7 +9,8 @@
 
 .about-grid {
   display: grid;
-  grid-template-columns: 16% 1fr 240px;
+  grid-template-columns: 190px 1fr;
+  place-content: center;
 }
 
 .section_btn {
