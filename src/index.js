@@ -1,4 +1,5 @@
 import "./assets/css/common/reset.css";
+// import "./assets/css/common/glider.min.css";
 import "./assets/css/common/navbar.css";
 import "./assets/css/common/utility.css";
 import "./assets/css/index/hero.css";
@@ -29,3 +30,4 @@ images.forEach((image) => {
     },
   });
 });
+
