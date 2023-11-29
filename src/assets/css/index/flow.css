@@ -53,7 +53,7 @@
   /* border: 1px solid white; */
   grid-template-columns: 200px 200px 200px 200px;
   grid-template-rows: 150px 150px;
-  gap: 35.8px;
+  gap: 45.5px;
 }
 
 .flow_card {
@@ -62,9 +62,11 @@
   background-color: white;
   border-radius: 10px;
   display: grid;
-  place-items: center;
+  grid-template-columns: 27px 1fr 27px;
+  /* place-items: center; */
   position: relative;
   border: 1px solid black;
+  margin-right: 45.5px;
 }
 
 #flow-card-btn {
@@ -73,6 +75,8 @@
   display: grid;
   place-items: center;
   padding: 0;
+  grid-column: 2;
+
 }
 .flow-card_number {
     position: absolute;
@@ -104,11 +108,43 @@
 .arrow::after{
     content: url('../../images/flowSection/arrow.svg');
     position: absolute;
-    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -30px;
     width: 14.39px;
     height: 28.78px;
 }
 
 .flow-card_title {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    grid-column: 2;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.c-2 .flow-card_title,
+.c-3 .flow-card_title,
+.c-4 .flow-card_title,
+.c-5 .flow-card_title,
+.c-6 .flow-card_title,
+.c-7 .flow-card_title,
+.c-8 .flow-card_title{
+    margin-top: 59.6px;
+    text-align: center;
+}
+
+#flow-card-btn {
+margin: 0;
+}
+
+.c-1{
+    place-content: center;
+    gap: 11.2px;
+}
+
+.c-8 .flow-card_title{
+    transform: translateY(-20%);
+}
+
