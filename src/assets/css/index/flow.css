@@ -4,6 +4,7 @@
 
 #flow {
   background-color: #2bb9fc;
+  padding-bottom: 62.9px;
 }
 
 .flow_container {
@@ -148,3 +149,12 @@ margin: 0;
     transform: translateY(-20%);
 }
 
+
+/* ------------------- */
+/* flow-bottom             */
+/* ------------------- */
+
+.flow_bottom{
+   display: grid;
+   place-items: center;
+}
