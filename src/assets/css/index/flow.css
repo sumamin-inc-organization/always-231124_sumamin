@@ -1,54 +1,116 @@
 /* ------------------- */
-/* flow                */
+/* FLOW          */
 /* ------------------- */
 
-#flow{
-    background-color: #2bb9fc;
+#flow {
+  background-color: #2bb9fc;
 }
 
-.flow_container{
-    /* border: 1px solid red; */
-    margin-top: 33px;
-    padding: 0;
+.flow_container {
+  /* border: 1px solid red; */
+  margin-top: 33px;
+  padding: 0;
 }
 
-.flow_top{
-    /* border:1px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.flow_top {
+  /* border:1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 59.3px;
 }
 
-.flow_title{
-    /* border: 1px solid blue; */
-    text-align: center;
-    position: relative;
-    border-bottom: 1px solid white;
-    width: 70%;
-}
-/* .flow_title::before{
-    content: "";
-    height: 5px;
-    width: 70%;
-    background-color: white;
-    bottom: 0;
-    left: 0;
-border-bottom: 1px solid white;
-} */
-
-
-
-.flow-description_wrapper{
-    /* border: 1px solid black; */
-    margin-top: 39px;
+/* ------------------- */
+/* flow-top             */
+/* ------------------- */
+.flow_title {
+  /* border: 1px solid blue; */
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid white;
+  width: 70%;
 }
 
-.flow-description{
-    text-align: center;
+.flow-description_wrapper {
+  /* border: 1px solid black; */
+  margin-top: 39px;
+}
+
+.flow-description {
+  text-align: center;
 }
 
 .flow-description_line--1,
-.flow-description_line--2{
-    margin-bottom: 30px;
+.flow-description_line--2 {
+  margin-bottom: 30px;
+}
+/* ------------------- */
+/* flow-center             */
+/* ------------------- */
+.flow_center {
+  display: grid;
+  /* border: 1px solid white; */
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 150px 150px;
+  gap: 35.8px;
+}
+
+.flow_card {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  border: 1px solid black;
+}
+
+#flow-card-btn {
+  width: 145.79px;
+  height: 47.77px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+}
+.flow-card_number {
+    position: absolute;
+    top: -25%;
+    left: 0px;
+    z-index: 3;
+}
+.card_decor{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    background-color: #002D80;
+    width: 75.77px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+.flow_contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 116.74px;
+  height: 24px;
+}
+
+.flow_svg {
+  width: 15.2px;
+  height: 10.45px;
+}
+
+.arrow::after{
+    content: url('../../images/flowSection/arrow.svg');
+    position: absolute;
+    right: -25px;
+    width: 14.39px;
+    height: 28.78px;
+}
+
+.flow-card_title {
+    border: 1px solid red;
 }
