@@ -6,6 +6,7 @@ import "./assets/css/index/main.css";
 import "./assets/css/index/about.css";
 import "./assets/css/index/case.css";
 import "./assets/css/index/reasons.css";
+import "./assets/css/index/flow.css";
 import "./assets/css/common/typography.css";
 
 import { gsap } from "gsap";
