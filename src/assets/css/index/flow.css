@@ -1,3 +1,54 @@
+/* ------------------- */
+/* flow                */
+/* ------------------- */
+
 #flow{
     background-color: #2bb9fc;
+}
+
+.flow_container{
+    /* border: 1px solid red; */
+    margin-top: 33px;
+    padding: 0;
+}
+
+.flow_top{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flow_title{
+    /* border: 1px solid blue; */
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid white;
+    width: 70%;
+}
+/* .flow_title::before{
+    content: "";
+    height: 5px;
+    width: 70%;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+border-bottom: 1px solid white;
+} */
+
+
+
+.flow-description_wrapper{
+    /* border: 1px solid black; */
+    margin-top: 39px;
+}
+
+.flow-description{
+    text-align: center;
+}
+
+.flow-description_line--1,
+.flow-description_line--2{
+    margin-bottom: 30px;
 }

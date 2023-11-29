@@ -1,3 +1,6 @@
+/* ------------------- */
+/* CASE                */
+/* ------------------- */
 #case {
   background: url(../../images/caseSection/casebgS.jpg);
   background-attachment: fixed; /*parallax */
@@ -161,7 +164,7 @@
     right: 300px;
   }
   .case-decor_3 {
-    top: 85%;
+    top: 75%;
     left: 200px;
   }
 }
