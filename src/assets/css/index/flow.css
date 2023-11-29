@@ -82,13 +82,11 @@
 }
 .card_decor{
     position: absolute;
-    top: -10%;
-    left: -10%;
-    background-color: #002D80;
+    top: -5%;
+    left: -5%;
     width: 75.77px;
     aspect-ratio: 1;
-    border-radius: 10px;
-    clip-path: polygon(0 0, 0% 100%, 100% 0);
+ 
 }
 .flow_contact-wrapper {
   display: flex;
