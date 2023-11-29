@@ -1,0 +1,26 @@
+#blog{
+    min-height: 758px;
+    display: grid;
+    grid-template-columns: 356px 1fr 245.4px;
+}
+
+.blog-container{
+    /* border: 1px solid red; */
+    grid-column: 2;
+}
+
+.blog-title_wrapper{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.blog-title_wrapper::after{
+    content: "";
+    height: 1px;
+    width: 50%;
+    background-color: #002D80;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
