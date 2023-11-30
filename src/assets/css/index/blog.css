@@ -121,6 +121,8 @@
     
 }
 
+
+
 .dots{
     position: absolute;
     top: 12%;
@@ -129,6 +131,9 @@
     display: flex;
     flex-direction: column;
     gap: 13.5px;
+}
+.dots:hover{
+    cursor: pointer;
 }
 
 @media (max-width:1800px){
