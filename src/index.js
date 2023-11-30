@@ -31,3 +31,67 @@ images.forEach((image) => {
   });
 });
 
+
+//slider
+
+
+// startSlide();
+
+const slideContainer = document.querySelector('.track');
+const slider = document.querySelector('.slider');
+const slides = document.querySelectorAll('.blog-card');
+const nextBtn = document.getElementById('next_btn');
+const prevBtn = document.getElementById('previous_btn');
+
+const firstClone = slides[0].cloneNode(true);
+const secondClone = slides[1].cloneNode(true);
+
+slider.appendChild(firstClone);
+
+
+let index = 0;
+const slideWidth = slides[index].clientWidth;
+
+nextBtn.addEventListener('click', () => {
+  index++;
+  console.log(index)
+  if (index === 5) {
+    index = 0;
+  }
+  updateSlidePosition();
+});
+
+// prevBtn.addEventListener('click', () => {
+//   if(index === 0){
+//     return;
+//   }
+//   index--;
+//   console.log(index)
+//   if (index < 0) {
+//     index = slides.length - 1;
+//   }
+//   updateSlidePosition();
+// });
+
+prevBtn.addEventListener('click', () => {
+  if(index === 0){
+    index = 4;
+    updateSlidePosition();
+  }else{
+    index--;
+    console.log(index)
+    if (index < 0) {
+      index = slides.length - 1;
+    }
+    updateSlidePosition();
+  }
+});
+
+function updateSlidePosition() {
+  const offset = 440 * index;
+  slides.forEach((slide, i) => {
+    slide.style.transform = `translateX(${offset}px)`;
+  });
+}
+
+console.log(slider);
