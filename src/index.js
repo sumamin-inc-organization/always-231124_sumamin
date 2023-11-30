@@ -1,5 +1,4 @@
 import "./assets/css/common/reset.css";
-// import "./assets/css/common/glider.min.css";
 import "./assets/css/common/navbar.css";
 import "./assets/css/common/utility.css";
 import "./assets/css/index/hero.css";
@@ -9,6 +8,7 @@ import "./assets/css/index/case.css";
 import "./assets/css/index/reasons.css";
 import "./assets/css/index/flow.css";
 import "./assets/css/index/blog.css";
+import "./assets/css/index/contact.css";
 import "./assets/css/common/typography.css";
 
 import { gsap } from "gsap";

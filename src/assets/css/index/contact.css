@@ -1,3 +1,36 @@
 /* ------------------- */
 /* CONTACT  */
 /* ------------------- */
+
+
+#contact{
+z-index: -1;
+background-color: #2BB9FC;
+position: relative;
+min-height: 2500px;
+}
+
+.contact_top{
+    width: 1084px;
+    height: 586px;
+    position: relative;
+}
+
+.contact_img{
+position: absolute;
+inset: 0;
+z-index: 1;
+}
+
+.contact_filter{
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    opacity: .6;
+}
+
+.contact-top_wrapper{
+position: absolute;
+top: -250px;
+right: 0;
+}

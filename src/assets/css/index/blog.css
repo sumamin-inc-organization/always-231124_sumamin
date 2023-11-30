@@ -146,3 +146,7 @@
 .active{
     background-color: #002D80;
 }
+
+.blog-card_main {
+    background-color: white;
+}
