@@ -46,7 +46,9 @@ const prevBtn = document.getElementById('previous_btn');
 const firstClone = slides[0].cloneNode(true);
 const secondClone = slides[1].cloneNode(true);
 
-slider.appendChild(firstClone);
+
+slider.append(firstClone);
+
 
 
 let index = 0;
@@ -61,17 +63,6 @@ nextBtn.addEventListener('click', () => {
   updateSlidePosition();
 });
 
-// prevBtn.addEventListener('click', () => {
-//   if(index === 0){
-//     return;
-//   }
-//   index--;
-//   console.log(index)
-//   if (index < 0) {
-//     index = slides.length - 1;
-//   }
-//   updateSlidePosition();
-// });
 
 prevBtn.addEventListener('click', () => {
   if(index === 0){
@@ -89,9 +80,24 @@ prevBtn.addEventListener('click', () => {
 
 function updateSlidePosition() {
   const offset = 440 * index;
+  setIndicator();
   slides.forEach((slide, i) => {
     slide.style.transform = `translateX(${offset}px)`;
   });
 }
 
-console.log(slider);
+//slider indicator
+
+const indicators = document.querySelectorAll('.indicator');
+
+const setIndicator = ()=>{
+  indicators.forEach((indicator)=>{
+    indicator.classList.remove('active');
+    const indicatorNumber = +(indicator.dataset.indicator)
+    if (indicatorNumber === index){
+      indicator.classList.add('active');
+    }
+    
+  })
+}
+// setIndicator();
