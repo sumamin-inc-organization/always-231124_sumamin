@@ -93,11 +93,20 @@ const indicators = document.querySelectorAll('.indicator');
 const setIndicator = ()=>{
   indicators.forEach((indicator)=>{
     indicator.classList.remove('active');
-    const indicatorNumber = +(indicator.dataset.indicator)
+    const indicatorNumber = +(indicator.dataset.indicator);
     if (indicatorNumber === index){
       indicator.classList.add('active');
     }
     
   })
 }
-// setIndicator();
+
+
+indicators.forEach((indicator)=>{
+  indicator.addEventListener('click',(e)=>{
+    const clickedIndicator = e.target;
+    index = parseInt(clickedIndicator.dataset.indicator);
+    updateSlidePosition();
+
+  })
+})
