@@ -14,6 +14,7 @@ min-height: 2500px;
     width: 1084px;
     height: 586px;
     position: relative;
+    
 }
 
 .contact_img{
@@ -33,4 +34,22 @@ z-index: 1;
 position: absolute;
 top: -250px;
 right: 0;
+}
+
+.contact-title_wrapper{
+    z-index: 3;
+    position: absolute;
+    bottom: -125px;
+    right: 50%;
+    transform: translateX(50%);
+    /* border: 1px solid red; */
+    /* width: fit-content; */
+}
+.contact_title{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-subtitle{
+    line-height: 44.5px;
+    text-align: end;
 }
