@@ -1,0 +1,10 @@
+2023.12.1 
+
+so at the current state the contact section and blog section looks exatly like we want. but because the contact is at z index -1 we cant click
+on the contact form.
+
+possible solutions 
+- put the contact kv in the blog section and make it overflow down
+- keep the contact title in the contact section and try align it ? 
+
+

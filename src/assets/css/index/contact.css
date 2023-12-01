@@ -53,3 +53,16 @@ right: 0;
     line-height: 44.5px;
     text-align: end;
 }
+
+/* ------------------- */
+/* form                */
+/* ------------------- */
+#contact{
+    display: grid;
+    place-content: center;
+}
+.form-wrapper{
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-color: white;
+}
