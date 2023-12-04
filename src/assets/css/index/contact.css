@@ -241,10 +241,25 @@ input[type="radio"]:not(:disabled):checked {
     border: none;
     background-color:#002D80 ;
     display: grid;
-    place-content: centers;
+    
 }
 
 .submit_btn:hover{
     cursor: pointer;
     transform: scale(0.95);
+}
+/*----------------------------
+  From Wrapper Bottom 
+----------------------------*/
+
+
+.form-wrapper_bottom{
+    margin-top: 75px;
+}
+
+.form-title_bottom{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
