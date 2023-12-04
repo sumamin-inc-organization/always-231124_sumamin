@@ -13,7 +13,6 @@
 }
 
 .flow_top {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,21 +75,19 @@
   place-items: center;
   padding: 0;
   grid-column: 2;
-
 }
 .flow-card_number {
-    position: absolute;
-    top: -25%;
-    left: 0px;
-    z-index: 3;
+  position: absolute;
+  top: -25%;
+  left: 0px;
+  z-index: 3;
 }
-.card_decor{
-    position: absolute;
-    top: -5%;
-    left: -5%;
-    width: 75.77px;
-    aspect-ratio: 1;
- 
+.card_decor {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 75.77px;
+  aspect-ratio: 1;
 }
 .flow_contact-wrapper {
   display: flex;
@@ -105,22 +102,22 @@
   height: 10.45px;
 }
 
-.arrow::after{
-    content: url('../../images/flowSection/arrow.svg');
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: -30px;
-    width: 14.39px;
-    height: 28.78px;
+.arrow::after {
+  content: url("../../images/flowSection/arrow.svg");
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -30px;
+  width: 14.39px;
+  height: 28.78px;
 }
 
 .flow-card_title {
-    grid-column: 2;
-    height: min-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  grid-column: 2;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .c-2 .flow-card_title,
@@ -129,28 +126,28 @@
 .c-5 .flow-card_title,
 .c-6 .flow-card_title,
 .c-7 .flow-card_title,
-.c-8 .flow-card_title{
-    margin-top: 59.6px;
-    text-align: center;
+.c-8 .flow-card_title {
+  margin-top: 59.6px;
+  text-align: center;
 }
 
 #flow-card-btn {
-margin: 0;
+  margin: 0;
 }
 
-.c-1{
-    place-content: center;
-    gap: 11.2px;
+.c-1 {
+  place-content: center;
+  gap: 11.2px;
 }
 
-.c-8 .flow-card_title{
-    transform: translateY(-20%);
+.c-8 .flow-card_title {
+  transform: translateY(-20%);
 }
 
 /*----------------------------
   Flow-Bottom     
 ----------------------------*/
-.flow_bottom{
-   display: grid;
-   place-items: center;
+.flow_bottom {
+  display: grid;
+  place-items: center;
 }
