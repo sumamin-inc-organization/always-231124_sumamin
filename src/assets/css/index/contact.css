@@ -88,5 +88,31 @@ right: 0;
     border: 1px solid red;
     grid-column: 2;
     min-width: 852px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
+/* #contact form input {
+    width: 620px;
+} */
+
+.contact-item{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="datetime-local"],
+textarea
+{
+    width: 620px;
+
+}
+
+#zip{
+    width: 200px;
+}
