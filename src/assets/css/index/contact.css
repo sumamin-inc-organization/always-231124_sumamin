@@ -122,6 +122,8 @@ textarea
 
 textarea{
     height: 260px;
+    resize: none;
+    padding-top: 13.5px;
 }
 
 #zip{
