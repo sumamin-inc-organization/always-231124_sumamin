@@ -277,3 +277,19 @@ input[type="radio"]:not(:disabled):checked {
     display: grid;
     place-content: center;
 }
+/*----------------------------
+  From Required Indicator
+----------------------------*/
+.required_item{
+    position: relative;
+    border: 1px solid red;
+}
+.required_item::after{
+    content: "※";
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    height: 15px;
+    width: 10px;
+    font-size: 10px;
+}
