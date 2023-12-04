@@ -134,9 +134,9 @@ textarea {
   justify-content: flex-start;
   align-items: center;
 }
-.radio-inner{
-    width: 620px;
-    display: flex;
+.radio-inner {
+  width: 620px;
+  display: flex;
 }
 .classification_label {
 }
@@ -204,92 +204,88 @@ input[type="radio"]:not(:disabled):checked {
   Address   
 ----------------------------*/
 
-.address-wrapper{
-    display: flex;
-    justify-content: space-between;
+.address-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
-.address_right{
-   display: flex;
-   flex-direction: column;
-   gap: 38px ;
+.address_right {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
 }
 
-.postal-wrapper{
-    display: flex;
-   
+.postal-wrapper {
+  display: flex;
 }
 
 .label-name {
-    width: max-content;
-    margin-right: 10px;
+  width: max-content;
+  margin-right: 10px;
 }
 
 /*----------------------------
   Submit Buttons  
 ----------------------------*/
 
-.submit-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.submit-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.submit_btn{
-    width: 200px;
-    height: 60px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: none;
-    background-color:#002D80 ;
-    display: grid;
-    
+.submit_btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  background-color: #002d80;
+  display: grid;
 }
 
-.submit_btn:hover{
-    cursor: pointer;
-    transform: scale(0.95);
+.submit_btn:hover {
+  cursor: pointer;
+  transform: scale(0.95);
 }
 /*----------------------------
   From Wrapper Bottom 
 ----------------------------*/
 
-
-.form-wrapper_bottom{
-    margin-top: 75px;
+.form-wrapper_bottom {
+  margin-top: 75px;
 }
 
-.form-title_bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.form-title_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sns{
-    display: flex;
-    gap: 31px;
+.sns {
+  display: flex;
+  gap: 31px;
 }
-.sns_img{
-    width: 80px;
-    height: 80px;
+.sns_img {
+  width: 80px;
+  height: 80px;
 }
-.form-sns-container{
-    margin-top: 30px;
-    display: grid;
-    place-content: center;
+.form-sns-container {
+  margin-top: 30px;
+  display: grid;
+  place-content: center;
 }
 /*----------------------------
   From Required Indicator
 ----------------------------*/
-.required_item{
-    position: relative;
-    border: 1px solid red;
+.required_item {
+  position: relative;
 }
-.required_item::after{
-    content: "※";
-    position: absolute;
-    top:-5px;
-    right: -5px;
-    height: 15px;
-    width: 10px;
-    font-size: 10px;
+.required_item::after {
+  content: "※";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  height: 15px;
+  width: 10px;
+  font-size: 10px;
 }
