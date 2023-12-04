@@ -1,5 +1,5 @@
 /* ------------------- */
-/* BLOG   */
+/*        BLOG         */
 /* ------------------- */
 
 #blog{
@@ -12,7 +12,6 @@
 }
 
 .blog-container{
-    /* border: 1px solid red; */
     grid-column: 2;
 }
 
@@ -31,9 +30,10 @@
     bottom: 15px;
     right: 0;
 }
-/* ------------------- */
-/* blog cards      */
-/* ------------------- */
+
+/*----------------------------
+  blog cards   
+----------------------------*/
 .blog-card_main{
     border: 1px solid #002D80; 
     border-radius: 0 10px 10px 10px;
@@ -44,7 +44,7 @@
     padding-bottom: 15.9px;
 }
 .blog-card{
-    /* border: 1px solid #002D80; */
+
     width:400px ;
     height: 300px;
 }
@@ -63,10 +63,10 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 40px;
-    /* border: 1px solid red; */
+
     height: 100%;
     transform: translateX(-70%);
-    /* border: 1px solid green;.. */
+
     width: max-content;
     grid-column: 1;
     overflow: hidden;
@@ -75,18 +75,15 @@
 }
 .track{
     height: 100%;
-    /* border: 1px solid darkorange; .. */
+  
     position: relative;
     width: 100vw;
 }
 
 .slider-container{
     grid-column: 1/4;
-    /* border: 1px solid red; */
-    /* transform: translateX(-35%); */
     padding-right: 40px;
     overflow: hidden;
-    /* border: 1px solid red; */
 
 }
 .slider_btn{
@@ -113,8 +110,9 @@
     left: 70%;
 }
 
-/* indicator */
-
+/*----------------------------
+  Indicator     
+----------------------------*/
 .indicator {
     width: 12px;
     height: 12px;

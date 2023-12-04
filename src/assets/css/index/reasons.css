@@ -1,13 +1,13 @@
 /* ------------------- */
-/* REASONS SECTION   */
+/*   REASONS SECTION   */
 /* ------------------- */
 
 #reasons{
     min-height: 1000px;
 }
-/* ------------------- */
-/* reasons alignment  */
-/* ------------------- */
+/*----------------------------
+  Reasons Alignment    
+----------------------------*/
 .reasons-main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -15,18 +15,17 @@
 
 .reasons-content{
     grid-column: 2/3;
-    /* border: 1px solid black; */
 }
 .reasons_bottom{
     grid-column: 3/4;
     grid-row: 2;
-    /* border:1px solid red; */
     transform: translateY(-100px);
 
 }
-/* ------------------- */
-/* reasons top styles   */
-/* ------------------- */
+
+/*----------------------------
+  Reasons Top Styles     
+----------------------------*/
 .reasons-title_wrapper{
     width: 100%;
     padding-top: 0;
@@ -66,9 +65,9 @@
     transform: translateY(-60%);
   }
 
-  /* ------------------- */
-/* reasons bottom styles   */
-/* ------------------- */
+/*----------------------------
+  Reasons Bottom Styles    
+----------------------------*/
 
 .reasons_list{
     width: 657.63px;
@@ -97,7 +96,6 @@
 .reasons-list_item:nth-child(2){
     transform: translate(430px ,50px);
     z-index: 1;
-    /* border: 2px solid red; */
 }
 .reasons-list_item:nth-child(3){
     z-index: 3;

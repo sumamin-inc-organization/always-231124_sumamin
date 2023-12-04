@@ -1,5 +1,5 @@
 /* ------------------- */
-/* CASE                */
+/*         CASE        */
 /* ------------------- */
 #case {
   background: url(../../images/caseSection/casebgS.jpg);
@@ -44,9 +44,10 @@
   place-content: center;
 }
 
-/* ------------------- */
-/* case banner   */
-/* ------------------- */
+
+/*----------------------------
+  Case Banner  
+----------------------------*/
 .case-banner_wrapper {
   z-index: -1;
   margin-top: -650px;
@@ -70,9 +71,9 @@
   z-index: 4;
 }
 
-/* ------------------- */
-/* case card   */
-/* ------------------- */
+/*----------------------------
+  Case Card 
+----------------------------*/
 .case-card_wrapper {
   grid-column: 2;
   width: min-content;
@@ -129,9 +130,9 @@
   text-align: end;
 }
 
-/* ------------------- */
-/* case decor  */
-/* ------------------- */
+/*----------------------------
+ Case Decor 
+----------------------------*/
 .case-card {
 }
 .case-decor {

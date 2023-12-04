@@ -1,5 +1,5 @@
 /* ------------------- */
-/* FLOW          */
+/*       FLOW          */
 /* ------------------- */
 
 #flow {
@@ -8,13 +8,12 @@
 }
 
 .flow_container {
-  /* border: 1px solid red; */
   margin-top: 33px;
   padding: 0;
 }
 
 .flow_top {
-  /* border:1px solid red; */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,11 +21,10 @@
   margin-bottom: 59.3px;
 }
 
-/* ------------------- */
-/* flow-top             */
-/* ------------------- */
+/*----------------------------
+  flow-top      
+----------------------------*/
 .flow_title {
-  /* border: 1px solid blue; */
   text-align: center;
   position: relative;
   border-bottom: 1px solid white;
@@ -46,9 +44,10 @@
 .flow-description_line--2 {
   margin-bottom: 30px;
 }
-/* ------------------- */
-/* flow-center             */
-/* ------------------- */
+
+/*----------------------------
+  Flow-Center    
+----------------------------*/
 .flow_center {
   display: grid;
   /* border: 1px solid white; */
@@ -117,7 +116,6 @@
 }
 
 .flow-card_title {
-    /* border: 1px solid red; */
     grid-column: 2;
     height: min-content;
     display: flex;
@@ -149,11 +147,9 @@ margin: 0;
     transform: translateY(-20%);
 }
 
-
-/* ------------------- */
-/* flow-bottom             */
-/* ------------------- */
-
+/*----------------------------
+  Flow-Bottom     
+----------------------------*/
 .flow_bottom{
    display: grid;
    place-items: center;
