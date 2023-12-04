@@ -82,3 +82,16 @@ background-clip: text;
 .bg-light_blue{
   background-color:#49c9ff;
 }
+
+/* ------------------- */
+/*screen readers           */
+/* ------------------- */
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}

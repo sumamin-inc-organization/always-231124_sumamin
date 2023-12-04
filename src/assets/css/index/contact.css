@@ -178,3 +178,32 @@ textarea{
     padding: 2px;
     background:#E6F5FC;
   }
+
+  .radio-label{
+    display: flex;
+    align-items: center;
+}
+.inquiry-details{
+    display: flex;
+    flex-direction: column;
+    gap: 18.84px;
+}
+.custom-radio{
+    display: inline-block;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 8px;
+    border: 2px solid #E6F5FC;
+    background-color: #E6F5FC;
+}
+
+.radio-label:hover .custom-radio,
+[type="radio"]:focus + label .custom-radio{
+    transform:scale(1.1);
+}
+[type="radio"]:checked + label .custom-radio{
+    background-color: black;
+    border: 3px solid #E6F5FC;
+}
