@@ -222,3 +222,29 @@ input[type="radio"]:not(:disabled):checked {
     width: max-content;
     margin-right: 10px;
 }
+
+/*----------------------------
+  Submit Buttons  
+----------------------------*/
+
+.submit-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_btn{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    background-color:#002D80 ;
+    display: grid;
+    place-content: centers;
+}
+
+.submit_btn:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}

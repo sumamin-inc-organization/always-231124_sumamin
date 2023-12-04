@@ -28,6 +28,9 @@
 .section_btn:hover {
   cursor: pointer;
 }
+.btn_effect:hover{
+  transform: scale(0.95);
+}
 
 .btn_a {
   text-decoration: none;
