@@ -1,26 +1,26 @@
-export default function activateSmoothScroll(){
-    document.addEventListener('DOMContentLoaded', function() {
-        var links = document.querySelectorAll('a[href^="#"]');
+export default function activateSmoothScroll() {
+    document.addEventListener('DOMContentLoaded', () => {
+        const links = document.querySelectorAll('a[href^="#"]');
         
-        links.forEach(function(link) {
-            link.addEventListener('click', function(event) {
+        links.forEach(link => {
+            link.addEventListener('click', event => {
                 event.preventDefault();
                 
-                var speed = 500;
-                var href = this.getAttribute('href');
-                var target = document.querySelector(href === '#' || href === '' ? 'html' : href);
+                const speed = 500;
+                const href = link.getAttribute('href');
+                const target = document.querySelector(href === '#' || href === '' ? 'html' : href);
                 
                 if (!target) return;
                 
-                var startPosition = window.scrollY;
-                var targetPosition = target.getBoundingClientRect().top + window.scrollY;
-                var distance = targetPosition - startPosition;
-                var startTime = null;
+                const startPosition = window.scrollY;
+                const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+                const distance = targetPosition - startPosition;
+                let startTime = null;
       
                 function animation(currentTime) {
                     if (startTime === null) startTime = currentTime;
-                    var timeElapsed = currentTime - startTime;
-                    var run = ease(timeElapsed, startPosition, distance, speed);
+                    const timeElapsed = currentTime - startTime;
+                    const run = ease(timeElapsed, startPosition, distance, speed);
                     window.scrollTo(0, run);
                     if (timeElapsed < speed) requestAnimationFrame(animation);
                 }
@@ -35,7 +35,5 @@ export default function activateSmoothScroll(){
                 requestAnimationFrame(animation);
             });
         });
-      });
-      
-      
+    });
 }
