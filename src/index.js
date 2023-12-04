@@ -15,10 +15,13 @@ import "./assets/css/common/typography.css";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import activateSmoothScroll from "./smoothscroll";
 
-//parallax animations for the decor in the case section
-//ケースセクションのデコレーションに対するパララックスアニメーション
 
+/*-------------------------------------------------------
+  CASE SECTION PARALLAX ANIMATION
+  ケースセクションのデコレーションに対するパララックスアニメーション
+---------------------------------------------------------*/
 gsap.registerPlugin(ScrollTrigger);
 
 let images = gsap.utils.toArray(".case-decor");
@@ -33,7 +36,10 @@ images.forEach((image) => {
   });
 });
 
-//slider
+/*----------------------------
+ SLIDER
+ スライダー
+----------------------------*/
 
 const slideContainer = document.querySelector(".track");
 const slider = document.querySelector(".slider");
@@ -78,7 +84,10 @@ function updateSlidePosition() {
   });
 }
 
-//slider indicator
+/*----------------------------
+  SLIDER INDICATOR
+  スライダーのインジケーター
+----------------------------*/
 
 const indicators = document.querySelectorAll(".indicator");
 
@@ -99,6 +108,12 @@ indicators.forEach((indicator) => {
     updateSlidePosition();
   });
 });
+
+/*----------------------------
+  SMOOTH SCROLL TO TOP
+  トップへスムーススクロール
+----------------------------*/
+activateSmoothScroll();
 
 
 
