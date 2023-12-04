@@ -3,11 +3,12 @@
 /* ------------------- */
 
 #blog{
+    position: relative;
     min-height: 758px;
     display: grid;
     grid-template-columns: 356px 1fr 245.4px;
     padding-bottom: 100px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .blog-container{
