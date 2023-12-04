@@ -40,8 +40,6 @@
   bottom: -125px;
   right: 50%;
   transform: translateX(50%);
-  /* border: 1px solid red; */
-  /* width: fit-content; */
 }
 .contact_title {
   display: flex;
@@ -52,7 +50,7 @@
   text-align: end;
 }
 /*----------------------------
-  form    
+  Form    
 ----------------------------*/
 #contact {
   display: grid;
@@ -74,7 +72,7 @@
 }
 
 /*----------------------------
-  form grid
+  Form Grid
 ----------------------------*/
 .contact-form {
   display: grid;
@@ -83,7 +81,7 @@
 }
 
 .inner {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   grid-column: 2;
   min-width: 852px;
   display: flex;
@@ -124,9 +122,9 @@ textarea {
 }
 
 .classification-wrapper {
-  /* border: 1px solid green; */
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .label-name {
@@ -135,12 +133,15 @@ textarea {
   justify-content: flex-start;
   align-items: center;
 }
-
+.radio-inner{
+    width: 620px;
+    display: flex;
+}
 .classification_label {
 }
 
 /*----------------------------
-  radio btns   
+  Radio Buttons  
 ----------------------------*/
 .radio-wrapper {
   display: flex;
@@ -158,7 +159,6 @@ input[type="radio"] {
   height: 20px;
   margin: 6px;
   padding: 0;
-  border: 2px solid var(--radio-border-color);
   border-radius: 50%;
   background: #e6f5fc;
   outline: none;
@@ -197,4 +197,28 @@ input[type="radio"]:not(:disabled):checked {
 [type="radio"]:checked + label .custom-radio {
   background-color: black;
   border: 3px solid #e6f5fc;
+}
+
+/*----------------------------
+  Address   
+----------------------------*/
+
+.address-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.address_right{
+   display: flex;
+   flex-direction: column;
+   gap: 38px ;
+}
+
+.postal-wrapper{
+    display: flex;
+   
+}
+
+.label-name {
+    width: max-content;
+    margin-right: 10px;
 }
