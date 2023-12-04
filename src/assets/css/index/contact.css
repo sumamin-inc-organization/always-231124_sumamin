@@ -110,17 +110,51 @@ input[type="datetime-local"],
 textarea
 {
     width: 620px;
+    height: 60px;
     border-radius: 10px;
     border: none;
     background-color: #E6F5FC;
+    padding-left: 33px;
 
 
+
+}
+
+textarea{
+    height: 260px;
 }
 
 #zip{
     width: 200px;
+    
 }
 
 ::placeholder {
     color:#C8C8C8;
+  }
+
+  .classification-wrapper{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+  }
+
+  .label-name{
+    width: 224px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .classification_label{
+  }
+
+  .radio-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first-radio{
+    margin-right: 55px;
   }
