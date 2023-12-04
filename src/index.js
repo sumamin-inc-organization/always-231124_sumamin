@@ -97,3 +97,51 @@ indicators.forEach((indicator) => {
     updateSlidePosition();
   });
 });
+
+
+
+//transitopn 
+
+
+function delay(n) {
+  n = n || 2000
+  // Keep official documentation wording, done -> resolve
+  // and make it more concise
+  return new Promise(resolve => {
+    setTimeout(resolve, n)
+  })
+}
+
+
+const loadingScreen = document.querySelector('.transition');
+function pageTransitionIn(){
+    return gsap
+    .to(loadingScreen, { duration: .5, x: 0, transformOrigin: 'bottom left'})
+    .set(loadingScreen, { duration: .5, x: "-100%", transformOrigin: 'bottom left'})
+      
+}
+function pageTransitionOut(){
+  return gsap
+  .to(loadingScreen, { duration: .5, x: "-100%", transformOrigin: 'bottom left'})
+}
+function resetAni(){
+  return gsap.set(loadingScreen, { duration: .5,x: "100%"})
+}
+barba.init({
+  sync:true,
+  transitions:[
+      {
+          async leave(data){
+              const done = this.async();
+              pageTransitionIn();
+              // temp();
+              await delay(1000);
+              done();
+          },
+          async enter(data){
+            // pageTransitionOut()
+              //  contentAnimation();
+          }
+      }
+  ]
+})
