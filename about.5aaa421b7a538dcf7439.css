@@ -1,0 +1,14 @@
+/*!***************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/common/animation.css ***!
+  \***************************************************************************************/
+.transition{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    background-color: #2BB9FC;
+    inset: 0;
+    transform: translateX(100%);
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hYm91dC41YWFhNDIxYjdhNTM4ZGNmNzQzOS5jc3MiLCJtYXBwaW5ncyI6Ijs7O0FBQUE7SUFDSSxlQUFlO0lBQ2YsWUFBWTtJQUNaLFdBQVc7SUFDWCxXQUFXO0lBQ1gseUJBQXlCO0lBQ3pCLFFBQVE7SUFDUiwyQkFBMkI7QUFDL0IsQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Fsd2F5cy0yMzExMjRfc3VtYW1pbi8uL3NyYy9hc3NldHMvY3NzL2NvbW1vbi9hbmltYXRpb24uY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi50cmFuc2l0aW9ue1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgei1pbmRleDogNTA7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzJCQjlGQztcbiAgICBpbnNldDogMDtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoMTAwJSk7XG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/
