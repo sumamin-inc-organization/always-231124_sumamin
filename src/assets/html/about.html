@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>about</title>
+    <title>Always</title>
     <link rel="stylesheet" href="https://use.typekit.net/gpf2zew.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-  <body data-barba="wrapper">
-    <div class="transition"></div>
+  <body data-barba="wrapper" id="blog">
+    <div class="transition">
+    </div>
     <div class="nav-container">
       <div class="logo-img_wrapper">
         <a href="./index.html"><img src="../images/navbar/logo.svg" alt="オールウェイズ通訳サービス"></a>
@@ -34,7 +35,7 @@
           </div>
       </div>
     </div>
-    <main data-barba="container" data-barba-namespace="home">
+    <main data-barba="container" data-barba-namespace="about">
       <section id="hero">
         <div class="hero-container center-grid">
           <div class="kv_container">
@@ -43,7 +44,7 @@
             <div class="kv-subtitle_container">
               <h2 class="kv_subtitle fs-27 bold white">経験と知識で臨機応変な対応</h2>
               <h2 class="kv_subtitle fs-27 bold white"><span class="yellow">寄り添い型</span>の日中通訳</h2>
-              <h1 class="kv-title fs-64 bold white">オールウェイズ <br> 日中通訳サービス </h1>
+              <h1 class="kv-title fs-64 bold white">オールウェイズ <br> ABOUT </h1>
             </div>
               <img class="scroll-img" src="../images/hero/scroll.svg" alt="scroll">
           </div>
@@ -90,7 +91,7 @@
               <h3 class="about-main_title fs-40 bold white">オールウェイズ <br> 日中通訳サービスについて </h1>
                 <p class="about-main_description white bold fs-16">私たちは、日本における中国人の皆様との円滑な<br>コミュニケーションをサポートし、<br>お客様のニーズにいつも応えるパートナーとして在り続けます。<br>私たちは常にそこにいて、<br>お客様が成功するお手伝いをすることを誇りに思います。
                 </p>
-                <button class="section_btn fs-20 bold white"><a href="./about.html" class="btn_a fs-20 bold white">詳しくはこちら</a></button>
+                <button class="section_btn fs-20 bold white btn_effect"><a href="./about.html" class="btn_a fs-20 bold white">詳しくはこちら</a></button>
             </div>
               <img class="about-logo" src="../images/aboutSection/aboutlogo.svg" alt="">
           </div>
@@ -202,7 +203,7 @@
               <h2 class="reasons_title fs-86 bold gradient_text">Reasons</h2>
             </div>
             <h3 class="reasons_subtitle fs-40 bold blue">私たちが選ばれる<br>6つの理由</h3>
-            <button class="section_btn fs-20 bold white reasons_btn"><a href="./about.html" class="btn_a fs-20 bold white">もっと見る</a></button>
+            <button class="section_btn fs-20 bold white reasons_btn btn_effect"><a href="./about.html" class="btn_a fs-20 bold white">もっと見る</a></button>
           </div>
           <div class="reasons_bottom">
             <ul class="reasons_list" role="list">
@@ -247,7 +248,7 @@
               <h4 class="flow-card_title bold fs-20 blue">お問い合わせ</h4>
               <p class="flow-card_number gothic-italic fs-28 yellow">1</p>
               <img src="../images/flowSection/flowdecor.svg" alt="" class="card_decor" aria-hidden="true">
-              <button class="section_btn fs-20 bold white" id="flow-card-btn">
+              <button class="section_btn fs-20 bold white btn_effect" id="flow-card-btn">
                 <div class="flow_contact-wrapper">
                   <img  class="flow_svg" src="../images/flowSection/contactwhite.svg" alt="">
                   <a class="fs-16 bold primary_link white" href="./contact.html">お問い合わせ</a>
@@ -299,7 +300,7 @@
 
           </div>
           <div class="flow_bottom">
-            <button class="section_btn fs-20 bold white flow_btn"><a href="./price.html" class="btn_a fs-20 bold white">料金はこちら</a></button>
+            <button class="section_btn fs-20 bold white flow_btn btn_effect"><a href="./price.html" class="btn_a fs-20 bold white">料金はこちら</a></button>
           </div>
         </div>
       </section>
@@ -370,10 +371,10 @@
                 </div>
               </div>
               <div class="btn_container slide_controls">
-                <button aria-label="Previous" class="slider-prev slider_btn" id="previous_btn">
+                <button aria-label="Previous" class="slider-prev slider_btn btn_effect" id="previous_btn">
                   <img src="../images/blog/prev.svg" alt="previous_slide">
                 </button>
-                <button aria-label="Next" class="slider-next slider_btn" id="next_btn">
+                <button aria-label="Next" class="slider-next slider_btn btn_effect" id="next_btn">
                   <img src="../images/blog/next.svg" alt="next_slide">
                 </button>
               </div>
@@ -392,11 +393,152 @@
           <div class="contact_top">
             <img class="contact_img" src="../images/contactSection/contactKv.jpg" alt="contact">
             <img class="contact_filter" src="../images/decor/filter.jpg" alt="" aria-hidden="true">
+            <div class="contact-title_wrapper">
+              <h2 class="contact_title white fs-86 bold"><span class="yellow">C</span>ontact</h2>
+              <p class="contact-subtitle white fs-16 bold">まずは話を聞いてみたい、という方も大歓迎です。<br>
+                お気軽にお問い合わせください。</p>
+            </div>
           </div>
         </div>
+        <div class="form-wrapper">
+          <h3 class="form-title_top fs-30 bold">問い合わせフォーム</h3>
+          <form form action="" aria-label="お問い合わせ" class="contact-form">
+            <div class="inner">
+              <div class="name-wrapper">
+                <label class="contact-item">
+                    <p class="label-name required_item fs-18 ">お名前</p>
+                    <input type="text" name="お名前" id="your_name" placeholder="山田 太郎" class="fs-18" required >
+                </label>
+                        </div>
+                        <div class="classification-wrapper">
+                  <p class="label-name required_item fs-18 classification_label">区分</p>
+              <div class="radio-wrapper">
+                  <div class="radio-inner">
+                    <input type="radio" name="区分" id="job-contact" value="個人" class="sr-only">
+                    <label for="job-contact" class="radio-label first-radio"><span class="custom-radio"></span> 個人</label>
+                    <input type="radio" name="区分" id="outsource-contact" value="法人・団体等" class="sr-only">
+                    <label for="outsource-contact" class="radio-label"><span class="custom-radio"></span> 法人・団体等 </label>
+                  </div>
+              </div>
+                      </div>
+                      <div class="company-wrapper">
+                        <label class="contact-item">
+                <p class="label-name fs-18 ">法人・団体名</p>
+                <input type="text" name="法人・団体名" id="your_company" placeholder="オールウェイズ日中通訳サービス" class="fs-18">
+                        </label>
+                    </div>
+                    <div class="tel-wrapper">
+                      <label class="contact-item">
+              <p class="label-name fs-18 ">電話番号（ハイフンなし）</p>
+              <input type="tel" name="電話番号" id="your_company" placeholder="00000000000" class="fs-18" required>
+                      </label>
+                  </div>
+                  <div class="email-wrapper">
+                    <label class="contact-item"><div class="label-name_wrapper">
+                        <p class="label-name required_item fs-18 ">メールアドレス</p>
+                    </div>
+                        <input type="email" name="メールアドレス" id="your_email" placeholder="info@mail.com" class="fs-18" required>
+                    </label>
+                </div>
+                <div class="address-wrapper">
+                  <label for="your_address">
+                    <p class="address-title fs-18 ">ご住所</p>
+                  </label>
+                  <div class="address_right">
+                    <div class="postal-wrapper">
+                      <label class="contact-item"><div class="label-name_wrapper">
+                          <p class="label-name fs-18 ">〒</p>
+                      </div>
+                          <input type="text" name="〒" id="zip" placeholder="000-0000" pattern="[0-9]{7}" class="zip" class="fs-18" maxlength="7">
+                      </label>
+                    </div>
+                    <input type="text" name="ご住所" id="your_address" placeholder="info@mail.com" class="fs-18">
+                  </div>
+                </div>
+                <div class="interpretation-use-wrapper">
+                  <label class="contact-item">
+                    <div class="labelwrapper">
+                      <p class="label-name reason required_item fs-18 ">通訳用途</p>
+                      <p class="reason_2">（趣旨もお書きください）</p>
+                    </div>
+                    <textarea  type="" name="通訳用途" id="your_name" placeholder="入力してください" class="fs-18" required  ></textarea>
+                </label>
+                </div>
+                <div class="date-wrapper">
+                  <label class="contact-item">
+                      <p class="label-name fs-18 ">日時</p>
+                      <input
+                type="datetime-local"
+                id="your_date"
+                name="meeting-time"
+                value="2023-10-26T09:00"
+                min="2023-10-26T00:00"
+                max="2050-12-31T00:00"
+                class="fs-18" />
+                  </label>
+              </div>
+              <div class="venue-wrapper">
+                <label class="contact-item">
+                    <p class="label-name fs-18 ">場所</p>
+                    <input type="text" name="お名前" id="venue" placeholder="〇〇イベントホール"class="fs-18" >
+                </label>
+              </div>
+              <div class="language-wrapper">
+                <label class="contact-item">
+                    <p class="label-name fs-18 ">通訳言語と通訳方法</p>
+                    <input type="text" name="通訳言語と通訳方法" id="venue" placeholder="中国語を日本語に通訳する" class="fs-18">
+                </label>
+              </div>
+              <div class="headcount-wrapper">
+                <label class="contact-item">
+                    <p class="label-name fs-18 ">通訳対象の人数</p>
+                    <input type="text" name="通訳対象の人数" id="headcount" placeholder="10人" class="fs-18" >
+                </label>
+              </div>
+              <div class="submit-wrapper">
+                <button type="submit" class="submit_btn"><p class="submit_text fs-18 white">送信する</p></button>
+              </div>
+            </div>
+      </form>
+      <div class="form-wrapper_bottom">
+        <h3 class="form-title_bottom fs-30 bold">以下のメッセージアプリからでも<br>
+          お気軽にお問い合わせください！</h3>
+        <div class="form-sns-container">
+          <div class="sns">
+            <a href="#"><img src="../images/contactSection/line.png" alt="LINE" class="sns_img"></a>
+            <a href="#"><img src="../images/contactSection/wechat.png" alt="WECHAT" class="sns_img"></a>
+          </div>
+          <p class="form-bottom_subtitle">【受付時間】7:00〜22:00</p>
+        </div>
+      </div>
+        </div>
+      </section>
+      <section id="bottom-nav">
+        <div class="bottom-nav-logo">
+          <a href="#top">
+            <img src="../images/navbar/bottomLogo.png" alt="オールウェイズ
+            日中通訳サービス">
+          </a>
+        </div>
+        <nav class="bottom-nav">
+          <ul class="primary-nav_ul" role="list">
+            <li class="primary_about"><a class="fs-16 bold bottom_link" href="./about.html">私たちについて</a></li>
+            <li class="primary_price"><a class="fs-16 bold bottom_link" href="./price.html">基本料金</a></li>
+            <li class="primary_notice"><a class="fs-16 bold bottom_link" href="./notice.html">お知らせ</a></li>
+            <li class="primary_blog"><a class="fs-16 bold bottom_link" href="./blog.html">ブログ</a></li>
+            <li class="primary_recruit"><a class="fs-16 bold bottom_link" href="./recruit.html">通訳募集</a></li>
+            <li class="primary_contact">
+              <div class="bottom_contact-wrapper">
+                <img src="../images/flowSection/contactwhite.svg" alt="">
+                <a class="fs-16 bold bottom_link" href="./contact.html">お問い合わせ</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </section>
     </main>
-
-  
+    <footer id="footer">
+      <small><p class="copyright fs-16 bold white">&copy;2023オールウェイズ日中通訳サービス All Rights Reserved.</p></small>
+  </footer>
   </body>
 </html> 

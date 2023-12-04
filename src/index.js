@@ -13,8 +13,12 @@ import "./assets/css/common/footer.css";
 import "./assets/css/common/typography.css";
 
 
+import "./assets/css/common/animation.css";
+
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import barba from '@barba/core';
 import activateSmoothScroll from "./smoothscroll";
 
 
@@ -120,43 +124,38 @@ activateSmoothScroll();
 //transitopn 
 
 
-// function delay(n) {
-//   n = n || 2000
+function delay(n) {
+  n = n || 2000
   
-//   return new Promise(resolve => {
-//     setTimeout(resolve, n)
-//   })
-// }
+  return new Promise(resolve => {
+    setTimeout(resolve, n)
+  })
+}
 
 
-// const loadingScreen = document.querySelector('.transition');
-// function pageTransitionIn(){
-//     return gsap
-//     .to(loadingScreen, { duration: .5, x: 0, transformOrigin: 'bottom left'})
-//     .set(loadingScreen, { duration: .5, x: "-100%", transformOrigin: 'bottom left'})
+const loadingScreen = document.querySelector('.transition');
+function pageTransitionIn(){
+  let tl = gsap.timeline();
+    tl.to(loadingScreen, { duration: 0.7, x: 0, transformOrigin: 'bottom left'})
+   .to(loadingScreen, { duration: 0.7, x:"-100%", transformOrigin: 'bottom left', delay: 0.3})
+   .set(loadingScreen, {  x:  "100%"})
       
-// }
-// function pageTransitionOut(){
-//   return gsap
-//   .to(loadingScreen, { duration: .5, x: "-100%", transformOrigin: 'bottom left'})
-// }
-// function resetAni(){
-//   return gsap.set(loadingScreen, { duration: .5,x: "100%"})
-// }
-// barba.init({
-//   sync:true,
-//   transitions:[
-//       {
-//           async leave(data){
-//               const done = this.async();
-//               pageTransitionIn();
+}
+
+barba.init({
+  sync:true,
+  transitions:[
+      {
+          async leave(data){
+              const done = this.async();
+              pageTransitionIn();
               
-//               await delay(1000);
-//               done();
-//           },
-//           async enter(data){
+              await delay(1000);
+              done();
+          },
+          async enter(data){
             
-//           }
-//       }
-//   ]
-// })
+          }
+      }
+  ]
+})

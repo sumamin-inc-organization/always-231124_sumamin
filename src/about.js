@@ -1,4 +1,3 @@
-
 import "./assets/css/common/reset.css";
 import "./assets/css/common/navbar.css";
 import "./assets/css/common/utility.css";
@@ -10,17 +9,22 @@ import "./assets/css/index/reasons.css";
 import "./assets/css/index/flow.css";
 import "./assets/css/index/blog.css";
 import "./assets/css/index/contact.css";
+import "./assets/css/common/footer.css";
 import "./assets/css/common/typography.css";
+
+
 import "./assets/css/common/animation.css";
+
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import activateSmoothScroll from "./smoothscroll";
 
 
-import barba from '@barba/core';
-//parallax animations for the decor in the case section
-//ケースセクションのデコレーションに対するパララックスアニメーション
-
+/*-------------------------------------------------------
+  CASE SECTION PARALLAX ANIMATION
+  ケースセクションのデコレーションに対するパララックスアニメーション
+---------------------------------------------------------*/
 gsap.registerPlugin(ScrollTrigger);
 
 let images = gsap.utils.toArray(".case-decor");
@@ -35,46 +39,39 @@ images.forEach((image) => {
   });
 });
 
+/*----------------------------
+ SLIDER
+ スライダー
+----------------------------*/
 
-//slider
+const slideContainer = document.querySelector(".track");
+const slider = document.querySelector(".slider");
+const slides = document.querySelectorAll(".blog-card");
+const nextBtn = document.getElementById("next_btn");
+const prevBtn = document.getElementById("previous_btn");
 
+const firstClone = slides[0].cloneNode(true); //not working rn
+const secondClone = slides[1].cloneNode(true); //not working rn
 
-// startSlide();
-
-const slideContainer = document.querySelector('.track');
-const slider = document.querySelector('.slider');
-const slides = document.querySelectorAll('.blog-card');
-const nextBtn = document.getElementById('next_btn');
-const prevBtn = document.getElementById('previous_btn');
-
-const firstClone = slides[0].cloneNode(true);
-const secondClone = slides[1].cloneNode(true);
-
-
-slider.append(firstClone);
-
-
+slider.append(firstClone); //not working rn
 
 let index = 0;
 const slideWidth = slides[index].clientWidth;
 
-nextBtn.addEventListener('click', () => {
-  index++;
-  console.log(index)
+nextBtn.addEventListener("click", () => {
+  index++; //increases the index by 1
   if (index === 5) {
-    index = 0;
+    index = 0; //if its in the 5th slide it will reset to zero so that the first slide is shown
   }
   updateSlidePosition();
 });
 
-
-prevBtn.addEventListener('click', () => {
-  if(index === 0){
-    index = 4;
+prevBtn.addEventListener("click", () => {
+  if (index === 0) {
+    index = 4; //if its currently in the first slide it will jump to the last
     updateSlidePosition();
-  }else{
+  } else {
     index--;
-    console.log(index)
     if (index < 0) {
       index = slides.length - 1;
     }
@@ -83,43 +80,53 @@ prevBtn.addEventListener('click', () => {
 });
 
 function updateSlidePosition() {
-  const offset = 440 * index;
+  const offset = 440 * index; //off set is calculated with the card size and the gap (400px + 40)
   setIndicator();
   slides.forEach((slide, i) => {
     slide.style.transform = `translateX(${offset}px)`;
   });
 }
 
-//slider indicator
+/*----------------------------
+  SLIDER INDICATOR
+  スライダーのインジケーター
+----------------------------*/
 
-const indicators = document.querySelectorAll('.indicator');
+const indicators = document.querySelectorAll(".indicator");
 
-const setIndicator = ()=>{
-  indicators.forEach((indicator)=>{
-    indicator.classList.remove('active');
-    const indicatorNumber = +(indicator.dataset.indicator);
-    if (indicatorNumber === index){
-      indicator.classList.add('active');
+const setIndicator = () => {
+  indicators.forEach((indicator) => {
+    indicator.classList.remove("active"); //remove the active class
+    const indicatorNumber = +indicator.dataset.indicator;
+    if (indicatorNumber === index) {
+      indicator.classList.add("active"); //add active class to the clicked indicator
     }
-    
-  })
-}
+  });
+};
 
-
-indicators.forEach((indicator)=>{
-  indicator.addEventListener('click',(e)=>{
+indicators.forEach((indicator) => {
+  indicator.addEventListener("click", (e) => {
     const clickedIndicator = e.target;
-    index = parseInt(clickedIndicator.dataset.indicator);
+    index = parseInt(clickedIndicator.dataset.indicator); //make the index the same as the coreesponding indicator
     updateSlidePosition();
+  });
+});
 
-  })
-})
+/*----------------------------
+  SMOOTH SCROLL TO TOP
+  トップへスムーススクロール
+----------------------------*/
+activateSmoothScroll();
+
+
+
+//transitopn 
+
 
 
 function delay(n) {
   n = n || 2000
-  // Keep official documentation wording, done -> resolve
-  // and make it more concise
+  
   return new Promise(resolve => {
     setTimeout(resolve, n)
   })
@@ -128,18 +135,13 @@ function delay(n) {
 
 const loadingScreen = document.querySelector('.transition');
 function pageTransitionIn(){
-  return gsap
-  .to(loadingScreen, { duration: .5, x: 0, transformOrigin: 'bottom left'})
-  
-    
+  let tl = gsap.timeline();
+    tl.to(loadingScreen, { duration: 0.7, x: 0, transformOrigin: 'bottom left'})
+   .to(loadingScreen, { duration: 0.7, x:"-100%", transformOrigin: 'bottom left', delay: 0.3})
+   .set(loadingScreen, {  x:  "100%"})
+      
 }
-function pageTransitionOut(){
-  return gsap
-  .to(loadingScreen, { duration: .5, x: "-100%", transformOrigin: 'bottom left'})
-}
-function resetAni(){
-  return gsap.set(loadingScreen, { duration: .5,x: "100%"})
-}
+
 barba.init({
   sync:true,
   transitions:[
@@ -147,13 +149,12 @@ barba.init({
           async leave(data){
               const done = this.async();
               pageTransitionIn();
-              // temp();
+              
               await delay(1000);
               done();
           },
           async enter(data){
-            pageTransitionOut()
-              //  contentAnimation();
+            
           }
       }
   ]

@@ -6,4 +6,7 @@
     background-color: #2BB9FC;
     inset: 0;
     transform: translateX(100%);
+    display: grid;
+    place-content: center;
 }
+
