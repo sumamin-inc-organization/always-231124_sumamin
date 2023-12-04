@@ -110,9 +110,17 @@ input[type="datetime-local"],
 textarea
 {
     width: 620px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E6F5FC;
+
 
 }
 
 #zip{
     width: 200px;
 }
+
+::placeholder {
+    color:#C8C8C8;
+  }
