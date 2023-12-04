@@ -1,5 +1,12 @@
-the reason why the absolute positiopning gets messed up is because when the element its realtive to shirnks it would change the position
+//the reason why the absolute positiopning gets messed up is because when the element its realtive to shirnks it would change the position//
 
 solution: one solution is to give its realtive element a fixed width/height
 
 source : https://www.youtube.com/watch?v=H04P5YXVssE&ab_channel=KevinPowell 
+
+
+
+//stacking order//
+
+stacking order will have no effect unless its postioned relative static or absolute.
+so if you want an items to be stacked but dont want to take it out of the document flow use position relative
