@@ -62,7 +62,31 @@ right: 0;
     place-content: center;
 }
 .form-wrapper{
-    /* border: 1px solid red; */
     border-radius: 20px;
     background-color: white;
+    margin-top: 100px;
+    width: 960px;
 }
+
+.form-title_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
+    margin-bottom: 60px;
+}
+
+/* form grid */
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    place-content: center;
+}
+
+.inner{
+    border: 1px solid red;
+    grid-column: 2;
+    min-width: 852px;
+}
+

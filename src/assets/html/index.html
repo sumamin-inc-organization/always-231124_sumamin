@@ -400,94 +400,96 @@
           </div>
         </div>
         <div class="form-wrapper">
-          <h3 class="form-title_bottom">問い合わせフォーム</h3>
+          <h3 class="form-title_top fs-30 bold">問い合わせフォーム</h3>
           <form form action="" aria-label="お問い合わせ" class="contact-form">
-            <div class="name-wrapper">
-              <label class="contact-item">
-                  <p class="label-name required_item">お名前</p>
-                  <input type="text" name="お名前" id="your_name" placeholder="山田 太郎" required>
-              </label>
-          </div>
-          <div class="classification-wrapper">
-                <p class="label-name required_item">区分</p>
-            <div class="radio-wrapper">
-                <input type="radio" name="区分" id="job-contact" value="個人">
-                <label for="job-contact" class="radio-label"><span class="custom-radio"></span> 個人</label>
-                <input type="radio" name="区分" id="outsource-contact" value="法人・団体等">
-                <label for="outsource-contact" class="radio-label"><span class="custom-radio"></span> 法人・団体等 </label>
+            <div class="inner">
+              <div class="name-wrapper">
+                <label class="contact-item">
+                    <p class="label-name required_item">お名前</p>
+                    <input type="text" name="お名前" id="your_name" placeholder="山田 太郎" required>
+                </label>
+                        </div>
+                        <div class="classification-wrapper">
+                  <p class="label-name required_item">区分</p>
+              <div class="radio-wrapper">
+                  <input type="radio" name="区分" id="job-contact" value="個人">
+                  <label for="job-contact" class="radio-label"><span class="custom-radio"></span> 個人</label>
+                  <input type="radio" name="区分" id="outsource-contact" value="法人・団体等">
+                  <label for="outsource-contact" class="radio-label"><span class="custom-radio"></span> 法人・団体等 </label>
+              </div>
+                      </div>
+                      <div class="company-wrapper">
+                        <label class="contact-item">
+                <p class="label-name">法人・団体名</p>
+                <input type="text" name="法人・団体名" id="your_company" placeholder="オールウェイズ日中通訳サービス">
+                        </label>
+                    </div>
+                    <div class="tel-wrapper">
+                      <label class="contact-item">
+              <p class="label-name">電話番号（ハイフンなし）</p>
+              <input type="tel" name="電話番号" id="your_company" placeholder="00000000000" required>
+                      </label>
+                  </div>
+                  <div class="email-wrapper">
+                    <label class="contact-item"><div class="label-name_wrapper">
+                        <p class="label-name required_item">メールアドレス</p>
+                    </div>
+                        <input type="email" name="メールアドレス" id="your_email" placeholder="info@mail.com" required>
+                    </label>
+                </div>
+                <div class="address-wrapper">
+                  <label for="your_address">
+                    <p class="address-title">ご住所</p>
+                  </label>
+                  <div class="postal-wrapper">
+                    <label class="contact-item"><div class="label-name_wrapper">
+                        <p class="label-name">〒</p>
+                    </div>
+                        <input type="text" name="〒" id="zip" placeholder="000-0000" pattern="[0-9]{7}" >
+                    </label>
+                  </div>
+                  <input type="text" name="ご住所" id="your_address" placeholder="info@mail.com" >
+                </div>
+                <div class="interpretation-use-wrapper">
+                  <label class="contact-item">
+                    <p class="label-name"><span class="reason required_item">通訳用途</span><br><span class="reason_2">（趣旨もお書きください）</span></p>
+                    <textarea  type="" name="通訳用途" id="your_name" placeholder="山田 太郎" required >入力してください</textarea>
+                </label>
+                </div>
+                <div class="date-wrapper">
+                  <label class="contact-item">
+                      <p class="label-name">日時</p>
+                      <input
+                type="datetime-local"
+                id="your_date"
+                name="meeting-time"
+                value="2023-10-26T09:00"
+                min="2023-10-26T00:00"
+                max="2050-12-31T00:00" />
+                  </label>
+              </div>
+              <div class="venue-wrapper">
+                <label class="contact-item">
+                    <p class="label-name">場所</p>
+                    <input type="text" name="お名前" id="venue" placeholder="〇〇イベントホール" >
+                </label>
+              </div>
+              <div class="language-wrapper">
+                <label class="contact-item">
+                    <p class="label-name">通訳言語と通訳方法</p>
+                    <input type="text" name="通訳言語と通訳方法" id="venue" placeholder="中国語を日本語に通訳する" >
+                </label>
+              </div>
+              <div class="headcount-wrapper">
+                <label class="contact-item">
+                    <p class="label-name">通訳対象の人数</p>
+                    <input type="text" name="通訳対象の人数" id="headcount" placeholder="10人" >
+                </label>
+              </div>
+              <div class="submit-wrapper">
+                <button type="submit"><p class="submit_text">送信する</p></button>
+              </div>
             </div>
-        </div>
-        <div class="company-wrapper">
-          <label class="contact-item">
-              <p class="label-name">法人・団体名</p>
-              <input type="text" name="法人・団体名" id="your_company" placeholder="オールウェイズ日中通訳サービス">
-          </label>
-      </div>
-      <div class="tel-wrapper">
-        <label class="contact-item">
-            <p class="label-name">電話番号（ハイフンなし）</p>
-            <input type="tel" name="電話番号" id="your_company" placeholder="00000000000" required>
-        </label>
-    </div>
-    <div class="email-wrapper">
-      <label class="contact-item"><div class="label-name_wrapper">
-          <p class="label-name required_item">メールアドレス</p>
-      </div>
-          <input type="email" name="メールアドレス" id="your_email" placeholder="info@mail.com" required>
-      </label>
-  </div>
-  <div class="address-wrapper">
-    <label for="your_address">
-      <p class="address-title">ご住所</p>
-    </label>
-    <div class="postal-wrapper">
-      <label class="contact-item"><div class="label-name_wrapper">
-          <p class="label-name">〒</p>
-      </div>
-          <input type="text" name="〒" id="zip" placeholder="000-0000" pattern="[0-9]{7}" >
-      </label>
-    </div>
-    <input type="text" name="ご住所" id="your_address" placeholder="info@mail.com" >
-  </div>
-  <div class="interpretation-use-wrapper">
-    <label class="contact-item">
-      <p class="label-name"><span class="reason required_item">通訳用途</span><br><span class="reason_2">（趣旨もお書きください）</span></p>
-      <textarea  type="" name="通訳用途" id="your_name" placeholder="山田 太郎" required  rows="10" cols="100">入力してください</textarea>
-  </label>
-  </div>
-  <div class="date-wrapper">
-    <label class="contact-item">
-        <p class="label-name">日時</p>
-        <input
-              type="datetime-local"
-              id="your_date"
-              name="meeting-time"
-              value="2023-10-26T09:00"
-              min="2023-10-26T00:00"
-              max="2050-12-31T00:00" />
-    </label>
-</div>
-<div class="venue-wrapper">
-  <label class="contact-item">
-      <p class="label-name">場所</p>
-      <input type="text" name="お名前" id="venue" placeholder="〇〇イベントホール" >
-  </label>
-</div>
-<div class="language-wrapper">
-  <label class="contact-item">
-      <p class="label-name">通訳言語と通訳方法</p>
-      <input type="text" name="通訳言語と通訳方法" id="venue" placeholder="中国語を日本語に通訳する" >
-  </label>
-</div>
-<div class="headcount-wrapper">
-  <label class="contact-item">
-      <p class="label-name">通訳対象の人数</p>
-      <input type="text" name="通訳対象の人数" id="headcount" placeholder="10人" >
-  </label>
-</div>
-<div class="submit-wrapper">
-  <button type="submit"><p class="submit_text">送信する</p></button>
-</div>
       </form>
       <div class="form-wrapper_bottom">
         <h3 class="form-title_bottom">以下のメッセージアプリからでも<br>
