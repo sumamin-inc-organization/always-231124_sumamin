@@ -64,8 +64,8 @@ right: 0;
 .form-wrapper{
     border-radius: 20px;
     background-color: white;
-    margin-top: 100px;
     width: 960px;
+    margin-top: 500px;
 }
 
 .form-title_top{
@@ -159,4 +159,22 @@ textarea{
 
   .first-radio{
     margin-right: 55px;
+  }
+
+  input[type="radio"] {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    padding: 0;
+    border: 2px solid var(--radio-border-color);
+    border-radius: 50%;
+    background:#E6F5FC;
+    outline: none;
+  }
+
+  input[type="radio"]:not(:disabled):checked {
+    background-clip: content-box;
+    padding: 2px;
+    background:#E6F5FC;
   }
