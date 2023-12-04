@@ -243,3 +243,8 @@ activateSmoothScroll();
 //       }
 //   ]
 // })
+
+
+// animation test
+
+gsap.from('.kv_subtitle',{opacity:0,x:100,duration:3,})

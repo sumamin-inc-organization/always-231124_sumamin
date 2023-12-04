@@ -4,7 +4,27 @@ so at the current state the contact section and blog section looks exatly like w
 on the contact form.
 
 possible solutions 
-- put the contact kv in the blog section and make it overflow down
+- put the contact kv in the blog section and make it overflow down 
 - keep the contact title in the contact section and try align it ? 
 
+       //*** task complete ***//
 
+
+2023.12.4
+
+1.
+
+not exactly a task but somthing i need to look into. i need to try integrate custom code into barba js,
+
+potential solutions
+
+- https://barba.js.org/docs/getstarted/custom-code/ 
+
+
+2.
+
+draw the about section pie chart in css and try animate it
+
+potential solutions
+
+- https://www.freecodecamp.org/news/css-only-pie-chart/
