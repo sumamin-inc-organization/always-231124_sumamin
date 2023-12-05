@@ -32,13 +32,17 @@
   position: absolute;
   z-index: 3;
   top: 20%;
-  right: 46%;
+   right: 40%; 
+   /* border: 1px solid red; */
+   width: max-content;
+   
 }
 .kv_subtitle {
   background-image: linear-gradient(90deg, #49c9ff, #002d80);
   width: fit-content;
   padding: 3px;
   margin: 10px;
+  /* margin-left: 50px; */
 }
 .kv-title {
   margin-top: 10px;
