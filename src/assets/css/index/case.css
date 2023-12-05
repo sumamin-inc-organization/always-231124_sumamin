@@ -63,6 +63,8 @@
   position: relative;
   /* border: 1px solid red; */
   z-index: -1;
+  overflow: hidden;
+  max-height: 550px;
 }
 
 .case-banner_filter {
