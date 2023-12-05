@@ -144,7 +144,7 @@
   align-items: center;
   grid-template-columns: 1fr fit-content;
   grid-template-rows: 1fr;
-  margin-bottom: 100px;
+  margin-bottom: 14.6px;
 }
 
 .case_number {
@@ -184,7 +184,7 @@
 
 @media (max-width: 1900px) {
   .case-decor_1 {
-    top: 900px;
+    top: 800px;
     left: 200px;
   }
   .case-decor_2 {
