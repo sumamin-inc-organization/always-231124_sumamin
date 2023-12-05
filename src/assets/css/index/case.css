@@ -19,6 +19,7 @@
   overflow-y: auto;
   /* -webkit-perspective: 1px; */
   /* border: 2px solid green; */
+  overflow: hidden;
 }
 
 .case-main {
@@ -168,31 +169,34 @@
   height: 370.15px;
 }
 .case-decor_1 {
-  top: 850px;
+  top: 100px;
+  top: 0px;
   left: 300px;
 }
 
 .case-decor_2 {
-  top: 55%;
+  top: 300px;
   right: 400px;
   z-index: -2;
 }
 .case-decor_3 {
-  top: 65%;
+  top: 800px;
   left: 300px;
 }
 
 @media (max-width: 1900px) {
   .case-decor_1 {
-    top: 800px;
+    top: 100px;
+    top: 0px;
     left: 200px;
   }
   .case-decor_2 {
-    top: 55%;
+    top: 300px;
     right: 300px;
   }
   .case-decor_3 {
     top: 75%;
+    top: 800px;
     left: 200px;
   }
 }
