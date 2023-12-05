@@ -44,11 +44,10 @@
   margin-top: 10px;
 }
 .scroll-img {
-  z-index: 3;
+  z-index: 4;
   position: absolute;
-
   bottom: -15%;
-  left: 26%;
+  left: 100px;
 }
 .hero-container {
   position: relative;
