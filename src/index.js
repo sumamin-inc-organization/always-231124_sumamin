@@ -28,7 +28,7 @@ import activateSmoothScroll from "./smoothscroll";
 ---------------------------------------------------------*/
 gsap.registerPlugin(ScrollTrigger);
 
-let images = gsap.utils.toArray(".case-decor");
+let images = gsap.utils.toArray(".parallax");
 
 images.forEach((image) => {
   gsap.to(image, {

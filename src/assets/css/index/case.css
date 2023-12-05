@@ -13,16 +13,17 @@
   clip-path: polygon(0 35%, 0 96%, 49% 100%, 100% 96%, 99% 0, 0% 0%);
 
   z-index: 2;
-  padding-bottom: 300px;
+  padding-bottom: 0px;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-perspective: 1px;
+  /* -webkit-perspective: 1px; */
   /* border: 2px solid green; */
 }
 
 .case-main {
   justify-items: end;
+  margin-top: 100px;
 }
 .case_title {
   padding: 0;
@@ -102,6 +103,8 @@
   width: min-content;
   display: grid;
   place-items: center;
+  margin-top: 150px;
+  /* border: 1px solid red; */
 }
 .case-card_list {
   width: min-content;
@@ -141,6 +144,7 @@
   align-items: center;
   grid-template-columns: 1fr fit-content;
   grid-template-rows: 1fr;
+  margin-bottom: 100px;
 }
 
 .case_number {
@@ -174,7 +178,7 @@
   z-index: -2;
 }
 .case-decor_3 {
-  top: 85%;
+  top: 65%;
   left: 300px;
 }
 
