@@ -35,11 +35,19 @@
 }
 
 .contact-title_wrapper {
-  z-index: 3;
+  /* z-index: 3;
   position: absolute;
   bottom: -125px;
   right: 50%;
-  transform: translateX(50%);
+  transform: translateX(50%); */
+
+}
+.contact-title_wrapper {
+  z-index: 3;
+ position: relative;
+ /* border: 1px solid red; */
+ margin-top: 150px;
+ margin-bottom: -500px;
 
 }
 .contact_title {
