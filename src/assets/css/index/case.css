@@ -8,10 +8,10 @@
   /* min-height: 2164.87px; */
   /* min-height: auto; */
   /* clip-path: polygon(0 76%, 0 0, 100% 0, 100% 77%, 48% 91%);   ver1 */
-  /* clip-path: polygon(100% 0, 100% 95%, 51% 100%, 0 96%, 0 48%, 0 0); ver 2*/  
+  /* clip-path: polygon(100% 0, 100% 95%, 51% 100%, 0 96%, 0 48%, 0 0); ver 2*/
   /* clip-path: polygon(0 35%, 0 96%, 53% 100%, 100% 96%, 99% 0, 0% 0%); ver 3*/
   clip-path: polygon(0 35%, 0 96%, 49% 100%, 100% 96%, 99% 0, 0% 0%);
- 
+
   z-index: 2;
   padding-bottom: 300px;
   position: relative;
@@ -19,10 +19,7 @@
   overflow-y: auto;
   -webkit-perspective: 1px;
   /* border: 2px solid green; */
-
-  
 }
-
 
 .case-main {
   justify-items: end;
@@ -64,7 +61,6 @@
   position: relative;
   /* border: 1px solid red; */
   z-index: -1;
-  
 }
 
 .case-banner_filter {
@@ -92,11 +88,11 @@
     position: relative;
   }
 }*/
-@media(max-width:1300){
+@media (max-width: 1300) {
   .case-banner_wrapper {
     transform: translateY(100);
   }
-} 
+}
 
 /*----------------------------
   Case Card 
