@@ -13,7 +13,7 @@
 
 .about-grid {
   display: grid;
-  grid-template-columns: 190px 1fr;
+  /* grid-template-columns: 190px 1fr; */
   place-content: center;
 }
 
