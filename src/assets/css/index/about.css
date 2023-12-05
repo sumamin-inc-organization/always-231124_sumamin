@@ -25,7 +25,7 @@
   height: min-content;
   z-index: 2;
   bottom: -25px;
-  left:200px;
+  left:350px;
 }
 
 .filter {
@@ -56,21 +56,22 @@
 .about-logo {
   width: 478.38px;
   height: 661.48px;
-  position: absolute;
+  /* position: absolute; */
   top: -40px;
   right: 20%;
+  /* border: 1px solid green; */
 }
 
  
 @media (min-width: 1200px) {
   .about-main {
-    width: 1340px;
+    /* width: 1200px; */
   }
 }
 
 @media (min-width: 1800px) {
   .about_title {
-    left:23%; /*adjust it so that its aligned in bigger screens*/
+    left:36%; /*adjust it so that its aligned in bigger screens*/
   }
   
 }
