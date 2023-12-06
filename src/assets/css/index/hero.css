@@ -148,6 +148,12 @@
      width: max-content;
      
   }
+  .scroll-img {
+    z-index: 4;
+    position: absolute;
+    bottom: -55%;
+    left: 0px;
+  }
 }
 
 /* temp */

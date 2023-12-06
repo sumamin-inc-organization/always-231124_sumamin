@@ -28,3 +28,13 @@ draw the about section pie chart in css and try animate it
 potential solutions
 
 - https://www.freecodecamp.org/news/css-only-pie-chart/
+
+2023.12.5
+
+
+1. make the hamburger line 2 longer
+2. decrease the space between the slash and cn in the lang btn
+3. fix kv img aspect ratio
+4. remve the space on the left of the decor
+5.swap logo with new one
+6.reduce margin between kv and nav
