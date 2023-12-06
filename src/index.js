@@ -21,6 +21,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import barba from '@barba/core';
 import activateSmoothScroll from "./smoothscroll";
 import animateHamburgerMenu from "./mobileNav";
+import toggleNav from "./mobileNavOpen";
 
 
 /*-------------------------------------------------------
@@ -254,3 +255,5 @@ activateSmoothScroll();
 //hamburger menu
 
 animateHamburgerMenu();
+
+toggleNav();
