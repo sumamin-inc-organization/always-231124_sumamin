@@ -74,10 +74,9 @@ background-clip: text;
   writing-mode: vertical-rl;
 }
 
-/* ------------------- */
-/*background colors           */
-/* ------------------- */
-
+/*----------------------------
+  Background Colors 
+----------------------------*/
 
 .bg-dark_blue{
   background-color: #002d80;
@@ -86,9 +85,9 @@ background-clip: text;
   background-color:#49c9ff;
 }
 
-/* ------------------- */
-/*screen readers           */
-/* ------------------- */
+/*----------------------------
+  Screen Readers  
+----------------------------*/
 .sr-only {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
@@ -97,4 +96,26 @@ background-clip: text;
   position: absolute;
   white-space: nowrap; 
   width: 1px;
+}
+
+/*----------------------------
+  Responsive  
+----------------------------*/
+
+.pc{
+  display: block;
+}
+
+.mobile{
+  display: none;
+}
+
+@media (max-width:1020px){
+  .nav-container_right .pc{
+    display: none;
+  }
+  
+  .nav-container_right .mobile{
+    display: block;
+  }
 }

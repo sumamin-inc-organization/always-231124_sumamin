@@ -65,6 +65,18 @@
   cursor: pointer;
 }
 
+@media (max-width:1420px){
+  .primary-nav_ul {
+    gap: 50px;
+   
+  }
+}
+@media (max-width:1173px){
+  .primary-nav_ul {
+    gap: 20px;
+   
+  }
+}
 /*----------------------------
   Bottom Navbar
 ----------------------------*/
@@ -105,3 +117,8 @@
   border-left: 1px solid white;
   height: 40px;
 }
+
+/*----------------------------
+  Primary Navbar Mobile
+----------------------------*/
+

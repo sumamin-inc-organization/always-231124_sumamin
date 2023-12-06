@@ -82,7 +82,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 4;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: max-content;
 }
 /* @media(max-width:1700){
