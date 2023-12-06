@@ -234,7 +234,8 @@
   .langauge-btn-container {
     position: static;
     /* border: 1px solid red; */
-text-wrap: nowrap;
+    text-wrap: nowrap;
+    white-space: nowrap;
 
   }
   .lang-btn {
@@ -291,6 +292,7 @@ text-wrap: nowrap;
 
   .lang-btn{
     /* border: 1px solid blue; */
+
   }
 
   .logo-img_wrapper img{
