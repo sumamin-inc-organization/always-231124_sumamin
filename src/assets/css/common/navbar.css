@@ -118,23 +118,20 @@
   height: 40px;
 }
 
+
 /*----------------------------
-  Primary Navbar Mobile
+  Hamburger Button
 ----------------------------*/
 
-
-
-/* hambuerger btn */
-
 .button-one {
+  /* position: fixed; */
+  top: 0;right: 0;
   background: transparent;
   border: none;
   border-radius: 1rem;
-}
+  z-index: 9998;
 
-/* .button-one {
-  --button-color: #333;
-} */
+}
 
 .button-one .line {
   transition: y 300ms ease-in 300ms, rotate 300ms ease-in, opacity 0ms 300ms;
@@ -160,3 +157,119 @@
 .button-one[aria-expanded="true"] .bottom {
   rotate: -45deg;
 }
+
+
+
+/*----------------------------
+  Primary Navbar Mobile
+----------------------------*/
+@media (max-width:1024px){
+  .nav-container {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .nav-container{
+    width: 100vw;
+  }
+  .nav-container {
+    display: flex;
+    position: static;
+    margin-inline: 0px;
+  }
+  .primary-nav{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+   
+    transform: translateX(100%);
+    z-index: 8000;
+  }
+  
+  .top-nav_ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    padding: 0;
+    margin-top: 5%;
+    gap:50px;
+   height: 100dvh;
+   z-index: 8000;
+  }
+  .primary-nav_ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .langauge-btn-container {
+    position: static;
+  }
+  .lang-btn {
+    background-color: transparent;
+    border: none;
+    color: #c8c8c8;
+  }
+  .lang-btn:hover {
+    cursor: pointer;
+  }
+  
+  .active-lang {
+    color: #000000;
+  }
+  
+  .primary_contact-wrapper_top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    padding-left: 60px;
+    border-left: 1px solid #002d80;
+    height: 40px;
+  }
+  .primary_contact_top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .primary_link {
+    text-decoration: none;
+    color: #002d80;
+  }
+  .primary_link:hover,
+  .primary_contact-wrapper img:hover {
+    cursor: pointer;
+  }
+
+.nav-container_right{
+  /* border: 1px solid black; */
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .button-one {
+   /* border: 1px solid red; */
+   border-radius: 0;
+   /* position: fixed; */
+  
+  }
+
+  .lang-btn{
+    /* border: 1px solid blue; */
+  }
+
+  .logo-img_wrapper{
+    /* border: 1px solid red; */
+  }
+
+  .primary_contact-wrapper_top{
+    border: none;
+    padding: 0;
+  }
+}
+
