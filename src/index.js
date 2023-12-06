@@ -20,6 +20,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import barba from '@barba/core';
 import activateSmoothScroll from "./smoothscroll";
+import animateHamburgerMenu from "./mobileNav";
 
 
 /*-------------------------------------------------------
@@ -247,4 +248,9 @@ activateSmoothScroll();
 
 // animation test
 
-gsap.from('.kv_subtitle',{opacity:0,x:100,duration:3,})
+// gsap.from('.kv_subtitle',{opacity:0,x:100,duration:3,})
+
+
+//hamburger menu
+
+animateHamburgerMenu();
