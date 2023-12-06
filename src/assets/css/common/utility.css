@@ -105,7 +105,9 @@ background-clip: text;
 .pc{
   display: block;
 }
-
+.tab{
+  display: none;
+}
 .mobile{
   display: none;
 }
@@ -115,7 +117,25 @@ background-clip: text;
     display: none;
   }
   
-  .nav-container_right .mobile{
+  .nav-container_right .tab{
     display: block;
+  }
+}
+
+@media(max-width:768px){
+  .mobile{
+    display: block;
+  }
+}
+
+@media(min-width:768) and (max-width:1000px){
+  .tab{
+    display: block;
+  }
+}
+
+@media(max-width:1000px){
+  .pc{
+    display: none;
   }
 }
