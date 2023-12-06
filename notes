@@ -9,4 +9,16 @@ source : https://www.youtube.com/watch?v=H04P5YXVssE&ab_channel=KevinPowell
 //stacking order//
 
 stacking order will have no effect unless its postioned relative static or absolute.
-so if you want an items to be stacked but dont want to take it out of the document flow use position relative
+so if you want an items to be stacked but dont want to take it out of the document flow use position 
+
+
+//hamburger menue animations wont work on ios//
+
+i implemented kevin powells svg hamburger menu animation and it didnt work on ios devices.
+some browsers can apply stylesd to the y and x of svgs
+https://www.youtube.com/watch?v=R00QiudbD4Y&t=1663s&ab_channel=KevinPowell
+
+solution:use transform translate instead. 
+
+  code location > navbar.css line:127
+
