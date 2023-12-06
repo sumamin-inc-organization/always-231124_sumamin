@@ -25,4 +25,3 @@ console.log(currentState)
     })
 }
 
-// transform: translateX(100%);
