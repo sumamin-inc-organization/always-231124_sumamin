@@ -12,7 +12,7 @@
   align-items: center;
   margin-inline: 50px;
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .primary-nav_ul {
@@ -212,6 +212,7 @@
   .langauge-btn-container {
     position: static;
     /* border: 1px solid red; */
+text-wrap: nowrap;
 
   }
   .lang-btn {
@@ -270,8 +271,8 @@
     /* border: 1px solid blue; */
   }
 
-  .logo-img_wrapper{
-    /* border: 1px solid red; */
+  .logo-img_wrapper img{
+   
   }
 
   .primary_contact-wrapper_top{
@@ -284,7 +285,7 @@
   }
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
   .nav-container_right{
     gap: 10px;
   /* width: 30%; */
