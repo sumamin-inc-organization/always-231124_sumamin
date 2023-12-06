@@ -110,7 +110,7 @@ background-clip: text;
   display: none;
 }
 
-@media (max-width:1020px){
+@media (max-width:1025px){
   .nav-container_right .pc{
     display: none;
   }

@@ -133,18 +133,40 @@
   z-index: 9998;
 }
 
+
+
+.button-one .line {
+  transition: transform 300ms ease-in 300ms, rotate 300ms ease-in, opacity 0ms 300ms;
+  transform-origin: center;
+}
+
+.button-one[aria-expanded="true"] .line {
+  transition:transform 300ms ease-in, rotate 300ms ease-in 300ms, opacity 0ms 300ms;
+}
+
+.button-one[aria-expanded="true"] :is(.top) {
+  transform: translateY(20px);
+}
+
+.button-one[aria-expanded="true"] :is(.bottom) {
+  transform: translateY(-20px);
+}
+
+/* .button-one .line {
+  transition: y 300ms ease-in 300ms, rotate 300ms ease-in, opacity 0ms 300ms;
+  transform-origin: center;
+}
 .button-one .line {
   transition: y 300ms ease-in 300ms, rotate 300ms ease-in, opacity 0ms 300ms;
   transform-origin: center;
 }
 
 .button-one[aria-expanded="true"] .line {
-  transition: y 300ms ease-in, rotate 300ms ease-in 300ms, opacity 0ms 300ms;
+  transition:y 300ms ease-in, rotate 300ms ease-in 300ms, opacity 0ms 300ms;
 }
-
 .button-one[aria-expanded="true"] :is(.top, .bottom) {
   y: 45;
-}
+} */
 
 .button-one[aria-expanded="true"] .top {
   rotate: 45deg;
@@ -163,7 +185,7 @@
 /*----------------------------
   Primary Navbar Mobile
 ----------------------------*/
-@media (max-width:1024px){
+@media (max-width:1025px){
   .nav-container {
     margin-top: 0px;
     margin-bottom: 50px;
@@ -282,6 +304,7 @@ text-wrap: nowrap;
   .nav-container{
     padding-left:20px ;
     padding-right: 20px;
+   padding-top: 10px;
   }
 }
 
