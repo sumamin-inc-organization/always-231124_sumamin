@@ -25,6 +25,7 @@
 
 
 /*----------------------------
+  main btns in sections
  セクション内のメインボタン
 ----------------------------*/
 .section_btn {
@@ -39,11 +40,17 @@
   cursor: pointer;
 }
 
+/*----------------------------
+  button hover effect
+ ホバー時のボタンエフェクトを追加
+----------------------------*/
+
 .btn_effect:hover{
   transform: scale(0.95);
 }
 
 /*----------------------------
+  buttons with a line
   ラインが付いたボタン 
 ----------------------------*/
 .btn_a {
@@ -72,6 +79,7 @@
 }
 
 /*----------------------------
+  Text with gradiation
   グラデーションがかかったテキスト
 ----------------------------*/
 .gradient_text{
@@ -155,5 +163,20 @@ background-clip: text;
 @media(max-width:1000px){
   .pc{
     display: none;
+  }
+}
+
+
+
+/*---------------------------------------
+  add 20px padding to the left and right
+  左右に20pxのパディングを追加
+---------------------------------------*/
+
+
+@media(max-width:425px){
+  .mv-padding-20{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
