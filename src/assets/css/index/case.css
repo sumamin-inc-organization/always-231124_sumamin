@@ -229,7 +229,25 @@
     display: flex;
  
   }
-  
+  .case-card-carousel_list {
+    /* border: 1px solid red; */
+    /* display: flex;
+    overflow: hidden; */
+    
+   }
+   .case-card {
+    min-width: 400px;
+    min-height: 300px;}
+    .case-card-carousel_list {
+      /* border: 1px solid red; */
+      width: 400px;
+   
+     }
+
+     .case-card-carousel{
+      width: 100vw;
+      height: max-content;
+     }
 }
 @media(max-width:425px){
   .case-card-carousel{
@@ -239,11 +257,13 @@
     place-content: center;
   }
   .case-card-carousel_list {
-   border: 1px solid red;
+   /* border: 1px solid red; */
+   width: 100vw;
+
   }
   .case-card {
-    width: 350px;
-    height: 232px;
+    min-width: 350px;
+    min-height: 232px;
     background-color: #002d80;
     border-radius: 10px;
     padding: 20px 30px;
