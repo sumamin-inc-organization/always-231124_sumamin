@@ -29,11 +29,13 @@
   position: absolute;
   top: 0;
   right: 0;
+  display:flex;
 }
 .lang-btn {
   background-color: transparent;
   border: none;
   color: #c8c8c8;
+  margin: 0;
 }
 .lang-btn:hover {
   cursor: pointer;
@@ -330,17 +332,6 @@
 
 
 
-.langauge-btn-container{
-  /* border: 1px solid black; */
-  display: flex;
-  align-items: center;
-}
 
-.cn-btn{
-  /* border: 1px solid black; */
-}
 
-.jp-btn{
-  /* border: 1px solid blue; */
-  width: min-content;
-}
+
