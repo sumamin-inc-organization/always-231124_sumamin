@@ -1,116 +1,147 @@
-#about {
-  z-index: 1;
-  background-color: #2bb9fc;
-  padding-bottom: 150px;
+@charset "utf-8";
+
+.under_kv{
+  background-image: url(../../../../about/img/about_kv.jpg);
 }
 
-.kv2 {
+/* feature */
+.feature{
+  padding: 80px 0 90px;
+  text-align: center;
+  background-image: url(../../../../about/img/feature_bg.png);
+  background-position: bottom;
+}
+.feature h2{
+  margin: auto;
+}
+.feature .title_line{
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.feature_attention{
+  padding: 0 5px;
+  background-color: #002D80;
+}
+.feature_content{
+  margin: 80px 0 50px;
+  padding: 60px 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+}
+.feature_flex{
+  text-align: left;
+  display: flex;
+  gap: 40px;
+}
+.feature_content_title{
+  margin-bottom: 30px;
+}
+.feature_content_title span{
+  font-family: var(--trade-gothic);
+  font-weight: 900;
+  font-style: italic;
+}
+.feature_flex img{
+  width: 360px;
+}
+.flex_reverse{
+  flex-direction: row-reverse;
+}
+.because{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 50px;
+}
+
+/* repeat */
+.repeat{
+  position: relative;
+  top: -110px;
+  z-index: -1;
+  padding: 200px 0 100px;
+  background-image: url(../../../../about/img/repeat_bg.jpg);
+}
+.repeat_flex{
+  display: flex;
+  justify-content: space-around;
+}
+.repeat_flex img{
+  width: 360px;
+}
+.repeat .title_line{
+  border-bottom: 1px solid white;
+}
+.repeat .section_title{
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* voice */
+.voice{
+  position: relative;
+  top: -110px;
+  padding: 80px 0;
+  background-image: url(../../../../about/img/voice_bg.jpg);
+  text-align: center;
+}
+.voice .title_line{
+  border-bottom: 1px solid white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.swiper-slide{
+  background-color: #fff;
+  padding: 50px 60px;
+  border-radius: 10px;
+}
+.swiper-inner{
+  display: flex;
+  gap: 40px;
+  align-items: start;
+  text-align: left;
+}
+.swiper-inner h4{
+  margin-bottom: 20px;
+}
+.swiper-inner img{
+  width: 360px;
+}
+
+/* greeting */
+.greeting_position{
+  position: relative;
+  top: -30px;
+}
+.greeting_inner{
+  color: #fff;
+  background-color: #002D80;
+  border-radius: 10px 0 0 10px;
+  padding: 100px 220px 100px 180px;
+  position: absolute;
+  top: 170px;
+  left: 30%;
   z-index: -1;
 }
-
-.about-img_container {
-  position: relative;
-  transform: translateY(-35%);
-  width: 65vw;
-  height: 661.48px;
-  background-image: url(../../images/hero/index_kv2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 0;
-
+.greeting_attention{
+  font-family: var(--trade-gothic);
+  font-weight: 400;
+  font-size: 50px;
+  font-style: italic;
 }
-/* .about_title {
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  height: min-content;
-  z-index: 2;
-  bottom: -25px;
-  left:350px;
-} */
-
-.filter {
-  position: absolute;
-  inset: 0;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  opacity: 0.6;
-  z-index: 2;
+.president_name{
+  font-size: 26px;
+  margin-top: 60px;
+  text-align: right;
 }
-
-.about-main {
-  /* grid-column: 2; */
-  z-index: 3;
-  display: flex;
-  position: relative;
-  gap: 60px;
-  margin-top: -400px;
-  /* border: 1px solid red; */
-
+.president_img{
+  width: 360px;
+  padding-top: 100px;
 }
-
-.about-main_description {
-  line-height: 44.5px;
-}
-
-.about-logo {
-  width: 478.38px;
-  height: 661.48px;
-  /* position: absolute; */
-  /* top: 50px;
-  right: 20%; */
-  margin-top: 100px;
-  /* border: 1px solid green; */
-}
-
- 
-@media (min-width: 1200px) {
-  .about-main {
-    /* width: 1200px; */
-  }
-}
-
-@media (min-width: 1800px) {
-  .about_title {
-    left:36%; /*adjust it so that its aligned in bigger screens*/
-  }
-  
-}
-
-/*----------------------------
-   Mobile
-----------------------------*/
-
-@media(max-width:1000px){
-
-}
-@media(max-width:768px){
-
-}
-@media(max-width:425px){
-  .about-img_container {
-   /* z-index: 5; */
-  }
-  .about_title {
-    /* border: 1px solid red; */
-    margin-top: 90px;
-  }
-  .about-logo{
-    position: absolute;
-    z-index: -1;
-    width: 175px;
-    height:241.98px ;
-    top: 55%;
-    left: 60%;
-  }
-  .about-main_description {
-    line-height: 42px;
-  }
-  .section_btn.about-btn{
-    margin-top: 10px;
-  }
-
-}
-
-
