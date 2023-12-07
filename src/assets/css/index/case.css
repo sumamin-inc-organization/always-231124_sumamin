@@ -229,14 +229,31 @@
     display: flex;
  
   }
+  
 }
 @media(max-width:425px){
+  .case-card-carousel{
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: grid;
+    place-content: center;
+  }
+  .case-card-carousel_list {
+   border: 1px solid red;
+  }
+  .case-card {
+    width: 350px;
+    height: 232px;
+    background-color: #002d80;
+    border-radius: 10px;
+    padding: 20px 30px;
+  }
   
 }
 
-.case-card-carousel{
-  border: 1px solid red;
-}
-
+.case-card-carousel_list {
+  padding: 0;
+  margin: 0;
+ }
 
 
