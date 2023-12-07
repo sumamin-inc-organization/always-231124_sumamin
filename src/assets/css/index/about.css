@@ -101,11 +101,14 @@
     z-index: -1;
     width: 175px;
     height:241.98px ;
-    top: 50%;
+    top: 55%;
     left: 60%;
   }
   .about-main_description {
     line-height: 42px;
+  }
+  .section_btn.about-btn{
+    margin-top: 10px;
   }
 
 }

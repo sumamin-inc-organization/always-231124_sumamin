@@ -35,10 +35,17 @@
   padding: 14.6px 41.4px 16.4px 53.6px;
   margin-top: 66.3px;
 }
-
-.section_btn:hover {
-  cursor: pointer;
+/*----------------------------
+  main btns in sections mobile
+ セクション内のメインボタン (モバイル)
+----------------------------*/
+@media(max-width:425px){
+  .section_btn {
+    padding: 10px 30px;
+    margin-top: 50px;
+  }
 }
+
 
 /*----------------------------
   button hover effect
@@ -47,6 +54,9 @@
 
 .btn_effect:hover{
   transform: scale(0.95);
+}
+.section_btn:hover {
+  cursor: pointer;
 }
 
 /*----------------------------
