@@ -2,21 +2,31 @@
 /* Utility             */
 /* ------------------- */
 
+
+/*--------------------------------------------------------------------
+アイテムを中央に配置し、両サイドにそれぞれ240pxのマージンを設定したメイングリッド
+----------------------------------------------------------------------*/
 .main-grid {
   display: grid;
   grid-template-columns: 240px 1fr 240px;
 }
+
+/*----------------------------
+ グリッドを適用し、コンテンツを中央に配置する
+----------------------------*/
 .center-grid {
   display: grid;
   place-content: center;
 }
-
 .about-grid {
   display: grid;
-  /* grid-template-columns: 190px 1fr; */
   place-content: center;
 }
 
+
+/*----------------------------
+ セクション内のメインボタン
+----------------------------*/
 .section_btn {
   background-color: #002d80;
   border: none;
@@ -28,14 +38,17 @@
 .section_btn:hover {
   cursor: pointer;
 }
+
 .btn_effect:hover{
   transform: scale(0.95);
 }
 
+/*----------------------------
+  ラインが付いたボタン 
+----------------------------*/
 .btn_a {
   text-decoration: none;
   position: relative;
-  /* border: 1px solid red; */
 }
 .btn_a::after {
   content: "";
@@ -58,6 +71,9 @@
   transform: translateY(-60%);
 }
 
+/*----------------------------
+  グラデーションがかかったテキスト
+----------------------------*/
 .gradient_text{
   /* border: 1px solid red; */
   width: min-content;
