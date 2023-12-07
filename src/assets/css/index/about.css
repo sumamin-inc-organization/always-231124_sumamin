@@ -17,6 +17,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 0;
+
 }
 /* .about_title {
   position: absolute;
@@ -77,3 +78,18 @@
   
 }
 
+/*----------------------------
+   Mobile
+----------------------------*/
+
+@media(max-width:1000px){
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:425px){
+  .about-img_container {
+   /* z-index: 5; */
+  }
+}
