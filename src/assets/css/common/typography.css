@@ -106,7 +106,8 @@ body {
 
 
 /*----------------------------
-  Top Page - kv fs
+  Top Page - Hero: KV font size 
+        (responsive)
 ----------------------------*/
 
 @media(max-width:768px){
@@ -116,5 +117,21 @@ body {
   
   .kv-title{
     font-size: 36px;
+  }
+}
+
+/*----------------------------
+  Top Page - Hero: News font size 
+        (responsive)
+----------------------------*/
+
+
+@media(max-width:768px){
+  .kv-news_subtitle {
+    font-size: 12px;
+  }
+  
+  .kv-right{
+    font-size: 14px;
   }
 }
