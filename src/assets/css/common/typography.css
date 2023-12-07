@@ -26,6 +26,10 @@ body {
 .bold {
   font-weight: 700;
 }
+
+/*----------------------------
+  Font Style /フォントのスタイル 
+----------------------------*/
 .gothic-italic {
   font-family: var(--trade-gothic);
   font-weight: 400;
@@ -184,6 +188,6 @@ mobile -> 18px */
   .kv-right{
     font-size: 14px;
   }
-  
+
 }
 

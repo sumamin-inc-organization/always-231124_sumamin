@@ -100,7 +100,10 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-
+/*----------------------------
+  Make Text Vertical;
+  テキストを縦書きにする
+----------------------------*/
 .vertical {
   -webkit-writing-mode: vertical-rl;
   -moz-writing-mode: vertical-rl;
@@ -110,6 +113,7 @@ background-clip: text;
 
 /*----------------------------
   Background Colors 
+  背景色
 ----------------------------*/
 
 .bg-dark_blue{
