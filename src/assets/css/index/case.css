@@ -46,6 +46,7 @@
   justify-content: end;
   border-bottom: 2px solid #002d80;
   margin-top: -35px;
+  /* border: 1px solid red; */
 }
 
 .case-main {
@@ -53,50 +54,6 @@
   place-content: center;
 }
 
-/*----------------------------
-  Case Banner  
-----------------------------*/
-.case-banner_wrapper {
-  z-index: -1;
-  /* margin-top: -650px; */
-  margin-top: -150px;
-  position: relative;
-  /* border: 1px solid red; */
-  z-index: -1;
-  overflow: hidden;
-  max-height: 550px;
-}
-
-.case-banner_filter {
-  z-index: 3;
-  position: absolute;
-  inset: 0;
-  opacity: 0.6;
-}
-.case-banner {
-}
-.case-banner_text {
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 4;
-  /* border: 1px solid red; */
-  width: max-content;
-}
-/* @media(max-width:1700){
-  .case-banner_wrapper {
-    z-index: -1;
-    margin-top: -450px;
-    position: relative;
-  }
-}*/
-@media (max-width: 1300) {
-  .case-banner_wrapper {
-    transform: translateY(100);
-  }
-}
 
 /*----------------------------
   Case Card 
@@ -201,6 +158,50 @@
     left: 200px;
   }
 }
+/*----------------------------
+  Case Banner  
+----------------------------*/
+.case-banner_wrapper {
+  z-index: -1;
+  /* margin-top: -650px; */
+  margin-top: -150px;
+  position: relative;
+  /* border: 1px solid red; */
+  z-index: -1;
+  overflow: hidden;
+  max-height: 550px;
+}
+
+.case-banner_filter {
+  z-index: 3;
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+}
+.case-banner {
+}
+.case-banner_text {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 4;
+  /* border: 1px solid red; */
+  width: max-content;
+}
+/* @media(max-width:1700){
+  .case-banner_wrapper {
+    z-index: -1;
+    margin-top: -450px;
+    position: relative;
+  }
+}*/
+@media (max-width: 1300) {
+  .case-banner_wrapper {
+    transform: translateY(100);
+  }
+}
 
 /*----------------------------
    Mobile
@@ -214,12 +215,28 @@
     position: absolute;
     width: 85.78px;
     height: 127.54px;
+    display: none;
   }
-  .case-main{
-    display: grid;
-    place-content: center;
+  .case-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .case-title_wrapper {
+    width: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-self: flex-end;
+    display: flex;
+ 
   }
 }
 @media(max-width:425px){
-
+  
 }
+
+.case-card-carousel{
+  border: 1px solid red;
+}
+
+
+

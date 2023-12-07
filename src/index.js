@@ -257,3 +257,4 @@ activateSmoothScroll();
 animateHamburgerMenu();
 
 toggleNav();
+
