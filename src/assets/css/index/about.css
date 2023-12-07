@@ -96,4 +96,15 @@
     /* border: 1px solid red; */
     margin-top: 90px;
   }
+  .about-logo{
+    position: absolute;
+    z-index: -1;
+    width: 175px;
+    height:241.98px ;
+    top: 50%;
+    left: 60%;
+  }
+  .about-main_description {
+    line-height: 42px;
+  }
 }
