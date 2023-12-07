@@ -84,7 +84,7 @@ body {
   font-size: 17px;
 }
 
-.fs-38{
+.fs-38 {
   font-size: 38px;
 }
 /*----------------------------
@@ -103,7 +103,6 @@ body {
   color: #002d80;
 }
 
-
 /*----------------------------
   Mobile    / モバイル
 ----------------------------*/
@@ -115,8 +114,8 @@ body {
 /* PC -> 86px 
 mobile -> 60px */
 
-@media (max-width:425px){
-  .fs-86{
+@media (max-width: 425px) {
+  .fs-86 {
     font-size: 60px;
   }
 }
@@ -127,8 +126,8 @@ mobile -> 60px */
 
 /* PC -> 40px 
 mobile -> 24px */
-@media (max-width:425px){
-  .fs-40{
+@media (max-width: 425px) {
+  .fs-40 {
     font-size: 24px;
   }
 }
@@ -140,8 +139,8 @@ Top Page - normal font size (responsive)
 /* PC -> 16px 
 mobile -> 14px */
 
-@media (max-width:425px){
-  .fs-15{
+@media (max-width: 425px) {
+  .fs-15 {
     font-size: 14px;
   }
 }
@@ -152,24 +151,23 @@ mobile -> 14px */
 
 /* PC -> 20px 
 mobile -> 18px */
-@media (max-width:425px){
-  .section_btn.fs-20{
+@media (max-width: 425px) {
+  .section_btn.fs-20 {
     font-size: 18px;
   }
 }
-
 
 /*---------------------------------------------------
   Top Page - Hero: KV font size (responsive)
   トップページ - ヒーロー: KVのフォントサイズ（レスポンシブ）
 -------------------------------------------------------*/
 
-@media(max-width:768px){
-  .kv_subtitle{
+@media (max-width: 768px) {
+  .kv_subtitle {
     font-size: 18px;
   }
-  
-  .kv-title{
+
+  .kv-title {
     font-size: 36px;
   }
 }
@@ -179,15 +177,12 @@ mobile -> 18px */
   トップページ - ヒーロー: ニュースのフォントサイズ（レスポンシブ
 -----------------------------------------------------------*/
 
-
-@media(max-width:768px){
+@media (max-width: 768px) {
   .kv-news_subtitle {
     font-size: 12px;
   }
-  
-  .kv-right{
+
+  .kv-right {
     font-size: 14px;
   }
-
 }
-

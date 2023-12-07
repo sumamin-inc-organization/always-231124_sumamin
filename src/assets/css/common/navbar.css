@@ -12,7 +12,6 @@
   align-items: center;
   margin-inline: 50px;
   position: relative;
-  /* border: 1px solid red; */
 }
 
 .primary-nav_ul {
@@ -29,7 +28,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  display:flex;
+  display: flex;
 }
 .lang-btn {
   background-color: transparent;
@@ -68,47 +67,44 @@
   cursor: pointer;
 }
 
-@media (max-width:1420px){
+@media (max-width: 1420px) {
   .primary-nav_ul {
     gap: 50px;
-   
   }
 }
-@media (max-width:1173px){
+@media (max-width: 1173px) {
   .primary-nav_ul {
     gap: 20px;
-   
   }
 }
 /*----------------------------
   Bottom Navbar
 ----------------------------*/
 
-#bottom-nav{
-  background-color:#2BB9FC ;
+#bottom-nav {
+  background-color: #2bb9fc;
   padding-top: 70px;
 }
 
-.bottom-nav-logo{
+.bottom-nav-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 27px;
 }
 
-.bottom-nav{
+.bottom-nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.bottom_link{
+.bottom_link {
   text-decoration: none;
   color: white;
 }
 .bottom_link:hover {
   cursor: pointer;
-
 }
 
 .bottom_contact-wrapper {
@@ -121,29 +117,29 @@
   height: 40px;
 }
 
-
 /*----------------------------
   Hamburger Button
 ----------------------------*/
 
 .button-one {
   /* position: fixed; */
-  top: 0;right: 0;
+  top: 0;
+  right: 0;
   background: transparent;
   border: none;
   border-radius: 1rem;
   z-index: 9998;
 }
 
-
-
 .button-one .line {
-  transition: transform 300ms ease-in 300ms, rotate 300ms ease-in, opacity 0ms 300ms;
+  transition: transform 300ms ease-in 300ms, rotate 300ms ease-in,
+    opacity 0ms 300ms;
   transform-origin: center;
 }
 
 .button-one[aria-expanded="true"] .line {
-  transition:transform 300ms ease-in, rotate 300ms ease-in 300ms, opacity 0ms 300ms;
+  transition: transform 300ms ease-in, rotate 300ms ease-in 300ms,
+    opacity 0ms 300ms;
 }
 
 .button-one[aria-expanded="true"] :is(.top) {
@@ -182,17 +178,15 @@
   rotate: -45deg;
 }
 
-
-
 /*----------------------------
   Primary Navbar Mobile
 ----------------------------*/
-@media (max-width:1025px){
+@media (max-width: 1025px) {
   .nav-container {
     margin-top: 0px;
     margin-bottom: 20px;
   }
-  .nav-container{
+  .nav-container {
     width: 100vw;
   }
   .nav-container {
@@ -200,32 +194,31 @@
     position: static;
     margin-inline: 0px;
   }
-  .primary-nav{
+  .primary-nav {
     background-color: white;
     position: fixed;
     top: 0;
     right: 0;
     height: 100%;
     width: 100%;
-   transition: transform 300ms ease-in;
-    /* transform: translateX(100%); */
+    transition: transform 300ms ease-in;
     z-index: 8000;
   }
 
-  .primary-nav_closed{
+  .primary-nav_closed {
     transform: translateX(100%);
   }
-  
+
   .top-nav_ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:  center;
+    align-items: center;
     padding: 0;
     margin-top: 5%;
-    gap:50px;
-   height: 100dvh;
-   z-index: 8000;
+    gap: 50px;
+    height: 100dvh;
+    z-index: 8000;
   }
   .primary-nav_ul li {
     display: flex;
@@ -235,10 +228,8 @@
   }
   .langauge-btn-container {
     position: static;
-    /* border: 1px solid red; */
     text-wrap: nowrap;
     white-space: nowrap;
-
   }
   .lang-btn {
     background-color: transparent;
@@ -248,11 +239,11 @@
   .lang-btn:hover {
     cursor: pointer;
   }
-  
+
   .active-lang {
     color: #000000;
   }
-  
+
   .primary_contact-wrapper_top {
     display: flex;
     justify-content: flex-end;
@@ -276,62 +267,42 @@
     cursor: pointer;
   }
 
-.nav-container_right{
-  /* border: 1px solid black; */
-  display: flex;
-  width: 40%;
-  gap: 20px;
-  justify-content: flex-end;
-  align-items: center;
-}
+  .nav-container_right {
+    display: flex;
+    width: 40%;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
   .button-one {
-   /* border: 1px solid red; */
-   border-radius: 0;
-   /* position: fixed; */
-  
+    border-radius: 0;
   }
 
-  .lang-btn{
-    /* border: 1px solid blue; */
-    
-
+  .logo-img_wrapper img {
   }
 
-  .logo-img_wrapper img{
-   
-  }
-
-  .primary_contact-wrapper_top{
+  .primary_contact-wrapper_top {
     border: none;
     padding: 0;
   }
-  .nav-container{
-    padding-left:20px ;
+  .nav-container {
+    padding-left: 20px;
     padding-right: 20px;
-   padding-top: 10px;
+    padding-top: 10px;
   }
 }
 
-@media(max-width:450px){
-  .nav-container_right{
+@media (max-width: 450px) {
+  .nav-container_right {
     gap: 10px;
-  /* width: 30%; */
   }
-  .nav-container{
-    padding-left:20px ;
+  .nav-container {
+    padding-left: 20px;
     padding-right: 20px;
   }
   .logo-img_wrapper {
-    /* transform: scale(0.7); */
     width: 128px;
     height: 40px;
-    /* border: 1px solid green; */
   }
 }
-
-
-
-
-
-

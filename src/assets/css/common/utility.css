@@ -2,7 +2,6 @@
 /* Utility             */
 /* ------------------- */
 
-
 /*--------------------------------------------------------------------
 アイテムを中央に配置し、両サイドにそれぞれ240pxのマージンを設定したメイングリッド
 ----------------------------------------------------------------------*/
@@ -23,7 +22,6 @@
   place-content: center;
 }
 
-
 /*----------------------------
   main btns in sections
  セクション内のメインボタン
@@ -39,20 +37,19 @@
   main btns in sections mobile
  セクション内のメインボタン (モバイル)
 ----------------------------*/
-@media(max-width:425px){
+@media (max-width: 425px) {
   .section_btn {
     padding: 10px 30px;
     margin-top: 50px;
   }
 }
 
-
 /*----------------------------
   button hover effect
  ホバー時のボタンエフェクトを追加
 ----------------------------*/
 
-.btn_effect:hover{
+.btn_effect:hover {
   transform: scale(0.95);
 }
 .section_btn:hover {
@@ -92,13 +89,13 @@
   Text with gradiation
   グラデーションがかかったテキスト
 ----------------------------*/
-.gradient_text{
+.gradient_text {
   /* border: 1px solid red; */
   width: min-content;
-background-image: linear-gradient(90deg, #49c9ff, #002d80);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #49c9ff, #002d80);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*----------------------------
   Make Text Vertical;
@@ -116,11 +113,11 @@ background-clip: text;
   背景色
 ----------------------------*/
 
-.bg-dark_blue{
+.bg-dark_blue {
   background-color: #002d80;
 }
-.bg-light_blue{
-  background-color:#49c9ff;
+.bg-light_blue {
+  background-color: #49c9ff;
 }
 
 /*----------------------------
@@ -133,7 +130,7 @@ background-clip: text;
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
+  white-space: nowrap;
   width: 1px;
 }
 
@@ -142,54 +139,51 @@ background-clip: text;
   PCタブかモバイルに応じてアイテムを表示する
 ----------------------------*/
 
-.pc{
+.pc {
   display: block;
 }
-.tab{
+.tab {
   display: none;
 }
-.mobile{
+.mobile {
   display: none;
 }
 
-@media (max-width:1025px){
-  .nav-container_right .pc{
+@media (max-width: 1025px) {
+  .nav-container_right .pc {
     display: none;
   }
-  
-  .nav-container_right .tab{
+
+  .nav-container_right .tab {
     display: block;
   }
 }
 
-@media(max-width:768px){
-  .mobile{
+@media (max-width: 768px) {
+  .mobile {
     display: block;
   }
 }
 
-@media(min-width:768) and (max-width:1000px){
-  .tab{
+@media (min-width: 768) and (max-width: 1000px) {
+  .tab {
     display: block;
   }
 }
 
-@media(max-width:1000px){
-  .pc{
+@media (max-width: 1000px) {
+  .pc {
     display: none;
   }
 }
-
-
 
 /*---------------------------------------
   add 20px padding to the left and right
   左右に20pxのパディングを追加
 ---------------------------------------*/
 
-
-@media(max-width:425px){
-  .mv-padding-20{
+@media (max-width: 425px) {
+  .mv-padding-20 {
     padding-left: 20px;
     padding-right: 20px;
   }

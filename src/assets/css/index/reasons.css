@@ -2,9 +2,8 @@
 /*   REASONS SECTION   */
 /* ------------------- */
 
-#reasons{
-    /* min-height: 1000px; */
-    padding-bottom: 85px;
+#reasons {
+  padding-bottom: 85px;
 }
 /*----------------------------
   Reasons Alignment    
@@ -26,125 +25,118 @@
 
 /* new */
 
-.reasons-main{
-   display: grid;
-   place-content: center;
+.reasons-main {
+  display: grid;
+  place-content: center;
 }
-.reasons-inner{
-    display: flex;
-    /* border: 1px solid red; */
-    margin-top: 120px;
-    position: relative;
+.reasons-inner {
+  display: flex;
+  margin-top: 120px;
+  position: relative;
 }
 
-.reasons-content{
-    /* border: 1px solid green; */
+.reasons-content {
+  /* border: 1px solid green; */
 }
-.reasons-title_wrapper{
-    position: absolute;
-    top: -50px;
+.reasons-title_wrapper {
+  position: absolute;
+  top: -50px;
 }
 .reasons-top_bottom,
-.reasons_bottom{
-margin-top: 200px;
+.reasons_bottom {
+  margin-top: 200px;
 }
 /*----------------------------
   Reasons Top Styles     
 ----------------------------*/
-.reasons-title_wrapper{
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    grid-column: 2;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    /* margin-top: -35px; */
-    width: 105%;
+.reasons-title_wrapper {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 105%;
 }
-.reasons_title{
-    /* border: 1px solid red; */
-    width: 50%;
-    border-bottom: 2px solid #002d80;
+.reasons_title {
+  width: 50%;
+  border-bottom: 2px solid #002d80;
 }
 .reasons_btn {
-    padding: 14.6px 68px 16.4px 68px;
+  padding: 14.6px 68px 16.4px 68px;
 }
 
 .reasons_btn .btn_a::after {
-    content: "";
-    width: 35px;
-    height: 1px;
-    background-color: #002d80;
-    position: absolute;
-    right: -103%;
-    top: 50%;
-    transform: translateY(-60%);
-  }
+  content: "";
+  width: 35px;
+  height: 1px;
+  background-color: #002d80;
+  position: absolute;
+  right: -103%;
+  top: 50%;
+  transform: translateY(-60%);
+}
 
-  .reasons_btn .btn_a::before {
-    content: "";
-    width: 35px;
-    height: 1px;
-    background-color: #ffffff;
-    position: absolute;
-    right: -70%;
-    top: 50%;
-    transform: translateY(-60%);
-  }
+.reasons_btn .btn_a::before {
+  content: "";
+  width: 35px;
+  height: 1px;
+  background-color: #ffffff;
+  position: absolute;
+  right: -70%;
+  top: 50%;
+  transform: translateY(-60%);
+}
 
 /*----------------------------
   Reasons Bottom Styles    
 ----------------------------*/
 
-.reasons_list{
-    width: 657.63px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    border:1px solid #2BB9FC;
-    position: relative;
+.reasons_list {
+  width: 657.63px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid #2bb9fc;
+  position: relative;
 }
 
-.reasons-list_item{
-    height:266.67px ;
-    width: 200px;
-    position: absolute;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.reasons-list_item {
+  height: 266.67px;
+  width: 200px;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.reasons-list_item:first-child{
-    transform: translate(250px ,-50px);
-    z-index: 2;
-    
-    
+.reasons-list_item:first-child {
+  transform: translate(250px, -50px);
+  z-index: 2;
 }
-.reasons-list_item:nth-child(2){
-    transform: translate(430px ,50px);
-    z-index: 1;
+.reasons-list_item:nth-child(2) {
+  transform: translate(430px, 50px);
+  z-index: 1;
 }
-.reasons-list_item:nth-child(3){
-    z-index: 3;
-    transform: translate(70px ,50px);
- }
-.reasons-list_item:nth-child(4){
-   bottom: 0;
-   transform: translate(270px ,-50px); 
-   z-index: 1;
+.reasons-list_item:nth-child(3) {
+  z-index: 3;
+  transform: translate(70px, 50px);
+}
+.reasons-list_item:nth-child(4) {
+  bottom: 0;
+  transform: translate(270px, -50px);
+  z-index: 1;
 }
 
-.reasons-list_item:nth-child(5){
-    bottom: 0;
-    transform: translate(100px ,50px);   
-    z-index: 2;
+.reasons-list_item:nth-child(5) {
+  bottom: 0;
+  transform: translate(100px, 50px);
+  z-index: 2;
 }
 
-.reasons-list_item:nth-child(6){
-    bottom: 0;  
-    transform: translate(-80px ,-50px);
-    z-index: 3;
-
+.reasons-list_item:nth-child(6) {
+  bottom: 0;
+  transform: translate(-80px, -50px);
+  z-index: 3;
 }
-

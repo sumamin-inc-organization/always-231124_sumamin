@@ -107,7 +107,6 @@
   display: grid;
   place-items: center;
   margin-top: 150px;
-  /* border: 1px solid red; */
 }
 .case-card_list {
   width: min-content;

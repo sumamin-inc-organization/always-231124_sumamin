@@ -45,7 +45,6 @@
 .contact-title_wrapper {
   z-index: 3;
  position: relative;
- /* border: 1px solid red; */
  margin-top: 150px;
  margin-bottom: -500px;
 
@@ -91,7 +90,6 @@
 }
 
 .inner {
-  /* border: 1px solid red; */
   grid-column: 2;
   min-width: 852px;
   display: flex;
