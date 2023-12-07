@@ -92,4 +92,8 @@
   .about-img_container {
    /* z-index: 5; */
   }
+  .about_title {
+    /* border: 1px solid red; */
+    margin-top: 90px;
+  }
 }
