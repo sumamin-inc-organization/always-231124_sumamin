@@ -149,6 +149,10 @@
   display: none;
 }
 
+.tab-and-pc{
+  display: block;
+}
+
 @media (max-width: 1025px) {
   .nav-container_right .pc {
     display: none;
@@ -163,6 +167,10 @@
   .mobile {
     display: block;
   }
+  .tab-and-pc{
+    display: none;
+  }
+
 }
 
 @media (min-width: 768) and (max-width: 1000px) {
@@ -176,6 +184,9 @@
     display: none;
   }
 }
+
+
+
 
 /*---------------------------------------
   add 20px padding to the left and right

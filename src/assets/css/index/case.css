@@ -201,3 +201,25 @@
     left: 200px;
   }
 }
+
+/*----------------------------
+   Mobile
+----------------------------*/
+
+
+@media(max-width:1000px){
+}
+@media(max-width:768px){
+  .case-decor {
+    position: absolute;
+    width: 85.78px;
+    height: 127.54px;
+  }
+  .case-main{
+    display: grid;
+    place-content: center;
+  }
+}
+@media(max-width:425px){
+
+}
