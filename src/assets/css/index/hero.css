@@ -130,8 +130,9 @@
 }
 @media(max-width:425px){
   .kv{
-    width: 370px;
-    height: 349px;
+    min-width: 370px;
+    min-height: 349px;
+    object-fit: cover;
   }
   .kv_container{
     transform: translate(20px);
