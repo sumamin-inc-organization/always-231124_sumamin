@@ -46,7 +46,7 @@
   justify-content: end;
   border-bottom: 2px solid #002d80;
   margin-top: -35px;
-  /* border: 1px solid red; */
+  
 }
 
 .case-main {
@@ -172,10 +172,8 @@
 ----------------------------*/
 .case-banner_wrapper {
   z-index: -1;
-  /* margin-top: -650px; */
   margin-top: -150px;
   position: relative;
-  /* border: 1px solid red; */
   z-index: -1;
   overflow: hidden;
   max-height: 550px;
@@ -196,7 +194,6 @@
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 4;
-  /* border: 1px solid red; */
   width: max-content;
 }
 /* @media(max-width:1700){
@@ -239,17 +236,10 @@
     display: flex;
  
   }
-  .case-card-carousel_list {
-    /* border: 1px solid red; */
-    /* display: flex;
-    overflow: hidden; */
-    
-   }
    .case-card {
     min-width: 400px;
     min-height: 300px;}
     .case-card-carousel_list {
-      /* border: 1px solid red; */
       width: 400px;
    
      }
@@ -258,6 +248,7 @@
       width: 100vw;
       height: max-content;
      }
+
      /* added important to overrride utitility of .mobile
      .mobileのユーティリティにimportantを追加して上書きする */
      .case-card-carousel{
@@ -280,13 +271,10 @@
 @media(max-width:425px){
   .case-card-carousel{
     width: calc(100vw -40px);
-    /* border: 1px solid red; */
     display: grid;
     place-content: center;
   }
   .case-card-carousel_list {
-   /* border: 1px solid red; */
-   /* width: 100vw; */
    width: 330px;
 
   }
@@ -315,7 +303,6 @@
 .case-card-carousel_list {
   padding: 0;
   margin: 0;
-  /* border: 1px solid red; */
   position: relative;
   display: flex;
   overflow: hidden;;
@@ -327,11 +314,8 @@
   Case Carousel Control Buttons
 ----------------------------*/
 .case-card-carousel{
-/* border: 1px solid red;
-border-right: 3px solid red; */
 position: relative;
 width: 100vw;
-/* height: fit-content; */
 }
 
 .case-btn{
@@ -340,15 +324,12 @@ z-index: 2;
 transform: translateY(-50%);
 width: 30px;
 aspect-ratio: 1;
-/* border: 1px solid red; */
 padding: 0;
 }
 
 .case_prev{
 top: 50%;
-/* left: -10px; */
 left: 0;
-/* border: 1px solid red; */
 
 
 }
@@ -384,6 +365,5 @@ top: 50%;
 }
 
 .case-card-carousel_list{
-  border: 1px solid red;
   overflow: hidden;
 }

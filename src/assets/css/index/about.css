@@ -46,7 +46,6 @@
   position: relative;
   gap: 60px;
   margin-top: -400px;
-  /* border: 1px solid red; */
 
 }
 
@@ -93,7 +92,6 @@
    /* z-index: 5; */
   }
   .about_title {
-    /* border: 1px solid red; */
     margin-top: 90px;
   }
   .about-logo{

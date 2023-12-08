@@ -264,7 +264,7 @@ toggleNav();
 
 const caseSlideContainer= document.querySelector('.case-card-carousel'); //スライド / カルーセルのコンテナ
 const caseSlide = document.querySelector('.case-card-carousel_list'); //カルーセルのトラック
-const caseSlides = document.querySelectorAll('.case-card-mobile');   //スライド / カード
+let caseSlides = document.querySelectorAll('.case-card-mobile');   //スライド / カード
 
 // 「次へ」ボタンと「前へ」ボタン
 const caseNextBtn = document.getElementById('case-next');
@@ -272,35 +272,44 @@ const casePrevBtn = document.getElementById('case-prev');
 
 let sliderIndex = 1;
 
-const firstClone =  caseSlides[0].cloneNode(true);
-const lastClone =  caseSlides[ caseSlides.length -1].cloneNode(true);
+// console.log(slideWidth)
 
-firstClone.id = "first-clone";
-lastClone.id = "last-clone";
+const nextSlide = () => {
+  caseSlides = document.querySelectorAll('.case-card-mobile');
+  if (sliderIndex >= caseSlides.length - 1) {
+    return;
+  } else {
+    sliderIndex++;
+    caseSlides.forEach((slide) => {
+      const slidesWidth = slide.clientWidth; // Use slide.clientWidth directly
+      slide.style.transform = `translateX(${-slidesWidth * sliderIndex}px)`;
+      slide.style.transition = '0.7s';
+    });
+  }
+};
 
-// console.log(lastClone)
-caseSlide.append(firstClone);
-caseSlide.prepend(lastClone);
-// console.log(caseSlide)
+const prevSlide = () => {
+  caseSlides = document.querySelectorAll('.case-card-mobile');
+  if (sliderIndex === 0) {
+    return;
+  } else {
+    sliderIndex--;
+    caseSlides.forEach((slide) => {
+      const slidesWidth = slide.clientWidth; // Use slide.clientWidth directly
+      slide.style.transform = `translateX(${-slidesWidth * sliderIndex}px)`;
+      slide.style.transition = '0.7s';
+    });
+  }
+};
 
-const slidesWidth =slides[index].clientWidth ;
-console.log(caseSlides)
 
-caseSlides.forEach((slide, index) => {
-  slide.style.transform = `translateX(${-slidesWidth * sliderIndex }px)`;
-});
-
-
-const updateSlide = ()=>{
-  caseSlides.forEach((slide) => {
-    slide.style.transform = `translateX(${-slidesWidth * sliderIndex }px)`;
-    slide.style.transition ='0.7s'
-  });
-
-}
-
+// slide.style.transition ='0.7s';
 caseNextBtn.addEventListener('click',(e)=>{
-  e.preventDefault();
-  sliderIndex++;
-  updateSlide()
+nextSlide()
+})
+
+console.log(sliderIndex);
+
+casePrevBtn.addEventListener('click',(e)=>{
+ prevSlide();
 })
