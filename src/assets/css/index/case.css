@@ -220,6 +220,7 @@
   .case-main {
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
   }
   .case-title_wrapper {
     width: 50%;
@@ -248,7 +249,8 @@
       width: 100vw;
       height: max-content;
      }
-     /* added important to overrride utitility pf .mobile */
+     /* added important to overrride utitility of .mobile
+     .mobileのユーティリティにimportantを追加して上書きする */
      .case-card-carousel{
       display: grid !important;  
       place-content: center;
@@ -264,7 +266,7 @@
   .case-card-carousel_list {
    border: 1px solid red;
    /* width: 100vw; */
-   width: fit-content;
+   width: 330px;
 
   }
   .case-card {
@@ -281,12 +283,15 @@
   padding: 0;
   margin: 0;
   border: 1px solid red;
+  position: relative;
+  display: flex;
+  overflow: hidden;;
  }
 
 
  .case-card-mobile {
-  width: 330px;
-  height: 232px;
+  min-width: 330px;
+  min-height: 232px;
   background-color: #002d80;
   border-radius: 10px;
   padding-top: 20px;
@@ -294,3 +299,5 @@
   padding-left: 30px;
   padding-right: 30px;
 }
+
+
