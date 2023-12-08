@@ -49,7 +49,8 @@
  ホバー時のボタンエフェクトを追加
 ----------------------------*/
 
-.btn_effect:hover {
+.btn_effect:hover,
+.btn_effect:active {
   transform: scale(0.95);
 }
 .section_btn:hover {

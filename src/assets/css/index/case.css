@@ -300,8 +300,27 @@
   padding-right: 30px;
 }
 
-
+/*----------------------------
+  Case Carousel Control Buttons
+----------------------------*/
 .case-card-carousel{
-border: 1px solid red;
+/* border: 1px solid red; */
 position: relative;
 }
+
+.case-btn{
+position: absolute;
+z-index: 2;
+transform: translateY(-50%);
+}
+
+.case_prev{
+  top: 50%;
+left: 0;
+
+}
+.case_next{
+right: 0;
+top: 50%;
+}
+

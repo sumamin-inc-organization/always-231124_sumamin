@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-  <circle id="Ellipse_12" data-name="Ellipse 12" cx="15" cy="15" r="15" fill="#2bb9fc"/>
+<svg id="Group_397" data-name="Group 397" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_407" data-name="Group 407">
+    <path id="Path_187" data-name="Path 187" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" fill="#2bb9fc"/>
+  </g>
+  <g id="Group_127" data-name="Group 127" transform="translate(10 9)">
+    <path id="線_21" data-name="線 21" d="M0,6.5a.5.5,0,0,1-.4-.2.5.5,0,0,1,.1-.7l8-6a.5.5,0,0,1,.7.1.5.5,0,0,1-.1.7l-8,6A.5.5,0,0,1,0,6.5Z" fill="#fff"/>
+    <path id="線_22" data-name="線 22" d="M8,6.5a.5.5,0,0,1-.3-.1l-8-6A.5.5,0,0,1-.4-.3.5.5,0,0,1,.3-.4l8,6a.5.5,0,0,1-.3.9Z" transform="translate(0 6)" fill="#fff"/>
+  </g>
 </svg>
