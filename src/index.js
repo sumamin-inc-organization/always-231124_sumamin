@@ -278,8 +278,10 @@ const lastClone =  caseSlides[ caseSlides.length -1].cloneNode(true);
 firstClone.id = "first-clone";
 lastClone.id = "last-clone";
 
-// caseSlide.append(firstClone);
-// caseSlide.prepend(lastClone);
+console.log(lastClone)
+caseSlide.append(firstClone);
+caseSlide.prepend(lastClone);
+console.log(caseSlide)
 
 const slidesWidth =slides[index].clientWidth ;
 console.log(slidesWidth)
