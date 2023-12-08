@@ -153,3 +153,16 @@
 .blog-card_main {
   background-color: white;
 }
+
+
+/*----------------------------
+  mobile  
+----------------------------*/
+
+@media(max-width:425px){
+  .slider_btn {
+    background-color: transparent;
+    min-width: 30px;
+    min-height: 30px;
+  }
+}

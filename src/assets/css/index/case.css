@@ -326,3 +326,8 @@ right: 0;
 top: 50%;
 }
 
+.case-btn img{
+  min-width: 30px;
+  min-height: 30px;
+
+}
