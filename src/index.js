@@ -287,6 +287,20 @@ const slidesWidth =slides[index].clientWidth ;
 console.log(caseSlides)
 
 caseSlides.forEach((slide, index) => {
-  slide.style.transform = `translateX(${-slideWidth * sliderIndex }px)`;
+  slide.style.transform = `translateX(${-slidesWidth * sliderIndex }px)`;
 });
 
+
+const updateSlide = ()=>{
+  caseSlides.forEach((slide) => {
+    slide.style.transform = `translateX(${-slidesWidth * sliderIndex }px)`;
+    slide.style.transition ='0.7s'
+  });
+
+}
+
+caseNextBtn.addEventListener('click',(e)=>{
+  e.preventDefault();
+  sliderIndex++;
+  updateSlide()
+})
