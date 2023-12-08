@@ -270,7 +270,7 @@ let caseSlides = document.querySelectorAll('.case-card-mobile');   //スライ�
 const caseNextBtn = document.getElementById('case-next');
 const casePrevBtn = document.getElementById('case-prev');
 
-let sliderIndex = 1;
+let sliderIndex = 0;
 
 // console.log(slideWidth)
 
