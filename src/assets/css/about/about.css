@@ -124,11 +124,16 @@
   color: #fff;
   background-color: #002D80;
   border-radius: 10px 0 0 10px;
-  padding: 100px 220px 100px 180px;
+  padding: 100px 0 100px 180px;
   position: absolute;
+  width: 65%;
   top: 170px;
-  left: 30%;
+  right: 0;
+
   z-index: -1;
+}
+.greeting_message{
+  width: 70%;
 }
 .greeting_attention{
   font-family: var(--trade-gothic);
@@ -144,4 +149,28 @@
 .president_img{
   width: 360px;
   padding-top: 100px;
+}
+
+/* contact */
+.contact_flex{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.contact_btn{
+  display: block;
+  padding: 20px 80px;
+  border-radius: 35px;
+  color: #fff;
+  background-color: #002D80;
+}
+.contact_btn :hover{
+  transition: color 0.3s;
+  color: #002D80;
+  background-color: #fff;
+}
+.contact_line{
+  content: "";
+  height: 195px;
+  border-left: solid #002D80 1px;
 }
