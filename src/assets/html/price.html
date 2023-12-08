@@ -2,21 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Always</title>
+    <title>Price | オールウェイズ日中通訳サービス</title>
     <link rel="icon" type="image/png" href="../images/common/favicon.png">
     <link rel="stylesheet" href="https://use.typekit.net/gpf2zew.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- ogp -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="オールウェイズ日中通訳サービス | 寄り添い型の日中通訳">
-<meta property="og:description" content="オールウェイズ日中通訳サービスは、私たちは、日本における中国人の皆様との円滑なコミュニケーションをサポートし、お客様のニーズにいつも応えるパートナーとして在り続けます。">
-<meta property="og:site_name" content="オールウェイズ日中通訳サービス">
- <meta property="og:image" content="../images/aboutPageImages/ogp.jpg">
-   <!-- end ogp -->
-</head>
-  <body data-barba="wrapper" id="price">
-    <div class="transition">
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css 後でjsに記載してhtml内は削除する -->
+    <link rel="stylesheet" href="../css/common/animation.css">
+    <link rel="stylesheet" href="../css/common/footer.css">
+    <link rel="stylesheet" href="../css/common/navbar.css">
+    <link rel="stylesheet" href="../css/common/reset.css">
+    <link rel="stylesheet" href="../css/common/typography.css">
+    <link rel="stylesheet" href="../css/common/utility.css">
+    <link rel="stylesheet" href="../css/common/under.css">
+    <link rel="stylesheet" href="../css/price/price.css">
+    <!-- css end -->
+    <!-- ogp -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="オールウェイズ日中通訳サービス | 寄り添い型の日中通訳">
+    <meta property="og:description" content="オールウェイズ日中通訳サービスは、私たちは、日本における中国人の皆様との円滑なコミュニケーションをサポートし、お客様のニーズにいつも応えるパートナーとして在り続けます。">
+    <meta property="og:site_name" content="オールウェイズ日中通訳サービス">
+    <meta property="og:image" content="../images/aboutPageImages/ogp.jpg">
+    <!-- end ogp -->
+  </head>
+  <body data-barba="wrapper" class="about_page">
+    <div class="transition"></div>
     <div class="nav-container">
       <div class="logo-img_wrapper">
         <a href="./index.html"><img src="../images/navbar/logo.svg" alt="オールウェイズ通訳サービス"></a>
@@ -37,41 +46,130 @@
             </li>
           </ul>
         </nav>
-          <div class="langauge-btn-container">
-               <p class="jp-btn active-lang lang-btn fs-12 " aria-label="language button">日本語 /</p>
-              <p class="cn-btn lang-btn fs-12" aria-label="language button">中文</p>
-          </div>
-          <button class="button-one tab" aria-controls="primary-navigation" aria-expanded="false">
-            <svg fill="#002D80" class="hamburger" viewBox="0 0 100 100" width="25">
-              <rect class="line top" width="80" height="10" x="10" y="25" rx="0">
-              </rect>
-              <rect class="line middle" width="70" height="10" x="20" y="45" rx="0">
-              </rect>
-              <rect class="line bottom" width="80" height="10" x="10" y="65" rx="0">
-              </rect>
-            </svg>
-          </button>
+        <div class="langauge-btn-container">
+          <p class="jp-btn active-lang lang-btn fs-12 " aria-label="language button">日本語 /</p>
+          <p class="cn-btn lang-btn fs-12" aria-label="language button">中文</p>
+        </div>
+        <button class="button-one tab" aria-controls="primary-navigation" aria-expanded="false">
+          <svg fill="#002D80" class="hamburger" viewBox="0 0 100 100" width="25">
+            <rect class="line top" width="80" height="10" x="10" y="25" rx="0">
+            </rect>
+            <rect class="line middle" width="70" height="10" x="20" y="45" rx="0">
+            </rect>
+            <rect class="line bottom" width="80" height="10" x="10" y="65" rx="0">
+            </rect>
+          </svg>
+        </button>
       </div>
     </div>
     <main data-barba="container" data-barba-namespace="about">
-      <section id="bottom-nav">
+      <!-- kv -->
+      <section class="under_kv">
+          <div class="under_kv_title">
+            <h1 class="fs-86 bold white">Price</h1>
+            <p class="fs-40 bold white">基本料金</p>
+          </div>
+      </section>
+
+      <!-- clear_accounting -->
+      <section class="clear_accounting">
+        <div class="wrapper">
+          <div class="section_title">
+            <h2 class="fs-86 bold gradient_text">Clear Accounting</h2>
+            <div class="title_line"></div>
+            <h3 class="fs-40 bold blue">オールウェイズは明朗会計</h3>
+          </div>
+          <p class="fs-16 bold line_height3">
+            半日間か全日の2つのコースからお選びいただけます。<br>
+            複数日以上の出張通訳をご希望の場合はお気軽にご相談ください。
+          </p>
+          <table class="collapse">
+            <tr>
+              <th></th>
+              <th class="table_width bg-light_blue white">日中通訳派遣 半日コース</th>
+              <th class="table_width bg-dark_blue white">日中通訳派遣 全日コース</th>
+            </tr>
+            <tr>
+              <td class="table_left">対応時間</td>
+              <td class="table_width bg-light_white"><b class="lightblue"><span class="fs-24">4</span>時間以内</b> (8:00〜21:00)</td>
+              <td class="table_width bg-light_white"><b class="blue"><span class="fs-24">8</span>時間以内</b> (8:00〜21:00)</td>
+            </tr>
+            <tr>
+              <td class="table_left">通訳内容</td>
+              <td class="bg-light_white" colspan="2">通常ビジネスレベルの中国語通訳 <span class="fs-12">※対応可否は事前に確認いたします</span></td>
+            </tr>
+            <tr>
+              <td class="table_left">対応エリア</td>
+              <td class="bg-light_white" colspan="2">東京都、神奈川県、千葉県、埼玉県 <span class="fs-12">※他エリアは別途相談</span></td>
+            </tr>
+            <tr>
+              <td class="table_left">その他費用</td>
+              <td class="bg-light_white" colspan="2">JR東京駅から派遣場所までの往復交通費</td>
+            </tr>
+            <tr>
+              <td class="table_left">通訳料金</td>
+              <td class="table_width bg-light_white"><b class="lightblue"><span class="fs-30">19,800</span>円</b> (税込)</td>
+              <td class="table_width bg-light_white table_end"><b class="blue"><span class="fs-30">36,300</span>円</b> (税込)</td>
+            </tr>
+          </table>
+          <p class="fs-16 bold line_height3">費用は銀行振込で、通訳開始までに事前清算となります。振込先は下記の口座となっております。</p>
+          <div class="bank">
+            <p>口座情報</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <div class="wrapper">
+        <section class="contact">
+          <div class="section_title">
+            <h2 class="fs-86 bold gradient_text">Contact</h2>
+            <div class="title_line"></div>
+            <h3 class="fs-40 bold blue">お問い合わせ</h3>
+          </div>
+          <p class="fs-16 bold line_height3">まずは話を聞いてみたい､という方も大歓迎です｡お気軽にお問い合わせください。</p>
+          <div class="contact_flex">
+            <div class="contact_mail">
+              <h4 class="fs-24 blue bold">メールフォーム</h4>
+              <a class="contact_btn">お問い合わせ</a>
+              <p class="fs-16">[受付時間]7時〜22時</p>
+            </div>
+            <div class="contact_line"></div>
+            <div class="contact_app">
+              <p class="fs-20 blue bold">以下のメッセージアプリからでも<br>お気軽にお問い合わせください！</p>
+              <div class="contact_chat">
+                <div class="line">
+                  <a href="#"><img src="../../assets/images/contactSection/line.png" alt="LINE"></a>
+                  <p class="fs-16 bold">LINE</p>
+                </div>
+                <div class="wechat">
+                  <a href="#"><img src="../../assets/images/contactSection/wechat.png" alt="WeChat"></a>
+                  <p class="fs-16 bold">WeChat</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- nav -->
+      <section id="bottom-nav" class="nav-white">
         <div class="bottom-nav-logo">
           <a href="#top">
-            <img src="../images/navbar/bottomLogo.png" alt="オールウェイズ
-            日中通訳サービス">
+            <img src="../../assets/images/navbar/bottomLogo_blue.png" alt="オールウェイズ日中通訳サービス">
           </a>
         </div>
         <nav class="bottom-nav">
           <ul class="primary-nav_ul" role="list">
-            <li class="primary_about"><a class="fs-16 bold bottom_link" href="./about.html">私たちについて</a></li>
-            <li class="primary_price"><a class="fs-16 bold bottom_link" href="./price.html">基本料金</a></li>
-            <li class="primary_notice"><a class="fs-16 bold bottom_link" href="./notice.html">お知らせ</a></li>
-            <li class="primary_blog"><a class="fs-16 bold bottom_link" href="./blog.html">ブログ</a></li>
-            <li class="primary_recruit"><a class="fs-16 bold bottom_link" href="./recruit.html">通訳募集</a></li>
+            <li class="primary_about"><a class="fs-16 bold bottom_link blue" href="./about.html">私たちについて</a></li>
+            <li class="primary_price"><a class="fs-16 bold bottom_link blue" href="./price.html">基本料金</a></li>
+            <li class="primary_notice"><a class="fs-16 bold bottom_link blue" href="./notice.html">お知らせ</a></li>
+            <li class="primary_blog"><a class="fs-16 bold bottom_link blue" href="./blog.html">ブログ</a></li>
+            <li class="primary_recruit"><a class="fs-16 bold bottom_link blue" href="./recruit.html">通訳募集</a></li>
             <li class="primary_contact">
               <div class="bottom_contact-wrapper">
-                <img src="../images/flowSection/contactwhite.svg" alt="">
-                <a class="fs-16 bold bottom_link" href="./contact.html">お問い合わせ</a>
+                <img src="../dist/assets/img/contactblue.svg" alt="">
+                <a class="fs-16 bold bottom_link blue" href="./contact.html">お問い合わせ</a>
               </div>
             </li>
           </ul>
