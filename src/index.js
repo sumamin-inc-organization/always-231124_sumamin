@@ -272,13 +272,13 @@ const casePrevBtn = document.getElementById('case-prev');
 let slider_index = 1;
 
 const firstClone =  caseSlides[0].cloneNode(true);
-const lastClone =  caseSlides[ caseSlides-length -1].cloneNode(true);
+const lastClone =  caseSlides[ caseSlides.length -1].cloneNode(true);
 
 firstClone.id = "first-clone";
 lastClone.id = "last-clone";
 
-caseSlides.append(firstClone);
-caseSlides.prepend(lastClone);
+// caseSlide.append(firstClone);
+// caseSlide.prepend(lastClone);
 
 const slidesWidth =slides[index].clientWidth ;
 console.log(slidesWidth)

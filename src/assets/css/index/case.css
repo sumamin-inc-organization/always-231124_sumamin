@@ -65,6 +65,15 @@
   place-items: center;
   margin-top: 150px;
 }
+
+@media(max-width:768px){
+  .case-card_wrapper,
+  .case-card_list,
+  .case-card_wrapper h4{
+    display: none;
+
+  }
+}
 .case-card_list {
   width: min-content;
   display: grid;
@@ -256,6 +265,18 @@
       place-content: center;
      }
 }
+@media(min-width:426px){
+  .case-card-mobile {
+    min-width: 400px;
+    min-height: 300px;
+    background-color: #002d80;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding-top: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 @media(max-width:425px){
   .case-card-carousel{
     width: calc(100vw -40px);
@@ -276,6 +297,18 @@
     border-radius: 10px;
     padding: 20px 30px;
   }
+  .case-card-mobile {
+    min-width: 330px;
+    min-height: 232px;
+    background-color: #002d80;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  
   
 }
 
@@ -289,16 +322,6 @@
  }
 
 
- .case-card-mobile {
-  min-width: 330px;
-  min-height: 232px;
-  background-color: #002d80;
-  border-radius: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
 
 /*----------------------------
   Case Carousel Control Buttons
@@ -314,6 +337,7 @@ z-index: 2;
 transform: translateY(-50%);
 width: 30px;
 aspect-ratio: 1;
+/* border: 1px solid red; */
 }
 
 .case_prev{
