@@ -270,7 +270,7 @@ const caseSlides = document.querySelectorAll('.case-card-mobile');   //スライ
 const caseNextBtn = document.getElementById('case-next');
 const casePrevBtn = document.getElementById('case-prev');
 
-let slider_index = 1;
+let sliderIndex = 1;
 
 const firstClone =  caseSlides[0].cloneNode(true);
 const lastClone =  caseSlides[ caseSlides.length -1].cloneNode(true);
@@ -278,10 +278,15 @@ const lastClone =  caseSlides[ caseSlides.length -1].cloneNode(true);
 firstClone.id = "first-clone";
 lastClone.id = "last-clone";
 
-console.log(lastClone)
+// console.log(lastClone)
 caseSlide.append(firstClone);
 caseSlide.prepend(lastClone);
-console.log(caseSlide)
+// console.log(caseSlide)
 
 const slidesWidth =slides[index].clientWidth ;
-console.log(slidesWidth)
+console.log(caseSlides)
+
+caseSlides.forEach((slide, index) => {
+  slide.style.transform = `translateX(${-slideWidth * sliderIndex }px)`;
+});
+

@@ -382,3 +382,8 @@ top: 50%;
     top: 50%;
     }
 }
+
+.case-card-carousel_list{
+  border: 1px solid red;
+  overflow: hidden;
+}
