@@ -82,7 +82,6 @@
 ----------------------------*/
 
 #bottom-nav {
-  background-color: #2bb9fc;
   padding-top: 70px;
 }
 
@@ -101,7 +100,6 @@
 
 .bottom_link {
   text-decoration: none;
-  color: white;
 }
 .bottom_link:hover {
   cursor: pointer;

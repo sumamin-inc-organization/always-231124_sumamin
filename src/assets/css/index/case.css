@@ -312,6 +312,8 @@ position: relative;
 position: absolute;
 z-index: 2;
 transform: translateY(-50%);
+width: 30px;
+aspect-ratio: 1;
 }
 
 .case_prev{
