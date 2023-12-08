@@ -327,8 +327,10 @@
   Case Carousel Control Buttons
 ----------------------------*/
 .case-card-carousel{
-/* border: 1px solid red; */
+border: 1px solid red;
 position: relative;
+width: 100vw;
+/* height: fit-content; */
 }
 
 .case-btn{
@@ -341,12 +343,12 @@ aspect-ratio: 1;
 }
 
 .case_prev{
-  top: 50%;
-left: 0;
+top: 50%;
+left: -5px;
 
 }
 .case_next{
-right: 0;
+right: -15px;
 top: 50%;
 }
 
@@ -354,4 +356,24 @@ top: 50%;
   min-width: 30px;
   min-height: 30px;
 
+}
+
+@media (min-width:425px) {
+  .case-btn{
+    width: 50px;
+  }
+  .case-btn img{
+    min-width: 50px;
+    min-height: 50px;
+  
+  }
+  .case_prev{
+    top: 50%;
+    left: 0;
+    
+    }
+    .case_next{
+    right: 0;
+    top: 50%;
+    }
 }
