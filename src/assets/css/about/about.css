@@ -6,10 +6,11 @@
 
 /* feature */
 .feature{
+  position: relative;
   padding: 80px 0 90px;
   text-align: center;
-  background-image: url(../../../../about/img/feature_bg.png);
-  background-position: bottom;
+  background-image: url(../../../../about/img/feature_bg.jpg);
+  background-position: center bottom;
 }
 .feature h2{
   margin: auto;
@@ -53,19 +54,23 @@
   flex-direction: row-reverse;
 }
 .because{
+  position: absolute;
   display: flex;
   justify-content: center;
   gap: 30px;
   font-size: 50px;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 /* repeat */
 .repeat{
-  position: relative;
-  top: -110px;
-  z-index: -1;
-  padding: 200px 0 100px;
+  padding: 210px 0 100px;
   background-image: url(../../../../about/img/repeat_bg.jpg);
+  background-position: top;
 }
 .repeat_flex{
   display: flex;
@@ -84,8 +89,6 @@
 
 /* voice */
 .voice{
-  position: relative;
-  top: -110px;
   padding: 80px 0;
   background-image: url(../../../../about/img/voice_bg.jpg);
   text-align: center;
@@ -116,6 +119,10 @@
 }
 
 /* greeting */
+.greeting{
+  margin-top: 100px;
+  margin-bottom: -320px;
+}
 .greeting_position{
   position: relative;
   top: -30px;
@@ -129,11 +136,10 @@
   width: 65%;
   top: 170px;
   right: 0;
-
   z-index: -1;
 }
 .greeting_message{
-  width: 70%;
+  width: 80%;
 }
 .greeting_attention{
   font-family: var(--trade-gothic);
@@ -148,29 +154,16 @@
 }
 .president_img{
   width: 360px;
-  padding-top: 100px;
+  padding-top: 120px;
+}
+.greeting_deco{
+  width: 20%;
+  position: relative;
+  bottom: 440px;
+  z-index: 1;
 }
 
-/* contact */
-.contact_flex{
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
-.contact_btn{
-  display: block;
-  padding: 20px 80px;
-  border-radius: 35px;
-  color: #fff;
-  background-color: #002D80;
-}
-.contact_btn :hover{
-  transition: color 0.3s;
-  color: #002D80;
-  background-color: #fff;
-}
-.contact_line{
-  content: "";
-  height: 195px;
-  border-left: solid #002D80 1px;
+/* footer */
+.bottom_contact-wrapper{
+  border-left: 1px solid #002D80;
 }
