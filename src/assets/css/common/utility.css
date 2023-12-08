@@ -187,7 +187,6 @@
 
 
 
-
 /*---------------------------------------
   add 20px padding to the left and right
   左右に20pxのパディングを追加
@@ -197,5 +196,18 @@
   .mv-padding-20 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+
+/*---------------------------------------
+  add 20px margin to the left and right
+  左右に20pxのマージンを追加
+---------------------------------------*/
+
+@media (max-width: 425px) {
+  .mv-margin-20 {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }

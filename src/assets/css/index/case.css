@@ -248,22 +248,28 @@
       width: 100vw;
       height: max-content;
      }
+     /* added important to overrride utitility pf .mobile */
+     .case-card-carousel{
+      display: grid !important;  
+      place-content: center;
+     }
 }
 @media(max-width:425px){
   .case-card-carousel{
-    width: 100vw;
+    width: calc(100vw -40px);
     /* border: 1px solid red; */
     display: grid;
     place-content: center;
   }
   .case-card-carousel_list {
-   /* border: 1px solid red; */
-   width: 100vw;
+   border: 1px solid red;
+   /* width: 100vw; */
+   width: fit-content;
 
   }
   .case-card {
-    min-width: 350px;
-    min-height: 232px;
+    width: 330px;
+    height: 232px;
     background-color: #002d80;
     border-radius: 10px;
     padding: 20px 30px;
@@ -274,6 +280,17 @@
 .case-card-carousel_list {
   padding: 0;
   margin: 0;
+  border: 1px solid red;
  }
 
 
+ .case-card-mobile {
+  width: 330px;
+  height: 232px;
+  background-color: #002d80;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
