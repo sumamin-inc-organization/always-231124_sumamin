@@ -327,7 +327,8 @@
   Case Carousel Control Buttons
 ----------------------------*/
 .case-card-carousel{
-border: 1px solid red;
+/* border: 1px solid red;
+border-right: 3px solid red; */
 position: relative;
 width: 100vw;
 /* height: fit-content; */
@@ -340,15 +341,19 @@ transform: translateY(-50%);
 width: 30px;
 aspect-ratio: 1;
 /* border: 1px solid red; */
+padding: 0;
 }
 
 .case_prev{
 top: 50%;
-left: -5px;
+/* left: -10px; */
+left: 0;
+/* border: 1px solid red; */
+
 
 }
 .case_next{
-right: -15px;
+right: 0;
 top: 50%;
 }
 
@@ -358,7 +363,7 @@ top: 50%;
 
 }
 
-@media (min-width:425px) {
+@media (min-width:600px) {
   .case-btn{
     width: 50px;
   }
