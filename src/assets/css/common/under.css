@@ -24,6 +24,7 @@ h1,h2,h3,h4,p{
 /* responsive */
 body {
     min-width: 1200px;
+    font-size: 16px;
 }
 .sp {
     display: none;
@@ -31,6 +32,7 @@ body {
 @media (max-width: 767px) {
     body {
         overflow-x: hidden;
+        font-size: 14px;
     }
     .pc {
         display: none;

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.under_kv{
+    background-image: url(../../images/pricePageImages/price_kv.jpg);
+}
+
+/* clear_accounting */
+.clear_accounting {
+    text-align: center;
+    padding: 80px 0 90px;
+    background-color: #E6F5FC;
+}
+.gradient_text {
+    width: auto;
+}
+.clear_accounting .title_line{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.collapse {
+    border-collapse: collapse;
+}
