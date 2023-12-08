@@ -51,6 +51,7 @@
 
 .btn_effect:hover,
 .btn_effect:active {
+  transition: 0.3s;
   transform: scale(0.95);
 }
 .section_btn:hover {
