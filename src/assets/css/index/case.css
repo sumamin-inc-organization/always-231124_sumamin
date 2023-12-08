@@ -264,7 +264,7 @@
     place-content: center;
   }
   .case-card-carousel_list {
-   border: 1px solid red;
+   /* border: 1px solid red; */
    /* width: 100vw; */
    width: 330px;
 
@@ -282,7 +282,7 @@
 .case-card-carousel_list {
   padding: 0;
   margin: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
   display: flex;
   overflow: hidden;;
@@ -301,3 +301,7 @@
 }
 
 
+.case-card-carousel{
+border: 1px solid red;
+position: relative;
+}
