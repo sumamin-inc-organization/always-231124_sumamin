@@ -22,6 +22,7 @@ import barba from '@barba/core';
 import activateSmoothScroll from "./assets/jsfunctions/smoothscroll";
 import animateHamburgerMenu from "./assets/jsfunctions/mobileNav";
 import toggleNav from "./assets/jsfunctions/mobileNavOpen";
+import activateSlider from "./assets/jsfunctions/slider";
 
 
 /*-------------------------------------------------------
@@ -66,10 +67,10 @@ const slides = document.querySelectorAll(".blog-card");
 const nextBtn = document.getElementById("next_btn");
 const prevBtn = document.getElementById("previous_btn");
 
-const firstClone = slides[0].cloneNode(true); //not working rn
-const secondClone = slides[1].cloneNode(true); //not working rn
+// const firstClone = slides[0].cloneNode(true); //not working rn
+// const secondClone = slides[1].cloneNode(true); //not working rn
 
-slider.append(firstClone); //not working rn
+// slider.append(firstClone); //not working rn
 
 let index = 0;
 const slideWidth = slides[index].clientWidth;
@@ -258,3 +259,26 @@ animateHamburgerMenu();
 
 toggleNav();
 
+//case slider
+
+const caseSlideContainer= document.querySelector('.case-card-carousel'); //スライド / カルーセルのコンテナ
+const caseSlide = document.querySelector('.case-card-carousel_list'); //カルーセルのトラック
+const caseSlides = document.querySelectorAll('.case-card-mobile');   //スライド / カード
+
+// 「次へ」ボタンと「前へ」ボタン
+const caseNextBtn = document.getElementById('case-next');
+const casePrevBtn = document.getElementById('case-prev');
+
+let slider_index = 1;
+
+const firstClone = slides[0].cloneNode(true);
+const lastClone = slides[slides-length -1].cloneNode(true);
+
+firstClone.id = "first-clone";
+lastClone.id = "last-clone";
+
+slide.append(firstClone);
+slide.prepend(lastClone);
+
+const slidesWidth =slides[index].clientWidth ;
+console.log(slidesWidth)
