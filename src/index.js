@@ -19,9 +19,9 @@ import "./assets/css/common/animation.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import barba from '@barba/core';
-import activateSmoothScroll from "./smoothscroll";
-import animateHamburgerMenu from "./mobileNav";
-import toggleNav from "./mobileNavOpen";
+import activateSmoothScroll from "./assets/jsfunctions/smoothscroll";
+import animateHamburgerMenu from "./assets/jsfunctions/mobileNav";
+import toggleNav from "./assets/jsfunctions/mobileNavOpen";
 
 
 /*-------------------------------------------------------
