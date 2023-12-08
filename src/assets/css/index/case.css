@@ -267,6 +267,8 @@
     background-color: #002d80;
     border-radius: 10px;
     padding: 20px 30px;
+    position: absolute;
+    /* inset:0; */
   }
   
 }
