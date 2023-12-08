@@ -32,9 +32,19 @@ potential solutions
 2023.12.5
 
 
-1. make the hamburger line 2 longer
-2. decrease the space between the slash and cn in the lang btn
-3. fix kv img aspect ratio
-4. remove the space on the left of the decor
+1.make the hamburger line 2 longer
+2.decrease the space between the slash and cn in the lang btn
+3.fix kv img aspect ratio
+4.remove the space on the left of the decor
 5.swap logo with new one
 6.reduce margin between kv and nav
+
+2023.12.8
+
+
+1.lower the about logo desktop
+2.adjust the news title margins
+3.remove flow card borders 
+4.About title should sit on the edge of the img(mobile)
+5.about btn and logo should go down (mobile)
+6.logo should go a lttile more to the left.
