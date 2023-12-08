@@ -19,6 +19,40 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+table{
+    margin: 60px 0;
+}
 .collapse {
     border-collapse: collapse;
+}
+tr {
+    height: 70px;
+}
+th {
+    border: solid 5px #E6F5FC;
+    border-radius: 15px 15px 0 0;
+    height: 75px;
+    font-size: 24px;
+}
+td {
+    border: solid 5px #E6F5FC;
+    box-sizing:content-box;
+}
+.table_left {
+    width: 190px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #8B8B8B;
+    border-radius: 15px 0 0 15px;
+}
+.table_width {
+    width: 400px;
+}
+.table_end{
+    border-radius: 0 0 15px 0;
+}
+.bank{
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 50px 0;
 }
