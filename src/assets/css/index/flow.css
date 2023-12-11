@@ -156,12 +156,14 @@
 
 @media (max-width:768px){
   .flow_title {
-    width: 40%;
+    width: 60%;
+    
   }
+ 
 }
 @media (max-width:425px){
   .flow_title {
-    width: 35%;
+    width: 100%;
   }
   .flow_center {
     display:flex;
