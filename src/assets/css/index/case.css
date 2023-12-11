@@ -21,6 +21,12 @@
   /* border: 2px solid green; */
   overflow: hidden;
 }
+@media(max-width:425px){
+  .case-main{
+    padding: 20px;
+    /* border: 1px solid red; */
+  }
+}
 
 .case-main {
   justify-items: end;
@@ -315,7 +321,7 @@
 ----------------------------*/
 .case-card-carousel{
 position: relative;
-width: 100vw;
+width: 100%;
 }
 
 .case-btn{
@@ -329,12 +335,12 @@ padding: 0;
 
 .case_prev{
 top: 50%;
-left: 0;
+left: 5px;
 
 
 }
 .case_next{
-right: 0;
+right: 5px;
 top: 50%;
 }
 
