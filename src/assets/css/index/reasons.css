@@ -145,3 +145,95 @@
    Mobile
 ----------------------------*/
 
+@media(max-width:768px){
+ 
+  .reasons_title {
+    width: 55%;
+    border-bottom: 2px solid #002d80;
+  }
+  .reasons_subtitle{
+    /* border: 1px solid red; */
+    text-wrap: nowrap;
+  }
+  .reasons-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55.2px;
+    position: relative;
+      border: 1px solid red;
+  }
+}
+
+@media(max-width:425px){
+  .reasons_title {
+    width: 80%;
+    border-bottom: 2px solid #002d80;
+  }
+  .reasons_list {
+    width: 350px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid #2bb9fc;
+    position: relative;
+  }
+  
+  .reasons-list_item {
+    height: 151.77px;
+    width: 113.83px;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reasons-list_item:first-child {
+    transform: translate(250px, -50px);
+    transform: translate(0);
+    transform: translate(95px, -50px);
+    z-index: 2;
+    /* background-color: red; */
+  }
+  .reasons-list_item:nth-child(2) {
+    transform: translate(430px, 50px);
+    transform: translate(0);
+    transform: translate(195px, 0px);
+    z-index: 1;
+  }
+  .reasons-list_item:nth-child(3) {
+    z-index: 3;
+    transform: translate(70px, 50px);
+    transform: translate(0);
+    transform: translate(-5px, 0px);
+    /* background-color: red; */
+
+  }
+  .reasons-list_item:nth-child(4) {
+    bottom: 0;
+    transform: translate(270px, -50px);
+    transform: translate(0);
+    transform: translate(160px, 0px);
+    /* background-color: red; */
+    z-index: 1;
+  }
+  
+  .reasons-list_item:nth-child(5) {
+    bottom: 0;
+    transform: translate(100px, 50px);
+    transform: translate(0);
+    transform: translate(215px, 0px);
+    transform: translate(65px, 50px);
+    /* background-color: red; */
+    z-index: 2;
+  }
+  
+  .reasons-list_item:nth-child(6) {
+    bottom: 0;
+    transform: translate(-80px, -50px);
+    transform: translate(0);
+    transform: translate(-35px, 0px);
+       /* background-color: red; */
+    z-index: 3;
+  }
+}
