@@ -8,6 +8,9 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
 }
+a{
+    text-decoration: none;
+}
 h1,h2,h3,h4,p{
     margin: 0;
 }
@@ -146,4 +149,17 @@ body {
     transition: 0.3s;
     opacity: 0.7;
     cursor: pointer
+}
+
+/* more btn */
+.section_btn {
+    display: block;
+    margin: auto;
+    padding: 15px 70px;
+}
+.btn_a::before {
+    right: -70%;
+}
+.btn_a::after {
+    right: -105%;
 }

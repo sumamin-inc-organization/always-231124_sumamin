@@ -34,21 +34,8 @@
 }
 .news_items a{
     color: #002D80;
-    text-decoration: none;
 }
 .news_items a:hover{
     transition: 0.3s;
     color: #2BB9FC;
-    text-decoration: none;
-}
-.section_btn {
-    display: block;
-    margin: auto;
-    padding: 15px 70px;
-}
-.btn_a::before {
-    right: -70%;
-}
-.btn_a::after {
-    right: -105%;
 }
