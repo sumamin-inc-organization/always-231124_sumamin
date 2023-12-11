@@ -172,11 +172,16 @@
     overflow-y: visible;
     /* border: 1px solid red; */
     width: calc(100vw - 40px);
+    padding: 10px;
   }
   .flow_container {
     margin-top: 33px;
     padding-left: 20px;
     padding-right: 20px;
+
+  }
+  .flow_card{
+    
   }
 }
 
