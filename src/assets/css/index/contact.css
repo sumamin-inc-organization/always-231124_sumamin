@@ -33,15 +33,6 @@
   top: -250px;
   right: 0;
 }
-
-.contact-title_wrapper {
-  /* z-index: 3;
-  position: absolute;
-  bottom: -125px;
-  right: 50%;
-  transform: translateX(50%); */
-
-}
 .contact-title_wrapper {
   z-index: 3;
  position: relative;
@@ -68,10 +59,11 @@
   border-radius: 20px;
   background-color: white;
   width: 960px;
-  margin-top: 500px;
-  padding-bottom: 77px;
+  margin-top: 100px;
 }
-
+#contact .form-wrapper {
+  margin-top: 500px;
+}
 .form-title_top {
   display: flex;
   justify-content: center;
@@ -106,6 +98,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="datetime-local"],
+select,
 textarea {
   width: 620px;
   height: 60px;
@@ -113,6 +106,32 @@ textarea {
   border: none;
   background-color: #e6f5fc;
   padding-left: 33px;
+}
+select{
+  appearance: none;
+  background-color: #E6F5FC;
+  height: 60px;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+select::-ms-expand {
+  display: none;
+}
+.select_arrow {
+  position: relative;  /* 疑似要素を絶対配置で調整するため、基準の位置を設定 */
+}
+.select_arrow::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
 textarea {
@@ -145,8 +164,7 @@ textarea {
   width: 620px;
   display: flex;
 }
-.classification_label {
-}
+
 
 /*----------------------------
   Radio Buttons  
@@ -203,7 +221,7 @@ input[type="radio"]:not(:disabled):checked {
   transform: scale(1.1);
 }
 [type="radio"]:checked + label .custom-radio {
-  background-color: black;
+  background-color: #002d80;
   border: 3px solid #e6f5fc;
 }
 
@@ -223,6 +241,9 @@ input[type="radio"]:not(:disabled):checked {
 
 .postal-wrapper {
   display: flex;
+}
+.postal-wrapper .contact-item {
+  align-items: center;
 }
 
 .label-name {
@@ -253,6 +274,7 @@ input[type="radio"]:not(:disabled):checked {
 .submit_btn:hover {
   cursor: pointer;
   transform: scale(0.95);
+  transition: 0.3s;
 }
 /*----------------------------
   From Wrapper Bottom 
@@ -270,7 +292,11 @@ input[type="radio"]:not(:disabled):checked {
 
 .sns {
   display: flex;
-  gap: 31px;
+  gap: 30px;
+}
+.icon:hover {
+  transition: 0.3s;
+  opacity: 0.7;
 }
 .sns_img {
   width: 80px;
@@ -295,4 +321,29 @@ input[type="radio"]:not(:disabled):checked {
   height: 15px;
   width: 10px;
   font-size: 10px;
+}
+
+
+
+
+.form-wrapper{
+  margin-top: 100px;
+}
+.form-title_top{
+  margin: auto;
+  padding: 60px 0;
+}
+.required_item::after {
+  top: 15px;
+  right: -10px;
+}
+.classification-wrapper .required_item::after,
+.address-wrapper .required_item::after{
+  top: 0px;
+}
+.submit_btn{
+  display: block;
+}
+.form-bottom_subtitle{
+  margin-top: 30px;
 }

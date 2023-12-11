@@ -1,9 +1,10 @@
 @charset "utf-8";
 
 .under_kv{
-    background-image: url(../../images/newsPageImages/news_kv.jpg);
+    background-image: url(../../images/underPage/news_kv.jpg);
 }
 
+/* news */
 .news{
     background-color: #E6F5FC;
     padding: 80px 0;
@@ -34,21 +35,8 @@
 }
 .news_items a{
     color: #002D80;
-    text-decoration: none;
 }
 .news_items a:hover{
     transition: 0.3s;
     color: #2BB9FC;
-    text-decoration: none;
-}
-.section_btn {
-    display: block;
-    margin: auto;
-    padding: 15px 70px;
-}
-.btn_a::before {
-    right: -70%;
-}
-.btn_a::after {
-    right: -105%;
 }
