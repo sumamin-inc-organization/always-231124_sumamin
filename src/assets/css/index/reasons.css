@@ -88,6 +88,29 @@
   top: 50%;
   transform: translateY(-60%);
 }
+@media (max-width:425px) {
+  .reasons_btn .btn_a::after {
+    content: "";
+    width: 35px;
+    height: 1px;
+    background-color: #002d80;
+    position: absolute;
+    right: -70%;
+    top: 50%;
+    transform: translateYY(-60%);
+    /* display: none; */
+  }
+  .reasons_btn .btn_a::before {
+    content: "";
+    width: 35px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    right: -40%;
+    top: 50%;
+    transform: translateY(-60%);
+  }
+}
 
 /*----------------------------
   Reasons Bottom Styles    
@@ -243,4 +266,9 @@
   .reasons_bottom{
     margin-top: 80px;
   }
+  .reasons_btn {
+    padding: 10px 30px;
+    
+  }
+  
 }
