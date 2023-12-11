@@ -54,8 +54,8 @@
 }
 
 .flow_card {
-  width: 200px;
-  height: 150px;
+  min-width: 200px;
+  min-height: 150px;
   background-color: white;
   border-radius: 10px;
   display: grid;
@@ -156,12 +156,27 @@
 
 @media (max-width:768px){
   .flow_title {
-    width: 40%;
+    width: 60%;
+    
   }
+ 
 }
 @media (max-width:425px){
   .flow_title {
-    width: 35%;
+    width: 100%;
+  }
+  .flow_center {
+    display:flex;
+    gap: 0px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    /* border: 1px solid red; */
+    width: calc(100vw - 40px);
+  }
+  .flow_container {
+    margin-top: 33px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
