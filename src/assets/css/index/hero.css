@@ -212,4 +212,8 @@
     color: black;
     margin-left: 35%;
   }
+  .kv-news_left {
+    margin-top: 40px;
+    margin-left: 0px;
+  }
 }
