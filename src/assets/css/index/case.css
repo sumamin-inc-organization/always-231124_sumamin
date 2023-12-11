@@ -227,7 +227,8 @@
     position: absolute;
     width: 85.78px;
     height: 127.54px;
-    display: none;
+    /* display: none; */
+    z-index: -1;
   }
   .case-main {
     display: flex;
