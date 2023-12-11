@@ -164,3 +164,9 @@
     width: 35%;
   }
 }
+
+
+.flow-description_mobile{
+  line-height: 42px;
+  /* border: 1px solid red; */
+}
