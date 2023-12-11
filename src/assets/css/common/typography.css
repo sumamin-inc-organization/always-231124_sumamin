@@ -144,7 +144,7 @@ Top Page - normal font size (responsive)
 mobile -> 14px */
 
 @media (max-width: 425px) {
-  .fs-15 {
+  .fs-16 {
     font-size: 14px;
   }
 }
