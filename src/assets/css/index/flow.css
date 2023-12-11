@@ -62,7 +62,7 @@
   grid-template-columns: 27px 1fr 27px;
   /* place-items: center; */
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-right: 45.5px;
 }
 
