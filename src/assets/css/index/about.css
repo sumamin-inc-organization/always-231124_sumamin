@@ -111,13 +111,13 @@
     width: 175px;
     height:241.98px ;
     top: 55%;
-    left: 60%;
+    left: 55%;
   }
   .about-main_description {
     line-height: 42px;
   }
   .section_btn.about-btn{
-    margin-top: 10px;
+    margin-top:70px;
   }
 
 }
