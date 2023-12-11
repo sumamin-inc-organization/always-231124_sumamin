@@ -156,10 +156,11 @@ mobile -> 14px */
 /* PC -> 20px 
 mobile -> 18px */
 @media (max-width: 425px) {
-  .section_btn.fs-20 {
+  .section_btn .fs-20 {
     font-size: 18px;
   }
 }
+
 
 /*---------------------------------------------------------
   Top Page - Case Card title-Font Size (responsive)
