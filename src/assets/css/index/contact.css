@@ -8,26 +8,22 @@
   position: relative;
   min-height: 2500px;
 }
-
 .contact_top {
   width: 1084px;
   height: 586px;
   position: relative;
 }
-
 .contact_img {
   position: absolute;
   inset: 0;
   z-index: 1;
 }
-
 .contact_filter {
   position: absolute;
   inset: 0;
   z-index: 2;
   opacity: 0.6;
 }
-
 .contact-top_wrapper {
   position: absolute;
   top: -250px;
@@ -35,10 +31,9 @@
 }
 .contact-title_wrapper {
   z-index: 3;
- position: relative;
- margin-top: 150px;
- margin-bottom: -500px;
-
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: -500px;
 }
 .contact_title {
   display: flex;
@@ -48,6 +43,7 @@
   line-height: 44.5px;
   text-align: end;
 }
+
 /*----------------------------
   Form    
 ----------------------------*/
@@ -59,7 +55,10 @@
   border-radius: 20px;
   background-color: white;
   width: 960px;
-  margin-top: 100px;
+  padding-bottom: 80px;
+}
+form p {
+  margin-top: 0;
 }
 #contact .form-wrapper {
   margin-top: 500px;
@@ -68,8 +67,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 57px;
-  margin-bottom: 60px;
+  margin: auto;
+  padding: 60px 0;
 }
 
 /*----------------------------
@@ -80,7 +79,6 @@
   grid-template-columns: 1fr max-content 1fr;
   place-content: center;
 }
-
 .inner {
   grid-column: 2;
   min-width: 852px;
@@ -88,12 +86,10 @@
   flex-direction: column;
   gap: 40px;
 }
-
 .contact-item {
   display: flex;
   justify-content: space-between;
 }
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -118,7 +114,7 @@ select::-ms-expand {
   display: none;
 }
 .select_arrow {
-  position: relative;  /* 疑似要素を絶対配置で調整するため、基準の位置を設定 */
+  position: relative;
 }
 .select_arrow::before {
   content: "";
@@ -133,27 +129,22 @@ select::-ms-expand {
   transform: translateY(-50%);
   pointer-events: none;
 }
-
 textarea {
   height: 260px;
   resize: none;
   padding-top: 13.5px;
 }
-
 #zip {
   width: 200px;
 }
-
 ::placeholder {
   color: #c8c8c8;
 }
-
 .classification-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .label-name {
   width: 224px;
   display: flex;
@@ -165,7 +156,6 @@ textarea {
   display: flex;
 }
 
-
 /*----------------------------
   Radio Buttons  
 ----------------------------*/
@@ -174,11 +164,9 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-
 .first-radio {
   margin-right: 55px;
 }
-
 input[type="radio"] {
   box-sizing: border-box;
   width: 20px;
@@ -189,13 +177,11 @@ input[type="radio"] {
   background: #e6f5fc;
   outline: none;
 }
-
 input[type="radio"]:not(:disabled):checked {
   background-clip: content-box;
   padding: 2px;
   background: #e6f5fc;
 }
-
 .radio-label {
   display: flex;
   align-items: center;
@@ -215,7 +201,6 @@ input[type="radio"]:not(:disabled):checked {
   border: 2px solid #e6f5fc;
   background-color: #e6f5fc;
 }
-
 .radio-label:hover .custom-radio,
 [type="radio"]:focus + label .custom-radio {
   transform: scale(1.1);
@@ -228,7 +213,6 @@ input[type="radio"]:not(:disabled):checked {
 /*----------------------------
   Address   
 ----------------------------*/
-
 .address-wrapper {
   display: flex;
   justify-content: space-between;
@@ -238,29 +222,30 @@ input[type="radio"]:not(:disabled):checked {
   flex-direction: column;
   gap: 38px;
 }
-
 .postal-wrapper {
   display: flex;
 }
 .postal-wrapper .contact-item {
   align-items: center;
 }
-
 .label-name {
   width: max-content;
   margin-right: 10px;
 }
 
+
+.date-wrapper input{
+  padding: 0 30px;
+}
+
 /*----------------------------
   Submit Buttons  
 ----------------------------*/
-
 .submit-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .submit_btn {
   width: 200px;
   height: 60px;
@@ -268,28 +253,25 @@ input[type="radio"]:not(:disabled):checked {
   background-color: transparent;
   border: none;
   background-color: #002d80;
-  display: grid;
+  display: block;
 }
-
 .submit_btn:hover {
   cursor: pointer;
   transform: scale(0.95);
   transition: 0.3s;
 }
+
 /*----------------------------
   From Wrapper Bottom 
 ----------------------------*/
-
 .form-wrapper_bottom {
   margin-top: 75px;
 }
-
 .form-title_bottom {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .sns {
   display: flex;
   gap: 30px;
@@ -307,6 +289,10 @@ input[type="radio"]:not(:disabled):checked {
   display: grid;
   place-content: center;
 }
+.form-bottom_subtitle{
+  margin-top: 30px;
+}
+
 /*----------------------------
   From Required Indicator
 ----------------------------*/
@@ -316,34 +302,14 @@ input[type="radio"]:not(:disabled):checked {
 .required_item::after {
   content: "※";
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: 15px;
+  right: -10px;
   height: 15px;
   width: 10px;
   font-size: 10px;
 }
-
-
-
-
-.form-wrapper{
-  margin-top: 100px;
-}
-.form-title_top{
-  margin: auto;
-  padding: 60px 0;
-}
-.required_item::after {
-  top: 15px;
-  right: -10px;
-}
 .classification-wrapper .required_item::after,
-.address-wrapper .required_item::after{
+.address-wrapper .required_item::after,
+.interpretation-use-wrapper .required_item::after{
   top: 0px;
-}
-.submit_btn{
-  display: block;
-}
-.form-bottom_subtitle{
-  margin-top: 30px;
 }
