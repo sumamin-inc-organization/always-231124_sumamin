@@ -233,3 +233,31 @@
 .nav-link_blue{
   color: #002D80;
 }
+
+
+
+
+
+
+@media(max-width:425px){
+  .about-btn .btn_a::after {
+    content: "";
+    width: 35px;
+    height: 1px;
+    background-color: #002d80;
+    position: absolute;
+    right: -45%;
+    top: 50%;
+    transform: translateY(-60%);
+  }
+  .about-btn .btn_a::before {
+    content: "";
+    width: 35px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    right: -20%;
+    top: 50%;
+    transform: translateY(-60%);
+  }
+}
