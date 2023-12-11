@@ -59,7 +59,7 @@
   /* position: absolute; */
   /* top: 50px;
   right: 20%; */
-  margin-top: 100px;
+  margin-top: 120px;
   /* border: 1px solid green; */
 }
 
@@ -85,6 +85,17 @@
 
 }
 @media(max-width:768px){
+  .about-img_container {
+  position: relative;
+  transform: translateY(-35%);
+  width: 85vw;
+  height: 661.48px;
+  background-image: url(../../images/hero/index_kv2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+/* margin-left: 50px; */
+}
 
 }
 @media(max-width:425px){
