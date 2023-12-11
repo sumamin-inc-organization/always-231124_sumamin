@@ -149,3 +149,24 @@
   display: grid;
   place-items: center;
 }
+
+/*----------------------------
+   Mobile
+----------------------------*/
+
+@media (max-width:768px){
+  .flow_title {
+    width: 40%;
+  }
+}
+@media (max-width:425px){
+  .flow_title {
+    width: 35%;
+  }
+}
+
+
+.flow-description_mobile{
+  line-height: 42px;
+  /* border: 1px solid red; */
+}
