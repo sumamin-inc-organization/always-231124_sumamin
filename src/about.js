@@ -5,4 +5,4 @@ import "./assets/css/common/typography.css";
 import "./assets/css/common/utility.css";
 import "./assets/css/common/animation.css";
 import "./assets/css/common/under.css";
-import "./assets/css/about/about.css";
+import "./assets/css/under/about.css";
