@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.under_kv{
+    background-image: url(../../images/underPage/contact_kv.jpg);
+}
+.contact_page{
+    background-color: #E6F5FC;
+    padding-top: 100px;
+}

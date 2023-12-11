@@ -163,3 +163,8 @@ body {
 .btn_a::after {
     right: -105%;
 }
+
+/* footer nav */
+.bottom_contact-wrapper{
+    border-left: 1px solid #002D80;
+}

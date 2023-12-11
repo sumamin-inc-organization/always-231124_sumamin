@@ -1,9 +1,10 @@
 @charset "utf-8";
 
 .under_kv{
-    background-image: url(../../images/newsPageImages/news_kv.jpg);
+    background-image: url(../../images/underPage/news_kv.jpg);
 }
 
+/* news */
 .news{
     background-color: #E6F5FC;
     padding: 80px 0;

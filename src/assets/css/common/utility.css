@@ -221,15 +221,16 @@
 .nav-white{
   background-color: white;
 }
-
 .nav-blue{
   background-color: #2bb9fc;
+}
+.nav-lightblue{
+  background-color: #E6F5FC;
 }
 
 .nav-link_white{
   color: white;
 }
-
 .nav-link_blue{
   color: #002D80;
 }

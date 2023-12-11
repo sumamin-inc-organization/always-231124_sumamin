@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.under_kv{
+    background-image: url(../../images/underPage/recruit_kv.jpg);
+}
+.recruit_page{
+    background-color: #E6F5FC;
+    padding-top: 100px;
+}
+.recruiting{
+    margin: auto;
+    width: 880px;
+}
+.recruiting h3{
+    width: 170px;
+    margin: 0 auto 60px;
+}
+.recruiting ul{
+    margin-top: 30px;
+    padding: 0;
+}
+.recruiting ol{
+    margin-top: 0;
+    padding: 0;
+}

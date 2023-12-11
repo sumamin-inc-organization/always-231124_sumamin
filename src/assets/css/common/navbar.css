@@ -62,6 +62,10 @@
   text-decoration: none;
   color: #002d80;
 }
+.primary_link:hover{
+  transition: 0.3s;
+  color: #2BB9FC;
+}
 .primary_link:hover,
 .primary_contact-wrapper img:hover {
   cursor: pointer;
@@ -102,6 +106,8 @@
   text-decoration: none;
 }
 .bottom_link:hover {
+  transition: 0.3s;
+  color: #2BB9FC;
   cursor: pointer;
 }
 

@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 .under_kv{
-  background-image: url(../../../../about/img/about_kv.jpg);
+  background-image: url(../../images/underPage/about_kv.jpg);
 }
 
 /* feature */
 .fixed_bg{
-  background-image: url(../../../../about/img/feature_bg.jpg);
+  background-image: url(../../images/underPage/feature_bg.jpg);
   background-position: center top;
   background-attachment: fixed;
   background-size: cover;
