@@ -162,7 +162,7 @@
     flex-direction: column;
     margin-top: 55.2px;
     position: relative;
-      border: 1px solid red;
+      /* border: 1px solid red;  here*/  
   }
 }
 
@@ -235,5 +235,12 @@
     transform: translate(-35px, 0px);
        /* background-color: red; */
     z-index: 3;
+  }
+  .reasons-top_bottom{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+  }
+  .reasons_bottom{
+    margin-top: 80px;
   }
 }
