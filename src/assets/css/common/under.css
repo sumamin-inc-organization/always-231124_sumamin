@@ -26,7 +26,6 @@ h1,h2,h3,h4,p{
 
 /* responsive */
 body {
-    min-width: 1200px;
     font-size: 16px;
 }
 .sp {
@@ -47,14 +46,9 @@ body {
     margin: auto;
     max-width: 1000px;
 }
-@media (max-width: 767px) {
-    .wrapper
-    {
-        max-width: none;
-    }
-    .wrapper_sp{
+@media (max-width: 1200px) {
+    .wrapper{
         max-width: 90%;
-        margin: auto;
     }
 }
 
@@ -167,4 +161,13 @@ body {
 /* footer nav */
 .bottom_contact-wrapper{
     border-left: 1px solid #002D80;
+}
+
+@media (max-width: 1200px) {
+    .tab{
+        display: block;
+    }
+    .fs-16{
+        font-size: 14px;
+    }
 }

@@ -6,7 +6,7 @@
 
 /* feature */
 .fixed_bg{
-  background-image: url(../../images/underPage/repeat_bg.png);
+  background-image: url(../../images/underPage/feature_bg.jpg);
   background-position: center top;
   background-attachment: fixed;
   background-size: cover;
@@ -54,6 +54,7 @@
 }
 .feature_flex img{
   width: 360px;
+  height: 100%;
 }
 .flex_reverse{
   flex-direction: row-reverse;
@@ -127,26 +128,19 @@
 
 /* greeting */
 .greeting{
-  margin-top: 100px;
-  margin-bottom: -420px;
-}
-.greeting_position{
+  padding-top: 80px;
   position: relative;
-  top: -30px;
 }
-.greeting_inner{
+.greeting_message{
+  width: 65%;
   color: #fff;
   background-color: #002D80;
   border-radius: 10px 0 0 10px;
+  margin: -100px 0 0 auto;
   padding: 100px 0 100px 180px;
-  position: absolute;
-  width: 65%;
-  top: 170px;
-  right: 0;
-  z-index: -1;
 }
-.greeting_message{
-  width: 80%;
+.greeting_message p{
+  width: 72%;
 }
 .greeting_attention{
   font-family: var(--trade-gothic);
@@ -160,17 +154,25 @@
   text-align: right;
 }
 .president_img{
-  width: 360px;
-  padding-top: 120px;
+  width: 35%;
+  margin-top: -400px;
+  margin-left: 80px;
 }
 .greeting_deco{
-  width: 20%;
-  position: relative;
-  bottom: 440px;
-  z-index: 1;
+  position: absolute;
+  left: -50px;
+  bottom: 0;
 }
+
 
 /* footer */
 .bottom_contact-wrapper{
   border-left: 1px solid #002D80;
+}
+
+@media (max-width: 1200px) {
+  .greeting_inner{
+    padding: 80px 0 80px 100px;
+
+  }
 }
