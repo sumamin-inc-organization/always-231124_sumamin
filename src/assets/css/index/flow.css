@@ -176,6 +176,15 @@
   }
   .flow_card {
   }
+  .c-4::after{
+    content: url("../../images/flowSection/arrow.svg");
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -30px;
+    width: 14.39px;
+    height: 28.78px;
+  }
 }
 .flow-description_mobile {
   line-height: 42px;
