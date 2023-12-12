@@ -263,3 +263,25 @@
   }
 
 }
+
+
+.flow_btn .btn_a::after {
+  content: "";
+  width: 35px;
+  height: 1px;
+  background-color: #002d80;
+  position: absolute;
+  right: -64%;
+  top: 50%;
+  transform: translateY(-60%);
+}
+.flow_btn .btn_a::before {
+  content: "";
+  width: 35px;
+  height: 1px;
+  background-color: #ffffff;
+  position: absolute;
+  right: -35%;
+  top: 50%;
+  transform: translateY(-60%);
+}
