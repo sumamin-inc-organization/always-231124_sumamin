@@ -65,7 +65,6 @@
 
   height: 100%;
   transform: translateX(-70%);
-border: 1px solid green;
   width: max-content;
   grid-column: 1;
   overflow: hidden;
@@ -175,7 +174,6 @@ border: 1px solid green;
     z-index: 3;
   }
   .slider-container {
-    border: 1px solid red;
     width: 100vw;
   }
   .slider {
@@ -193,6 +191,8 @@ border: 1px solid green;
   .blog-card {
     min-width: 320px;
     min-height: 324.35px;
-    /* transform: translate(-400px); */
+  }
+  .dots {
+    right: 20px;
   }
 }
