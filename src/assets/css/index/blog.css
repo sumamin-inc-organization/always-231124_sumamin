@@ -290,9 +290,19 @@ left: 0;
     bottom: 20px;
     display: flex;
     flex-direction: row;
+    gap: 10px;
     z-index: 5;
     /* border: 1px solid red; */
     /* bottom: -50px; */
+  }
+  .slider_btn{
+    width: 30px;
+    height: 30px;
+  }
+  .slider_btn img{
+    min-width: 30px;
+    min-height: 30px;
+  
   }
   
 }
