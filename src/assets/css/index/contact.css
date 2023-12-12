@@ -318,3 +318,24 @@ input[type="radio"]:not(:disabled):checked {
 .interpretation-use-wrapper .required_item::after{
   top: 0px;
 }
+
+
+/*----------------------------
+  mobile  
+----------------------------*/
+@media (max-width:768px){
+  
+}
+@media(max-width:425px){
+.contact_top{
+  width: 330px;
+  height:199px ;
+}
+.contact-top_wrapper {
+  position: absolute;
+  top: -340px;
+  right: 0;
+  z-index: -1;
+  /* border: 1px solid green; */
+}
+}

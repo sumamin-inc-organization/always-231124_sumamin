@@ -126,7 +126,6 @@
 ----------------------------*/
 
 .button-one {
-  /* position: fixed; */
   top: 0;
   right: 0;
   background: transparent;
@@ -137,7 +136,7 @@
 
 .button-one .line {
   transition: transform 300ms ease-in 300ms, rotate 300ms ease-in,
-    opacity 0ms 300ms;
+  opacity 0ms 300ms;
   transform-origin: center;
 }
 
