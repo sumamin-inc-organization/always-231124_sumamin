@@ -11,6 +11,7 @@
   overflow-x: hidden;
   overflow-y: auto;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 @media (max-width: 425px) {
   .case-main {
@@ -166,6 +167,9 @@
   background-image: url(../../images/caseSection/case_bottom_bg.png);
   background-size: cover;
   background-position: center top;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
 }
 .case-banner_text {
   max-width: 90%;
