@@ -171,8 +171,28 @@
 }
 
 @media (max-width: 1200px) {
-  .greeting_inner{
-    padding: 80px 0 80px 100px;
-
+  .tab{
+    display: block;
+  }
+  /* greeting */
+  .greeting_message{
+    width: 70%;
+    padding: 60px 0 60px 160px;
+  }
+  .greeting_message p{
+    width: 90%;
+  }
+  .greeting_attention{
+    font-size: 40px;
+  }
+  .president_img{
+    width: 50%;
+    margin-top: -400px;
+    margin-left: -10%;
+  }
+  .greeting_deco{
+    position: absolute;
+    left: -50px;
+    bottom: 0;
   }
 }
