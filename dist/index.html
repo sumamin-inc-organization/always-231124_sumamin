@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="https://use.typekit.net/gpf2zew.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- css 後でjsに記載してhtml内は削除する -->
-    <link rel="stylesheet" href="assets/img/reset.css">
-    <link rel="stylesheet" href="assets/img/animation.css">
-    <link rel="stylesheet" href="assets/img/footer.css">
-    <link rel="stylesheet" href="assets/img/navbar.css">
-    <link rel="stylesheet" href="assets/img/typography.css">
-    <link rel="stylesheet" href="assets/img/utility.css">
-    <link rel="stylesheet" href="assets/img/hero.css">
-    <link rel="stylesheet" href="assets/img/main.css">
-    <link rel="stylesheet" href="assets/img/about.css">
-    <link rel="stylesheet" href="assets/img/blog.css">
-    <link rel="stylesheet" href="assets/img/case.css">
-    <link rel="stylesheet" href="assets/img/reasons.css">
-    <link rel="stylesheet" href="assets/img/flow.css">
-    <link rel="stylesheet" href="assets/img/contact.css">
+    <!-- <link rel="stylesheet" href="../css/common/reset.css">
+    <link rel="stylesheet" href="../css/common/animation.css">
+    <link rel="stylesheet" href="../css/common/footer.css">
+    <link rel="stylesheet" href="../css/common/navbar.css">
+    <link rel="stylesheet" href="../css/common/typography.css">
+    <link rel="stylesheet" href="../css/common/utility.css">
+    <link rel="stylesheet" href="../css/index/hero.css">
+    <link rel="stylesheet" href="../css/index/main.css">
+    <link rel="stylesheet" href="../css/index/about.css">
+    <link rel="stylesheet" href="../css/index/blog.css">
+    <link rel="stylesheet" href="../css/index/case.css">
+    <link rel="stylesheet" href="../css/index/reasons.css">
+    <link rel="stylesheet" href="../css/index/flow.css">
+    <link rel="stylesheet" href="../css/index/contact.css"> -->
     <!-- css end -->
     <!-- ogp -->
     <meta property="og:url" content="https://always-interpreter.com">
@@ -30,7 +30,7 @@
     <meta property="og:site_name" content="オールウェイズ日中通訳サービス">
     <meta property="og:image" content="assets/img/ogp.jpg">
     <!-- end ogp -->
-<script defer src="vendors-node_modules_barba_core_dist_barba_umd_js-node_modules_gsap_ScrollTrigger_js-node_mod-124086.d1c0a84c841f6486ed7e.js"></script><script defer src="index.2b67094226a475d54501.js"></script><link href="src_assets_css_common_animation_css-src_assets_css_common_footer_css-src_assets_css_common_na-ad23d7.1f1b8f2c26065a70e318.css" rel="stylesheet"><link href="index.b61460e1623a9faae95c.css" rel="stylesheet"></head>
+<script defer src="vendors-node_modules_barba_core_dist_barba_umd_js-node_modules_gsap_ScrollTrigger_js-node_mod-124086.d1c0a84c841f6486ed7e.js"></script><script defer src="index.841874251ad7ef5055ec.js"></script><link href="src_assets_css_common_animation_css-src_assets_css_common_footer_css-src_assets_css_common_na-ad23d7.1f1b8f2c26065a70e318.css" rel="stylesheet"><link href="index.dbda28ba380c9df99852.css" rel="stylesheet"></head>
   <body data-barba="wrapper" id="top">
     <div class="transition">
     </div>
@@ -55,8 +55,8 @@
           </ul>
         </nav>
           <div class="langauge-btn-container">
-               <p class="jp-btn active-lang lang-btn fs-12 " aria-label="language button">日本語 /</p>
-              <p class="cn-btn lang-btn fs-12" aria-label="language button">中文</p>
+            <p class="jp-btn active-lang lang-btn fs-12 " aria-label="language button">日本語 /</p>
+            <p class="cn-btn lang-btn fs-12" aria-label="language button">中文</p>
           </div>
           <button class="button-one tab" aria-controls="primary-navigation" aria-expanded="false">
             <svg fill="#002D80" class="hamburger" viewBox="0 0 100 100" width="25">
@@ -398,7 +398,7 @@
               <img src="assets/img/flowdecor.svg" alt="" class="card_decor" aria-hidden="true">
             </div>
 
-            <div class="flow_card c-4">
+            <div class="flow_card arrow c-4">
               <h4 class="flow-card_title bold fs-20 blue ">お打ち合わせ</h4>
               <p class="flow-card_number gothic-italic fs-28 yellow">4</p>
               <img src="assets/img/flowdecor.svg" alt="" class="card_decor" aria-hidden="true">
@@ -530,6 +530,7 @@
           <p class="contact-subtitle white fs-16 bold">まずは話を聞いてみたい、という方も大歓迎です。<br>
             お気軽にお問い合わせください。</p>
         </div> 
+        <!-- form -->
         <div class="form-wrapper">
           <h3 class="form-title_top fs-30 bold">問い合わせフォーム</h3>
           <form form action="" aria-label="お問い合わせ" class="contact-form">
@@ -539,108 +540,113 @@
                     <p class="label-name required_item fs-18 ">お名前</p>
                     <input type="text" name="お名前" id="your_name" placeholder="山田 太郎" class="fs-18" required >
                 </label>
-                        </div>
-                        <div class="classification-wrapper">
+              </div>
+              <div class="classification-wrapper">
                   <p class="label-name required_item fs-18 classification_label">区分</p>
-              <div class="radio-wrapper">
+                <div class="radio-wrapper">
                   <div class="radio-inner">
                     <input type="radio" name="区分" id="job-contact" value="個人" class="sr-only">
                     <label for="job-contact" class="radio-label first-radio"><span class="custom-radio"></span> 個人</label>
                     <input type="radio" name="区分" id="outsource-contact" value="法人・団体等" class="sr-only">
                     <label for="outsource-contact" class="radio-label"><span class="custom-radio"></span> 法人・団体等 </label>
                   </div>
+                </div>
               </div>
-                      </div>
-                      <div class="company-wrapper">
-                        <label class="contact-item">
-                <p class="label-name fs-18 ">法人・団体名</p>
-                <input type="text" name="法人・団体名" id="your_company" placeholder="オールウェイズ日中通訳サービス" class="fs-18">
-                        </label>
-                    </div>
-                    <div class="tel-wrapper">
-                      <label class="contact-item">
-              <p class="label-name fs-18 ">電話番号（ハイフンなし）</p>
-              <input type="tel" name="電話番号" id="your_company" placeholder="00000000000" class="fs-18" required>
-                      </label>
-                  </div>
-                  <div class="email-wrapper">
-                    <label class="contact-item"><div class="label-name_wrapper">
-                        <p class="label-name required_item fs-18 ">メールアドレス</p>
-                    </div>
-                        <input type="email" name="メールアドレス" id="your_email" placeholder="always@mail.com" class="fs-18" required>
-                    </label>
-                </div>
-                <div class="address-wrapper">
-                  <label for="your_address">
-                    <p class="address-title fs-18 ">ご住所</p>
-                  </label>
-                  <div class="address_right">
-                    <div class="postal-wrapper">
-                      <label class="contact-item"><div class="label-name_wrapper">
-                          <p class="label-name fs-18 ">〒</p>
-                      </div>
-                          <input type="text" name="〒" id="zip" placeholder="000-0000" pattern="[0-9]{7}" class="zip" class="fs-18" maxlength="7">
-                      </label>
-                    </div>
-                    <input type="text" name="ご住所" id="your_address" placeholder="always@mail.com" class="fs-18">
-                  </div>
-                </div>
-                <div class="interpretation-use-wrapper">
-                  <label class="contact-item">
-                    <div class="labelwrapper">
-                      <p class="label-name reason required_item fs-18 ">通訳用途</p>
-                      <p class="reason_2">（趣旨もお書きください）</p>
-                    </div>
-                    <textarea  type="" name="通訳用途" id="your_name" placeholder="入力してください" class="fs-18" required  ></textarea>
+              <div class="company-wrapper">
+                <label class="contact-item">
+                  <p class="label-name fs-18 ">法人・団体名</p>
+                  <input type="text" name="法人・団体名" id="your_company" placeholder="オールウェイズ日中通訳サービス" class="fs-18">
                 </label>
+              </div>
+              <div>
+                <label class="contact-item">
+                  <p class="label-name required_item fs-18 ">電話番号</p>
+                  <input type="tel" name="電話番号" id="your_tel" placeholder="半角英数字ハイフンなしで入力してください" pattern="^(+|)\d{2,4}-\d{3,4}-\d{3,4}" minlength="10" maxlength="11" class="fs-18" required>
+                </label>
+              </div>
+              <div>
+                <label class="contact-item">
+                  <p class="label-name required_item fs-18 ">メールアドレス</p>
+                  <input type="email" name="メールアドレス" id="your_email" placeholder="always@mail.com" class="fs-18" required>
+                </label>
+              </div>
+              <div class="address-wrapper">
+                <label for="your_address">
+                  <p class="address-title fs-18">ご住所</p>
+                </label>
+                <div class="address_right">
+                  <div class="postal-wrapper">
+                    <label class="contact-item">
+                      <div class="label-name_wrapper">
+                        <p class="label-name fs-18 ">〒</p>
+                      </div>
+                      <input type="text" name="〒" id="zip" placeholder="000-0000" pattern="\d{3}-?\d{4}" maxlength="7" class="zip fs-18">
+                    </label>
+                  </div>
+                  <input type="text" name="ご住所" id="your_address" placeholder="都道府県から住所を入力してください" class="fs-18">
                 </div>
-                <div class="date-wrapper">
-                  <label class="contact-item">
-                      <p class="label-name fs-18 ">日時</p>
-                      <input
-                type="datetime-local"
-                id="your_date"
-                name="meeting-time"
-                value="2023-10-26T09:00"
-                min="2023-10-26T00:00"
-                max="2050-12-31T00:00"
-                class="fs-18" />
-                  </label>
+              </div>
+              <div class="interpretation-use-wrapper">
+                <label class="contact-item">
+                  <div class="labelwrapper">
+                    <p class="label-name reason required_item fs-18 ">通訳用途</p>
+                  </div>
+                  <textarea type="" name="通訳用途" id="intended_use" placeholder="趣旨も合わせて入力してください" class="fs-18" required  ></textarea>
+                </label>
+              </div>
+              <div class="date-wrapper">
+                <label class="contact-item">
+                  <p class="label-name fs-18 ">日時</p>
+                  <input
+                  type="datetime-local"
+                  id="your_date"
+                  name="meeting-time"
+                  value="2023-10-26T09:00"
+                  min="2023-10-26T00:00"
+                  max="2050-12-31T00:00"
+                  class="fs-18"/>
+                </label>
               </div>
               <div class="venue-wrapper">
                 <label class="contact-item">
-                    <p class="label-name fs-18 ">場所</p>
-                    <input type="text" name="お名前" id="venue" placeholder="〇〇イベントホール"class="fs-18" >
+                  <p class="label-name fs-18 ">場所</p>
+                  <input type="text" name="お名前" id="venue" placeholder="〇〇イベントホール"class="fs-18">
                 </label>
               </div>
               <div class="language-wrapper">
                 <label class="contact-item">
-                    <p class="label-name fs-18 ">通訳言語と通訳方法</p>
-                    <input type="text" name="通訳言語と通訳方法" id="venue" placeholder="中国語を日本語に通訳する" class="fs-18">
+                  <p class="label-name fs-18 ">通訳言語と通訳方法</p>
+                  <div class="select_arrow">
+                    <select name="通訳言語と通訳方法" id="venue" class="fs-18" required>
+                      <option value="" selected disabled>選択してください</option>
+                      <option value="中国語を日本語に通訳する">中国語を日本語に通訳する</option>
+                      <option value="日本語を中国語に通訳する">日本語を中国語に通訳する</option>
+                      <option value="その他">その他</option>
+                    </select>
+                  </div>
                 </label>
               </div>
               <div class="headcount-wrapper">
                 <label class="contact-item">
-                    <p class="label-name fs-18 ">通訳対象の人数</p>
-                    <input type="text" name="通訳対象の人数" id="headcount" placeholder="10人" class="fs-18" >
+                  <p class="label-name fs-18 ">通訳対象の人数</p>
+                  <input type="text" name="通訳対象の人数" id="headcount" placeholder="10人" class="fs-18" >
                 </label>
               </div>
               <div class="submit-wrapper">
                 <button type="submit" class="submit_btn"><p class="submit_text fs-18 white">送信する</p></button>
               </div>
             </div>
-      </form>
-      <div class="form-wrapper_bottom">
-        <h3 class="form-title_bottom fs-30 bold">以下のメッセージアプリからでも<br>
-          お気軽にお問い合わせください！</h3>
-        <div class="form-sns-container">
-          <div class="sns">
-            <a href="#"><img src="assets/img/line.png" alt="LINE" class="sns_img"></a>
-            <a href="#"><img src="assets/img/wechat.png" alt="WECHAT" class="sns_img"></a>
+          </form>
+          <div class="form-wrapper_bottom">
+            <h3 class="form-title_bottom fs-30 bold line_height3">以下のメッセージアプリからでも<br>お気軽にお問い合わせください！</h3>
+            <div class="form-sns-container">
+              <div class="sns">
+                <a class="icon" href="#"><img src="assets/img/line.png" alt="LINE" class="sns_img"></a>
+                <a class="icon" href="#"><img src="assets/img/wechat.png" alt="WECHAT" class="sns_img"></a>
+              </div>
+              <p class="form-bottom_subtitle">【受付時間】7:00〜22:00</p>
+            </div>
           </div>
-          <p class="form-bottom_subtitle">【受付時間】7:00〜22:00</p>
-        </div>
-      </div>
         </div>
       </section>
       <section id="bottom-nav" class="nav-blue">

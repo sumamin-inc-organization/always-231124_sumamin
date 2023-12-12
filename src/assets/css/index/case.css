@@ -10,7 +10,7 @@
   /* clip-path: polygon(0 76%, 0 0, 100% 0, 100% 77%, 48% 91%);   ver1 */
   /* clip-path: polygon(100% 0, 100% 95%, 51% 100%, 0 96%, 0 48%, 0 0); ver 2*/
   /* clip-path: polygon(0 35%, 0 96%, 53% 100%, 100% 96%, 99% 0, 0% 0%); ver 3*/
-  clip-path: polygon(0 35%, 0 96%, 49% 100%, 100% 96%, 99% 0, 0% 0%);
+  /* clip-path: polygon(0 35%, 0 96%, 49% 100%, 100% 96%, 99% 0, 0% 0%); */
 
   z-index: 2;
   padding-bottom: 0px;
@@ -70,6 +70,7 @@
   display: grid;
   place-items: center;
   margin-top: 150px;
+  margin-bottom: -200px;
 }
 
 @media(max-width:768px){
@@ -77,7 +78,6 @@
   .case-card_list,
   .case-card_wrapper h4{
     display: none;
-
   }
 }
 .case-card_list {
@@ -142,18 +142,18 @@
   height: 370.15px;
 }
 .case-decor_1 {
-  top: 100px;
+  top: -300px;
   top: 0px;
   left: 300px;
 }
 
 .case-decor_2 {
-  top: 300px;
+  top: 200px;
   right: 400px;
   z-index: -2;
 }
 .case-decor_3 {
-  top: 800px;
+  top: 700px;
   left: 300px;
 }
 
@@ -173,53 +173,31 @@
     left: 200px;
   }
 }
+
 /*----------------------------
   Case Banner  
 ----------------------------*/
 .case-banner_wrapper {
-  z-index: -1;
-  margin-top: -150px;
-  position: relative;
-  z-index: -1;
-  overflow: hidden;
-  max-height: 550px;
+  background-image: url(../../images/caseSection/case_bottom_bg.png);
+  background-size: cover;
+  background-position: center top;
 }
-
-.case-banner_filter {
-  z-index: 3;
-  position: absolute;
-  inset: 0;
-  opacity: 0.6;
-}
-.case-banner {
-}
-.case-banner_text {
-  position: absolute;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.case-banner_text{
+  max-width: 90%;
+  margin: auto;
   text-align: center;
-  z-index: 4;
-  width: max-content;
+  padding: 290px 0 100px;
 }
-/* @media(max-width:1700){
-  .case-banner_wrapper {
-    z-index: -1;
-    margin-top: -450px;
-    position: relative;
-  }
-}*/
-@media (max-width: 1300) {
-  .case-banner_wrapper {
-    transform: translateY(100);
+@media (max-width: 767px) {
+  .case-banner_text{
+    font-size: 24px;
+    padding: 120px 0 40px;
   }
 }
 
 /*----------------------------
-   Mobile
+  Mobile
 ----------------------------*/
-
-
 @media(max-width:1000px){
 }
 @media(max-width:768px){
@@ -233,7 +211,7 @@
   .case-main {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: -20px;
   }
   .case-title_wrapper {
     width: 50%;
