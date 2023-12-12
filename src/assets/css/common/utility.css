@@ -121,7 +121,7 @@
 .bg-light_blue {
   background-color: #49c9ff;
 }
-.bg-light_white{
+.bg-light_white {
   background-color: #fff;
 }
 
@@ -154,7 +154,7 @@
   display: none;
 }
 
-.tab-and-pc{
+.tab-and-pc {
   display: block;
 }
 
@@ -172,10 +172,9 @@
   .mobile {
     display: block;
   }
-  .tab-and-pc{
+  .tab-and-pc {
     display: none;
   }
-
 }
 
 @media (min-width: 768) and (max-width: 1000px) {
@@ -190,8 +189,6 @@
   }
 }
 
-
-
 /*---------------------------------------
   add 20px padding to the left and right
   左右に20pxのパディングを追加
@@ -203,7 +200,6 @@
     padding-right: 20px;
   }
 }
-
 
 /*---------------------------------------
   add 20px margin to the left and right
@@ -217,30 +213,29 @@
   }
 }
 
-
-.nav-white{
+.nav-white {
   background-color: white;
 }
-.nav-blue{
+.nav-blue {
   background-color: #2bb9fc;
 }
-.nav-lightblue{
-  background-color: #E6F5FC;
+.nav-lightblue {
+  background-color: #e6f5fc;
 }
 
-.nav-link_white{
+.nav-link_white {
   color: white;
 }
-.nav-link_blue{
-  color: #002D80;
+.nav-link_blue {
+  color: #002d80;
 }
 
+/*---------------------------------------
+  Mobile Version Of The ABOUT Section Btn
+  Aboutセクションのモバイル版ボタン
+---------------------------------------*/
 
-
-
-
-
-@media(max-width:425px){
+@media (max-width: 425px) {
   .about-btn .btn_a::after {
     content: "";
     width: 35px;
@@ -261,10 +256,12 @@
     top: 50%;
     transform: translateY(-60%);
   }
-
 }
 
-
+/*---------------------------------------
+  Mobile Version Of The FLOW Section Btn
+  FLOWセクションのモバイル版ボタン
+---------------------------------------*/
 .flow_btn .btn_a::after {
   content: "";
   width: 35px;

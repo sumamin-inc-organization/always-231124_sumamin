@@ -60,9 +60,7 @@
   border-radius: 10px;
   display: grid;
   grid-template-columns: 27px 1fr 27px;
-  /* place-items: center; */
   position: relative;
-  /* border: 1px solid black; */
   margin-right: 45.5px;
 }
 
@@ -154,23 +152,20 @@
    Mobile
 ----------------------------*/
 
-@media (max-width:768px){
+@media (max-width: 768px) {
   .flow_title {
     width: 60%;
-    
   }
- 
 }
-@media (max-width:425px){
+@media (max-width: 425px) {
   .flow_title {
     width: 100%;
   }
   .flow_center {
-    display:flex;
+    display: flex;
     gap: 0px;
     overflow-x: scroll;
     overflow-y: visible;
-    /* border: 1px solid red; */
     width: calc(100vw - 40px);
     padding: 10px;
   }
@@ -178,15 +173,10 @@
     margin-top: 33px;
     padding-left: 20px;
     padding-right: 20px;
-
   }
-  .flow_card{
-    
+  .flow_card {
   }
 }
-
-
-.flow-description_mobile{
+.flow-description_mobile {
   line-height: 42px;
-  /* border: 1px solid red; */
 }

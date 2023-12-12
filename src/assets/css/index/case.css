@@ -5,26 +5,16 @@
   background: url(../../images/caseSection/casebgS.jpg);
   background-attachment: fixed; /*parallax */
   width: 100%;
-  /* min-height: 2164.87px; */
-  /* min-height: auto; */
-  /* clip-path: polygon(0 76%, 0 0, 100% 0, 100% 77%, 48% 91%);   ver1 */
-  /* clip-path: polygon(100% 0, 100% 95%, 51% 100%, 0 96%, 0 48%, 0 0); ver 2*/
-  /* clip-path: polygon(0 35%, 0 96%, 53% 100%, 100% 96%, 99% 0, 0% 0%); ver 3*/
-  /* clip-path: polygon(0 35%, 0 96%, 49% 100%, 100% 96%, 99% 0, 0% 0%); */
-
   z-index: 2;
   padding-bottom: 0px;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
-  /* -webkit-perspective: 1px; */
-  /* border: 2px solid green; */
   overflow: hidden;
 }
-@media(max-width:425px){
-  .case-main{
+@media (max-width: 425px) {
+  .case-main {
     padding: 20px;
-    /* border: 1px solid red; */
   }
 }
 
@@ -52,15 +42,11 @@
   justify-content: end;
   border-bottom: 2px solid #002d80;
   margin-top: -35px;
-  
 }
-
 .case-main {
   display: grid;
   place-content: center;
 }
-
-
 /*----------------------------
   Case Card 
 ----------------------------*/
@@ -73,10 +59,10 @@
   margin-bottom: -200px;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
   .case-card_wrapper,
   .case-card_list,
-  .case-card_wrapper h4{
+  .case-card_wrapper h4 {
     display: none;
   }
 }
@@ -182,14 +168,14 @@
   background-size: cover;
   background-position: center top;
 }
-.case-banner_text{
+.case-banner_text {
   max-width: 90%;
   margin: auto;
   text-align: center;
   padding: 290px 0 100px;
 }
 @media (max-width: 767px) {
-  .case-banner_text{
+  .case-banner_text {
     font-size: 24px;
     padding: 120px 0 40px;
   }
@@ -198,14 +184,11 @@
 /*----------------------------
   Mobile
 ----------------------------*/
-@media(max-width:1000px){
-}
-@media(max-width:768px){
+@media (max-width: 768px) {
   .case-decor {
     position: absolute;
     width: 85.78px;
     height: 127.54px;
-    /* display: none; */
     z-index: -1;
   }
   .case-main {
@@ -219,49 +202,46 @@
     padding-bottom: 0;
     align-self: flex-end;
     display: flex;
- 
   }
-   .case-card {
+  .case-card {
     min-width: 400px;
-    min-height: 300px;}
-    .case-card-carousel_list {
-      width: 400px;
-   
-     }
+    min-height: 300px;
+  }
+  .case-card-carousel_list {
+    width: 400px;
+  }
 
-     .case-card-carousel{
-      width: 100vw;
-      height: max-content;
-     }
+  .case-card-carousel {
+    width: 100vw;
+    height: max-content;
+  }
 
-     /* added important to overrride utitility of .mobile
+  /* added important to overrride utitility of .mobile
      .mobileのユーティリティにimportantを追加して上書きする */
-     .case-card-carousel{
-      display: grid !important;  
-      place-content: center;
-     }
+  .case-card-carousel {
+    display: grid !important;
+    place-content: center;
+  }
 }
-@media(min-width:426px){
+@media (min-width: 426px) {
   .case-card-mobile {
     min-width: 400px;
     min-height: 300px;
-    background-color:transparent;
+    background-color: transparent;
     border-radius: 10px;
-    /* margin-bottom: 60px; */
     padding-top: 23px;
     padding-left: 30px;
     padding-right: 30px;
   }
 }
-@media(max-width:425px){
-  .case-card-carousel{
+@media (max-width: 425px) {
+  .case-card-carousel {
     width: calc(100vw -40px);
     display: grid;
     place-content: center;
   }
   .case-card-carousel_list {
-   width: 330px;
-
+    width: 330px;
   }
   .case-card {
     width: 330px;
@@ -280,9 +260,6 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-  
-  
-  
 }
 
 .case-card-carousel_list {
@@ -290,68 +267,60 @@
   margin: 0;
   position: relative;
   display: flex;
-  overflow: hidden;;
- }
-
-
+  overflow: hidden;
+}
 
 /*----------------------------
   Case Carousel Control Buttons
 ----------------------------*/
-.case-card-carousel{
-position: relative;
-width: 100%;
+.case-card-carousel {
+  position: relative;
+  width: 100%;
 }
 
-.case-btn{
-position: absolute;
-z-index: 2;
-transform: translateY(-50%);
-width: 30px;
-aspect-ratio: 1;
-padding: 0;
+.case-btn {
+  position: absolute;
+  z-index: 2;
+  transform: translateY(-50%);
+  width: 30px;
+  aspect-ratio: 1;
+  padding: 0;
 }
 
-.case_prev{
-top: 50%;
-left: 5px;
-
-
+.case_prev {
+  top: 50%;
+  left: 5px;
 }
-.case_next{
-right: 5px;
-top: 50%;
+.case_next {
+  right: 5px;
+  top: 50%;
 }
 
-.case-btn img{
+.case-btn img {
   min-width: 30px;
   min-height: 30px;
-
 }
 
-@media (min-width:600px) {
-  .case-btn{
+@media (min-width: 600px) {
+  .case-btn {
     width: 50px;
   }
-  .case-btn img{
+  .case-btn img {
     min-width: 50px;
     min-height: 50px;
-  
   }
-  .case_prev{
+  .case_prev {
     top: 50%;
     left: 0;
-    
-    }
-    .case_next{
+  }
+  .case_next {
     right: 0;
     top: 50%;
-    }
+  }
 }
 
-.case-card-carousel_list{
+.case-card-carousel_list {
   overflow: hidden;
-  /* border: 1px solid red; */
   background-color: #002d80;
   border-radius: 10px;
 }
