@@ -1,11 +1,11 @@
-// import "./assets/css/common/reset.css";
-// import "./assets/css/common/navbar.css";
-// import "./assets/css/common/footer.css";
-// import "./assets/css/common/typography.css";
-// import "./assets/css/common/utility.css";
-// import "./assets/css/common/animation.css";
-// import "./assets/css/common/under.css";
-// import "./assets/css/under/notice.css";
+import "./assets/css/common/reset.css";
+import "./assets/css/common/navbar.css";
+import "./assets/css/common/footer.css";
+import "./assets/css/common/typography.css";
+import "./assets/css/common/utility.css";
+import "./assets/css/common/animation.css";
+import "./assets/css/common/under.css";
+import "./assets/css/under/notice.css";
 
 var moreNum = 10;
 $('.news_items:nth-child(n + ' + (moreNum + 1) + ')').addClass('is-hidden');
