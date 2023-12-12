@@ -10,12 +10,12 @@
   grid-template-columns: 1fr 936.5px 1fr;
   padding-bottom: 100px;
   z-index: 3;
-  border: 5px solid green;
+  /* border: 5px solid green; */
 }
 
 .blog-container {
   grid-column: 2;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .blog-title_wrapper {
@@ -98,7 +98,7 @@
   /* grid-column: 2; */
   padding-right: 40px;
   overflow: hidden;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   position: relative;
   height: 450px;
 }
@@ -148,11 +148,16 @@
   display: flex;
   flex-direction: column;
   gap: 13.5px;
+  bottom: 50%;
+  /* left: 70%; */
+  right: 430px;
+  /* right: 16.67vw; */
+  z-index: 4;
 }
 .dots:hover {
   cursor: pointer;
 }
-
+/* 
 @media (max-width: 1800px) {
   .dots {
     position: absolute;
@@ -184,7 +189,7 @@
   .dots {
     right: 20px;
   }
-}
+} */
 .active {
   background-color: #002d80;
 }
