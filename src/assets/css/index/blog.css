@@ -80,7 +80,7 @@
   grid-column: 1/4;
   padding-right: 40px;
   overflow: hidden;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .slider_btn {
   background-color: transparent;
@@ -195,4 +195,11 @@
   .dots {
     right: 20px;
   }
+  .btn_container {
+    position: static;
+    left: 70%;
+    z-index: 5;
+    border: 1px solid red;
+  }
+  
 }
