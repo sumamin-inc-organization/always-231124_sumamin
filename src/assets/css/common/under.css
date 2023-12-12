@@ -147,17 +147,29 @@ body {
 
 /* more btn */
 .section_btn {
+    color: #002D80;
+    background-color: #ffffff00;
     display: block;
     margin: auto;
-    padding: 15px 70px;
+    padding: 0;
 }
-.btn_a::before {
-    right: -70%;
+.section_btn:hover {
+    transition: 0.3s;
+    color: #2BB9FC;
 }
-.btn_a::after {
-    right: -105%;
+.more_arrow{
+    display: inline-block;
+    vertical-align: middle;
+    color: #002D80;
+    line-height: 1;
+    width: 15px;
+    height: 15px;
+    border: 1px solid currentColor;
+    border-left: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    transform: translateY(-25%) rotate(135deg);
 }
-
 /* footer nav */
 .bottom_contact-wrapper{
     border-left: 1px solid #002D80;
