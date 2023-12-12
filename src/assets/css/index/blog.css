@@ -232,17 +232,17 @@ left: 0;
   .blog-card {
     min-width: 320px;
     min-height: 324.35px;
-    max-width: 320px;
-    max-height: 324.35px;
+    width: 320px;
+    height: 324.35px;
   }
   .dots {
     right: 20px;
   }
   .btn_container {
-    position: static;
+    /* position: static; */
     left: 70%;
     z-index: 5;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   
 }
@@ -275,6 +275,7 @@ left: 0;
     overflow: hidden;
     width: 100vw;
     padding-right: 50px;
+    padding-bottom: 50px;
   }
   .blog-card {
     min-width: 320px;
@@ -284,10 +285,14 @@ left: 0;
     right: 20px;
   }
   .btn_container {
-    position: static;
-    left: 70%;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
     z-index: 5;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    /* bottom: -50px; */
   }
   
 }
