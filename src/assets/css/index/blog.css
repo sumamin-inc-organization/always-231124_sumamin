@@ -86,11 +86,11 @@ left: 0;
   width: max-content;
   grid-column: 1;
   overflow: hidden;
-  overflow-y: visible !important;
+
 }
 .track {
   height: 100%;
-
+/* background-color:  green; */
   position: relative;
   width: 100vw;
 }
@@ -164,6 +164,28 @@ left: 0;
     gap: 13.5px;
   }
 }
+@media (max-width: 1560px) {
+  .dots {
+    right: 28%;
+  }
+}
+
+@media (max-width: 1320px) {
+  .dots {
+    right: 18%;
+  }
+}
+@media (max-width: 1150px) {
+  .dots {
+    right: 8%;
+  }
+}
+@media (max-width: 1020px) {
+  .dots {
+    right: 20px;
+  }
+}
+
 
 .active {
   background-color: #002d80;
@@ -177,6 +199,53 @@ left: 0;
 /*----------------------------
   mobile  
 ----------------------------*/
+
+@media(max-width:1000px){
+  .slider_btn {
+    background-color: transparent;
+    min-width: 30px;
+    min-height: 30px;
+  }
+  #blog {
+    position: relative;
+    min-height: 758px;
+    display: block;
+    /* grid-template-columns: 356px 1fr 245.4px; */
+    padding-bottom: 100px;
+    z-index: 3;
+  }
+  .slider-container {
+    width: 100vw;
+  }
+  .slider {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    height: 100%;
+    transform: translateX(0px);
+    width: max-content;
+    grid-column: 1;
+    overflow: hidden;
+    width: 100vw;
+    padding-right: 50px;
+  }
+  .blog-card {
+    min-width: 320px;
+    min-height: 324.35px;
+    max-width: 320px;
+    max-height: 324.35px;
+  }
+  .dots {
+    right: 20px;
+  }
+  .btn_container {
+    position: static;
+    left: 70%;
+    z-index: 5;
+    border: 1px solid red;
+  }
+  
+}
 
 @media(max-width:425px){
   .slider_btn {
