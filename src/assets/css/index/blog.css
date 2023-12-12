@@ -36,18 +36,32 @@
 ----------------------------*/
 .blog-card_main {
   border: 1px solid #002d80;
+  /* border-top: 0; */
   border-radius: 0 10px 10px 10px;
   padding-left: 30px;
   padding-right: 34px;
-
   width: 100%;
   padding-bottom: 15.9px;
+  position: relative;
+  overflow-y: visible;
 }
+
+
 .blog-card {
   width: 400px;
   height: 300px;
 }
+.blog-card_decor  {
+ 
+  border-radius: 10px 10px 0 0;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border: 1px solid #2bb9fc;
 
+}
 .blog-card_date {
   background-color: #2bb9fc;
   border-radius: 10px 10px 0 0;
@@ -56,6 +70,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+border: 1px solid #2bb9fc;
+position: absolute;
+top:-40px;
+left: 0;
 }
 
 .slider {
@@ -68,6 +86,7 @@
   width: max-content;
   grid-column: 1;
   overflow: hidden;
+  overflow-y: visible !important;
 }
 .track {
   height: 100%;
