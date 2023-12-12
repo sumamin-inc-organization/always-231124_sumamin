@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="../css/index/case.css">
     <link rel="stylesheet" href="../css/index/reasons.css">
     <link rel="stylesheet" href="../css/index/flow.css">
-    <link rel="stylesheet" href="../css/index/contact.css"> -->
+    <link rel="stylesheet" href="../css/index/contact.css">
+    <script type="text/javascript" src="../../index.js" defer></script> -->
     <!-- css end -->
     <!-- ogp -->
     <meta property="og:url" content="https://always-interpreter.com">
@@ -30,7 +31,7 @@
     <meta property="og:site_name" content="オールウェイズ日中通訳サービス">
     <meta property="og:image" content="assets/img/ogp.jpg">
     <!-- end ogp -->
-<script defer src="vendors-node_modules_barba_core_dist_barba_umd_js-node_modules_gsap_ScrollTrigger_js-node_mod-124086.d1c0a84c841f6486ed7e.js"></script><script defer src="index.841874251ad7ef5055ec.js"></script><link href="src_assets_css_common_animation_css-src_assets_css_common_footer_css-src_assets_css_common_na-ad23d7.4203169ef19c33e02e9a.css" rel="stylesheet"><link href="index.8abe78eec400dc1048ba.css" rel="stylesheet"></head>
+<script defer src="vendors-node_modules_barba_core_dist_barba_umd_js-node_modules_gsap_ScrollTrigger_js-node_mod-124086.d1c0a84c841f6486ed7e.js"></script><script defer src="index.841874251ad7ef5055ec.js"></script><link href="src_assets_css_common_animation_css-src_assets_css_common_footer_css-src_assets_css_common_na-ad23d7.b28b0c200c3bb1a9ae28.css" rel="stylesheet"><link href="index.0341651850cc406ebe83.css" rel="stylesheet"></head>
   <body data-barba="wrapper" id="top">
     <div class="transition">
     </div>
@@ -126,7 +127,7 @@
           <div class="about-main">
             <div class="about-main_content mv-padding-20">
               <h2 class="about_title white fs-86 bold"><span class="yellow">A</span>bout</h2>
-              <h3 class="about-main_title fs-40 bold white">オールウェイズ <br> 日中通訳サービスについて </h1>
+              <h3 class="about-main_title fs-40 bold white">オールウェイズ <br> 日中通訳サービスについて </h3>
                 <p class="about-main_description white bold fs-16">私たちは、日本における中国人の皆様との円滑な<br>コミュニケーションをサポートし、<br>お客様のニーズにいつも応えるパートナーとして在り続けます。<br>私たちは常にそこにいて、<br>お客様が成功するお手伝いをすることを誇りに思います。
                 </p>
                 <button class="section_btn fs-20 bold white btn_effect about-btn"><a href="./about.html" class="btn_a fs-20 bold white">詳しくはこちら</a></button>
@@ -137,9 +138,9 @@
         </div>
       </section>
       <section id="case" class="">
-        <img class="case-decor case-decor_1 parallax" src="assets/img/decor2.png" alt="" aria-hidden="true" data-speed="-30">
-        <img class="case-decor case-decor_2 parallax" src="assets/img/decor2.png" alt="" aria-hidden="true" data-speed="-30">
-        <img class="case-decor case-decor_3 parallax " src="assets/img/decor.png" alt="" aria-hidden="true" data-speed="-30">
+        <img class="case-decor case-decor_1 parallax" src="assets/img/decor2.png" alt="" aria-hidden="true" data-speed="-10">
+        <img class="case-decor case-decor_2 parallax" src="assets/img/decor2.png" alt="" aria-hidden="true" data-speed="-10">
+        <img class="case-decor case-decor_3 parallax" src="assets/img/decor.png" alt="" aria-hidden="true" data-speed="-10">
           <div class="case-main">
             <div class="case-title_wrapper mv-margin-20">
               <h2 class="case_title fs-86 bold gradient_text">Case</h2>
@@ -397,7 +398,7 @@
               <img src="assets/img/flowdecor.svg" alt="" class="card_decor" aria-hidden="true">
             </div>
 
-            <div class="flow_card arrow c-4">
+            <div class="flow_card c-4">
               <h4 class="flow-card_title bold fs-20 blue ">お打ち合わせ</h4>
               <p class="flow-card_number gothic-italic fs-28 yellow">4</p>
               <img src="assets/img/flowdecor.svg" alt="" class="card_decor" aria-hidden="true">
@@ -440,6 +441,21 @@
           </div>
         </div>
           <div class="slider-container">
+            <div class="btn_container slide_controls">
+              <button aria-label="Previous" class="slider-prev slider_btn btn_effect" id="previous_btn">
+                <img src="assets/img/prev.svg" alt="previous_slide">
+              </button>
+              <button aria-label="Next" class="slider-next slider_btn btn_effect" id="next_btn">
+                <img src="assets/img/next.svg" alt="next_slide">
+              </button>
+            </div>
+            <div role="tablist" class="dots">
+              <li class="indicator active" data-indicator="0"></li>
+              <li class="indicator" data-indicator="1"></li>
+              <li class="indicator" data-indicator="2"></li>
+              <li class="indicator" data-indicator="3"></li>
+              <li class="indicator" data-indicator="4"></li>
+            </div>
             <div class="track">
               <div class="slider">
                 <div class="blog-card">
@@ -506,21 +522,21 @@
                   </div>
                 </div>
               </div>
-              <div class="btn_container slide_controls">
+              <!-- <div class="btn_container slide_controls">
                 <button aria-label="Previous" class="slider-prev slider_btn btn_effect" id="previous_btn">
-                  <img src="assets/img/prev.svg" alt="previous_slide">
+                  <img src="../images/blog/prev.svg" alt="previous_slide">
                 </button>
                 <button aria-label="Next" class="slider-next slider_btn btn_effect" id="next_btn">
-                  <img src="assets/img/next.svg" alt="next_slide">
+                  <img src="../images/blog/next.svg" alt="next_slide">
                 </button>
-              </div>
-              <div role="tablist" class="dots">
+              </div> -->
+              <!-- <div role="tablist" class="dots">
                 <li class="indicator active" data-indicator="0"></li>
                 <li class="indicator" data-indicator="1"></li>
                 <li class="indicator" data-indicator="2"></li>
                 <li class="indicator" data-indicator="3"></li>
                 <li class="indicator" data-indicator="4"></li>
-              </div>
+              </div> -->
             </div>
           </div>
       </section>
@@ -682,5 +698,6 @@
     <footer id="footer">
       <small><p class="copyright fs-16 bold white">&copy;2023オールウェイズ日中通訳サービス All Rights Reserved.</p></small>
     </footer>
+    <script type="text/javascript" src="assets/img/index.js"></script>
   </body>
 </html> 
