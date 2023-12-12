@@ -61,7 +61,7 @@ images.forEach((image) => {
 
 const slideContainer = document.querySelector(".track");
 const slider = document.querySelector(".slider");
-const slides = document.querySelectorAll(".blog-card");
+let slides = document.querySelectorAll(".blog-card");
 const nextBtn = document.getElementById("next_btn");
 const prevBtn = document.getElementById("previous_btn");
 
@@ -69,9 +69,11 @@ const prevBtn = document.getElementById("previous_btn");
 // const secondClone = slides[1].cloneNode(true); //not working rn
 
 // slider.append(firstClone); //not working rn
-
+// slides.forEach(slide =>{
+//   slide.style.transform = `translateX(-400px)`;
+// })
 let index = 0;
-const slideWidth = slides[index].clientWidth;
+// const slideWidth = slides[index].clientWidth;
 
 nextBtn.addEventListener("click", () => {
   index++; //increases the index by 1
@@ -95,10 +97,15 @@ prevBtn.addEventListener("click", () => {
 });
 
 function updateSlidePosition() {
+  slides = document.querySelectorAll(".blog-card");
+  const slideWidth = slides[index].clientWidth;
   const offset = 440 * index; //off set is calculated with the card size and the gap (400px + 40)
+  const gap =  40 * index; //adjust the gap as the index
+  const slidew = slideWidth * index; //adjust the offeset based on the slidewidth
+  const offset2 = slidew + gap;
   setIndicator();
   slides.forEach((slide, i) => {
-    slide.style.transform = `translateX(${offset}px)`;
+    slide.style.transform = `translateX(${offset2}px)`;
   });
 }
 
