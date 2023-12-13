@@ -216,5 +216,13 @@
     margin-top: 40px;
     margin-left: 0px;
   }
+  .hero-decor {
+    position: absolute;
+    width: 85.78px;
+    height: 127.54px;
+    z-index: 2;
+    top: 15px;
+    left: -25px;
+  }
 }
 
