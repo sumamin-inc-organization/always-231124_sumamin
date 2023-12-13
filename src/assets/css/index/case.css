@@ -321,6 +321,11 @@
     top: 50%;
   }
 }
+@media (max-width: 425px) {
+  #case{
+    padding-bottom: 400px;
+  }
+}
 
 .case-card-carousel_list {
   overflow: hidden;
