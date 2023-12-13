@@ -193,7 +193,7 @@
   .kv-news_container {
     background-color: white;
     position: absolute;
-    bottom: -300px;
+    bottom: -230px;
     left: 15%;
     z-index: 3;
     width: 100vw;
@@ -221,8 +221,15 @@
     width: 85.78px;
     height: 127.54px;
     z-index: 2;
-    top: 15px;
-    left: -25px;
+    top: 10px;
+    left: -20px;
+  }
+  .kv-subtitle_container {
+    position: absolute;
+    z-index: 3;
+    top: 10%;
+    left: 10px;
+    width: max-content;
   }
 }
 
