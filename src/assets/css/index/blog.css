@@ -272,4 +272,10 @@
     min-width: 30px;
     min-height: 30px;
   }
+  .blog-title_wrapper{
+    padding-right:20px;
+  }
+  .blog-title_wrapper::after {
+    right: 20px;
+  }
 }
