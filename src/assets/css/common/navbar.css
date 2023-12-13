@@ -245,6 +245,7 @@
 
   .active-lang {
     color: #000000;
+    font-weight: bold;
   }
 
   .primary_contact-wrapper_top {

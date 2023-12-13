@@ -139,6 +139,10 @@
   width: 1px;
 }
 
+.space{
+  margin-left: 5px;
+}
+
 /*----------------------------
   Responsive  
   PCタブかモバイルに応じてアイテムを表示する
