@@ -160,6 +160,7 @@
 @media (max-width: 425px) {
   .flow_title {
     width: 100%;
+    margin-top: 0;
   }
   .flow_center {
     display: flex;
@@ -188,4 +189,5 @@
 }
 .flow-description_mobile {
   line-height: 42px;
+  margin-top: 0;
 }
