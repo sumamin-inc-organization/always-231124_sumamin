@@ -262,8 +262,11 @@
     z-index: 5;
   }
   .slider_btn {
+    /* border: 1px solid red; */
     width: 30px;
     height: 30px;
+    display: grid;
+    place-content: center;
   }
   .slider_btn img {
     min-width: 30px;
