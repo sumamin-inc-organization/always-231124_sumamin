@@ -7,3 +7,12 @@
     background-color: #E6F5FC;
     padding-top: 100px;
 }
+
+@media (max-width: 767px) {
+    .under_kv{
+        background-image: url(../../images/underPage/sp/contact_kv_sp.jpg);
+    }
+    .contact_page{
+        padding-top: 80px;
+    }
+}
