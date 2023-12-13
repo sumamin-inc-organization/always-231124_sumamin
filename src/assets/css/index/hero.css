@@ -231,5 +231,9 @@
     left: 10px;
     width: max-content;
   }
+  .kv{
+    /* adjust the kv image crop */
+    object-position: -68px 0; 
+  }
 }
 
