@@ -6,3 +6,21 @@ import "./assets/css/common/utility.css";
 import "./assets/css/common/animation.css";
 import "./assets/css/common/under.css";
 import "./assets/css/under/price.css";
+
+
+//-----------JAVASCRIPT----------- //
+import animateHamburgerMenu from "./assets/jsfunctions/mobileNav";
+import toggleNav from "./assets/jsfunctions/mobileNavOpen";
+
+/*----------------------------
+  HAMBURGER MENU ANIMATIONS
+  ハンバーガーメニューのアニメーション
+----------------------------*/
+
+animateHamburgerMenu();
+/*----------------------------
+  TOGGLE MOBILE NAV
+  モバイルナビゲーションの切り替え機能
+----------------------------*/
+
+toggleNav();

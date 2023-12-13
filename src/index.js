@@ -14,6 +14,8 @@ import "./assets/css/common/utility.css";
 import "./assets/css/common/animation.css";
 
 
+//-----------JAVASCRIPT----------- //
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import barba from '@barba/core';
@@ -258,9 +260,17 @@ activateSmoothScroll();
 // gsap.from('.kv_subtitle',{opacity:0,x:100,duration:3,})
 
 
-//hamburger menu
+
+/*----------------------------
+  HAMBURGER MENU ANIMATIONS
+  ハンバーガーメニューのアニメーション
+----------------------------*/
 
 animateHamburgerMenu();
+/*----------------------------
+  TOGGLE MOBILE NAV
+  モバイルナビゲーションの切り替え機能
+----------------------------*/
 
 toggleNav();
 

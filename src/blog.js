@@ -7,6 +7,12 @@ import "./assets/css/common/animation.css";
 import "./assets/css/common/under.css";
 import "./assets/css/under/blog.css";
 
+
+//-----------JAVASCRIPT----------- //
+import animateHamburgerMenu from "./assets/jsfunctions/mobileNav";
+import toggleNav from "./assets/jsfunctions/mobileNavOpen";
+
+
 var moreNum = 6;
 $('.blog_content:nth-child(n + ' + (moreNum + 1) + ')').addClass('is-hidden');
 $('.section_btn').on('click', function() {
@@ -21,3 +27,16 @@ $(function() {
         $('.section_btn').addClass('is-btn-hidden');
     }
 });
+
+/*----------------------------
+  HAMBURGER MENU ANIMATIONS
+  ハンバーガーメニューのアニメーション
+----------------------------*/
+
+animateHamburgerMenu();
+/*----------------------------
+  TOGGLE MOBILE NAV
+  モバイルナビゲーションの切り替え機能
+----------------------------*/
+
+toggleNav();
