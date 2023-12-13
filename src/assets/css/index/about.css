@@ -59,7 +59,7 @@
     position: relative;
     transform: translateY(-35%);
     width: 85vw;
-    height: 661.48px;
+    height: 600px;
     background-image: url(../../images/hero/index_kv2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,8 +67,21 @@
   }
 }
 @media (max-width: 425px) {
+  .about-img_container {
+    position: relative;
+    transform: translateY(-20%);
+    width: 350px;
+    height: 661.48px;
+    background-image: url(../../images/hero/index_kv2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-bottom: 0;
+  }
   .about_title {
     margin-top: 100px;
+
+    margin-top: 195px;
   }
   .about-logo {
     position: absolute;
