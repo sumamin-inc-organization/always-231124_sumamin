@@ -67,6 +67,10 @@
   }
 }
 @media (max-width: 425px) {
+  #about {
+  
+    padding-bottom: 50px;
+  }
   .about-img_container {
     position: relative;
     transform: translateY(-20%);
@@ -95,6 +99,6 @@
     line-height: 42px;
   }
   .section_btn.about-btn {
-    margin-top: 70px;
+    margin-top: 10px;
   }
 }
