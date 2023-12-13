@@ -73,7 +73,7 @@
   }
   .about-img_container {
     position: relative;
-    transform: translateY(-20%);
+    transform: translateY(-40%);
     width: 350px;
     height: 550px;
     background-image: url(../../images/hero/index_kv2.jpg);
@@ -81,11 +81,13 @@
     background-repeat: no-repeat;
     background-position: left bottom;
     margin-bottom: 0;
+    background-position: -200px 120px;
+   
   }
   .about_title {
     /* margin-top: 100px; */
 
-    margin-top: 220px;
+    margin-top: 110px;
   }
   .about-logo {
     position: absolute;
