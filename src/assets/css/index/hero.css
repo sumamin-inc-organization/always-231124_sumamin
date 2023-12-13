@@ -99,6 +99,7 @@
 }
 .see-more p {
   margin-right: 16px;
+  /* border: 1px solid red; */
 }
 .decor_corner {
   position: absolute;
@@ -193,7 +194,7 @@
   .kv-news_container {
     background-color: white;
     position: absolute;
-    bottom: -230px;
+    bottom: -170px;
     left: 15%;
     z-index: 3;
     width: 100vw;
@@ -213,8 +214,12 @@
     margin-left: 35%;
   }
   .kv-news_left {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 0px;
+  }
+  .kv-right{
+    /* border: 1px solid red; */
+    margin-top: -20px;
   }
   .hero-decor {
     position: absolute;
@@ -234,6 +239,23 @@
   .kv{
     /* adjust the kv image crop */
     object-position: -68px 0; 
+  }
+  .kv-news_subtitle {
+    margin-top: 0px;
+  }
+  .kv-right{
+    /* border: 1px solid red; */
+    margin-top: -20px;
+ 
+  }
+  .see-more {
+  /* position: absolute; */
+  width: 100%;
+  margin-left: 0;
+  /* border: 1px solid green; */
+  }
+  .see-more p {
+    margin-right: 0;
   }
 }
 
