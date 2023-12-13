@@ -257,5 +257,15 @@
   .see-more p {
     margin-right: 0;
   }
+  .scroll-img {
+    z-index: 4;
+    position: absolute;
+    bottom: -47%;
+    left: 10px;
+    object-fit: cover;
+    height: 160px;
+    width: 14.62px;
+    object-position: 0 -10px;
+  }
 }
 
