@@ -56,3 +56,25 @@ td {
     background-color: #fff;
     padding: 50px 0;
 }
+
+@media (max-width: 1200px) {
+    /* clear_accounting */
+    .title_line{
+        top: 180px;
+    }
+    .section_title h3{
+        margin-top: 30px;
+    }
+    .clear_accounting {
+        padding: 60px 0;
+    }
+    table{
+        margin: 50px 0;
+    }
+    .table_width{
+        width: 40%;
+    }
+    th {
+        font-size: 18px;
+    }
+}

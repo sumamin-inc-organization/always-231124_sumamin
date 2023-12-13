@@ -238,12 +238,12 @@
 
 @media (max-width: 767px) {
   .under_kv{
-    background-image: url(../../images/underPage/sp/about_kv.jpg);
+    background-image: url(../../images/underPage/sp/about_kv_sp.jpg);
   }
 
   /* feature */
   .fixed_bg{
-    background-image: url(../../images/underPage/sp/feature_bg.jpg);
+    background-image: url(../../images/underPage/sp/feature_bg_sp.jpg);
   }
   .feature{
     padding: 60px 0 60px;
@@ -281,7 +281,7 @@
   /* repeat */
   .repeat{
     padding: 100px 0 80px;
-    background-image: url(../../images/underPage/sp/repeat_bg.png);
+    background-image: url(../../images/underPage/sp/repeat_bg_sp.png);
   }
   .repeat .title_line{
     left: 50%;
@@ -303,7 +303,7 @@
   /* voice */
   .voice{
     padding: 60px 0;
-    background-image: url(../../images/underPage/sp/voice_bg.jpg);
+    background-image: url(../../images/underPage/sp/voice_bg_sp.jpg);
   }
   .swiper-slide{
     padding: 30px;
