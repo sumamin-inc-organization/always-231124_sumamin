@@ -186,8 +186,11 @@
     width: 14.39px;
     height: 28.78px;
   }
+  .flow_top {
+    margin-bottom: 50px;
+  }
 }
 .flow-description_mobile {
   line-height: 42px;
-  margin-top: 0;
+  margin-top: -20px;
 }
