@@ -324,6 +324,14 @@
     padding: 0px;
     margin-top: 10px;
   }
+  .case_prev {
+    top: 50%;
+    left: 20px;
+  }
+  .case_next {
+    right: 20px;
+    top: 50%;
+  }
 }
 
 .case-card-carousel_list {
