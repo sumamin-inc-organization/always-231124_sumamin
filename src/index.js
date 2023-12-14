@@ -8,6 +8,7 @@ import "./assets/css/index/case.css";
 import "./assets/css/index/reasons.css";
 import "./assets/css/index/flow.css";
 import "./assets/css/index/contact.css";
+import "./assets/css/index/indexContact.css";
 import "./assets/css/common/footer.css";
 import "./assets/css/common/typography.css";
 import "./assets/css/common/utility.css";

@@ -1,0 +1,39 @@
+
+  @media(min-width:1000px){
+    .indexContact{
+        display: grid;
+        place-content: center;
+    }
+    .wrapper{
+        /* border: 1px solid red; */
+       min-width: 960px;
+       width: 960px;
+        /* background-color: #2bb9fc; */
+      }
+      .indexContact.contact_page{
+        /* background-color: #2bb9fc; */
+      }
+      .indexContact{
+        /* border: 1px solid red; */
+        background-color: #2bb9fc;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+  }
+@media(max-width:425px){
+    .wrapper{
+        /* border: 1px solid red; */
+        margin-left: 20px;
+        margin-right: 20px;
+        /* background-color: #2bb9fc; */
+      }
+      .indexContact.contact_page{
+        /* background-color: #2bb9fc; */
+      }
+      .indexContact{
+        /* border: 1px solid red; */
+        background-color: #2bb9fc;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+  }
