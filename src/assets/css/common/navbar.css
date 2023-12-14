@@ -334,18 +334,18 @@
   }
   #bottom-about{
     grid-area: about;
-    margin-left: 40px;
+    margin-left: 35px;
     width: max-content;
   }
   #bottom-price{
     grid-area: price;
-    margin-left: 30px;
+    margin-left: 47px;
     width: max-content;
     justify-self: self-start;
   }
   #bottom-blog{
     grid-area: blog;
-    margin-left: -10px;
+    margin-left: 10px;
     width: max-content;
   }
   #bottom-notice{
