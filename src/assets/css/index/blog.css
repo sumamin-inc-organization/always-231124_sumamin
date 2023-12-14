@@ -208,7 +208,7 @@
   }
   .btn_container {
     /* position: static; */
-    left: 70%;
+    /* left: 70%; */
     z-index: 5;
     /* border: 1px solid red; */
   }
@@ -254,15 +254,19 @@
   }
   .btn_container {
     position: absolute;
-    right: 50px;
-    bottom: 20px;
+    /* right: 65px; */
+    width: max-content;
+    right: 60px;
+    bottom: 100px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     z-index: 5;
+    border: 1px solid red;
+    /* margin-right: 80px; */
   }
   .slider_btn {
-    /* border: 1px solid red; */
+   
     width: 30px;
     height: 30px;
     display: grid;
@@ -281,4 +285,9 @@
   .blog-container {
    margin-bottom: 25px;
   }
+}
+
+.slider-container {
+  border: 1px solid purple;
+  
 }
