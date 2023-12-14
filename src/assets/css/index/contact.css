@@ -12,13 +12,23 @@
   background-color: #2bb9fc;
 
 }
+.indexContact{
+  z-index: 2;
+  position: relative;
+}
+.contact_top{
+  /* border: 1px solid red; */
+}
 .contact_top {
   width: 1084px;
   height: 586px;
   position: relative;
+  position: absolute;
+  top: -300px;
+  right: 0;
+  /* grid-column: 3; */
 }
 .contact_img {
-  position: absolute;
   inset: 0;
   z-index: 1;
 }
@@ -28,25 +38,23 @@
   z-index: 2;
   opacity: 0.6;
 }
-.contact-top_wrapper {
+/* .contact-top_wrapper {
   position: absolute;
   top: -260px;
   right: 0;
-  /* border: 1px solid green; */
-}
+} */
 .contact-title_wrapper {
-  z-index: 3;
+  z-index: 5;
   position: relative;
-  margin-top: 130px;
-  margin-bottom: -500px;
-  /* border: 1px solid red; */
+  margin-top: 110px;
+grid-column: 2;
+margin-bottom: 80px;
  
 }
 .contact_title {
   display: flex;
   justify-content: flex-end;
-  /* border: 1px solid red; */
-  /* margin-top: -10px; */
+ 
 }
 .contact-subtitle {
   line-height: 44.5px;

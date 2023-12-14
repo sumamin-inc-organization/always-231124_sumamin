@@ -1,4 +1,10 @@
+.wrapper{
+    /* margin-top: 1000px; */
+}
 
+/* .indexContact{
+    z-index: 2;
+} */
   @media(min-width:1000px){
     .indexContact{
         display: grid;
@@ -8,6 +14,7 @@
         /* border: 1px solid red; */
        min-width: 960px;
        width: 960px;
+       grid-column: 2;
         /* background-color: #2bb9fc; */
       }
       .indexContact.contact_page{
@@ -37,3 +44,5 @@
         padding-right: 20px;
       }
   }
+
+  
