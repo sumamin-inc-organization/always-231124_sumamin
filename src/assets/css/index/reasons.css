@@ -72,11 +72,11 @@
 @media (max-width: 425px) {
   .reasons_btn .btn_a::after {
     content: "";
-    width: 35px;
+    width: 30px;
     height: 1px;
     background-color: #002d80;
     position: absolute;
-    right: -70%;
+    right: -65%;
     top: 50%;
     transform: translateYY(-60%);
     /* display: none; */
@@ -87,9 +87,10 @@
     height: 1px;
     background-color: #ffffff;
     position: absolute;
-    right: -40%;
+    right: -33%;
     top: 50%;
     transform: translateY(-60%);
+    z-index: 2;
   }
 }
 
