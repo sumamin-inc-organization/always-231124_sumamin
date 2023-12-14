@@ -94,7 +94,7 @@
     z-index: -1;
     width: 175px;
     height: 241.98px;
-    top: 55%;
+    top: 47%;
     left: 50%;
   }
   .about-main_description {
@@ -102,5 +102,11 @@
   }
   .section_btn.about-btn {
     margin-top: 45px;
+  }
+  .about-btn{
+    width: 190px;
+    height: 46px;
+    display: grid;
+    place-content: center;
   }
 }

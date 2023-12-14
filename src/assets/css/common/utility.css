@@ -247,6 +247,7 @@
     background-color: #002d80;
     position: absolute;
     right: -45%;
+    right: -53%;
     top: 50%;
     transform: translateY(-60%);
   }
@@ -256,7 +257,7 @@
     height: 1px;
     background-color: #ffffff;
     position: absolute;
-    right: -20%;
+    right: -30%;
     top: 50%;
     transform: translateY(-60%);
   }
