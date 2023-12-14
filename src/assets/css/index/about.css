@@ -101,12 +101,15 @@
     line-height: 42px;
   }
   .section_btn.about-btn {
-    margin-top: 45px;
+    margin-top: 25px;
   }
   .about-btn{
     width: 190px;
     height: 46px;
     display: grid;
     place-content: center;
+  }
+  .about-main_title{
+    line-height: 48px;
   }
 }
