@@ -310,3 +310,67 @@
     height: 40px;
   }
 }
+
+
+/*----------------------------
+  Bottom Navbar Mobile
+----------------------------*/
+
+@media(max-width:1000px){
+  .bottom-nav-list{
+    padding:0;
+    height: max-content;
+    display: grid;
+    row-gap: 15px; /* Sets the gap between rows */
+    column-gap: 20px; 
+    /* border: 1px solid red; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+            "about  price blog"
+          
+            " notice recruit contact ";
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #bottom-about{
+    grid-area: about;
+    margin-left: 40px;
+    width: max-content;
+  }
+  #bottom-price{
+    grid-area: price;
+    margin-left: 30px;
+    width: max-content;
+    justify-self: self-start;
+  }
+  #bottom-blog{
+    grid-area: blog;
+    margin-left: -10px;
+    width: max-content;
+  }
+  #bottom-notice{
+    grid-area: notice;  
+    width: max-content;
+    justify-self: center;
+    /* margin-left: -30px; */
+
+  }
+  
+  #bottom-recruit{
+    grid-area: recruit;
+    margin-left: -20px;
+    width: max-content;
+    justify-self: self-start;
+  }
+  #bottom-contact{
+    grid-area: contact;
+    margin-left: -60px;
+    width: max-content;
+  }
+  .bottom_contact-wrapper {
+    padding-left: 10px;
+    /* margin-right: 40px; */
+
+    
+  }
+}
