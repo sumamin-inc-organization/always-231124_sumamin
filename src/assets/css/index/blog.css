@@ -262,7 +262,7 @@
     flex-direction: row;
     gap: 10px;
     z-index: 5;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* margin-right: 80px; */
   }
   .slider_btn {
@@ -288,6 +288,6 @@
 }
 
 .slider-container {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   
 }
