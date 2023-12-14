@@ -27,7 +27,7 @@
         padding-right: 20px;
       }
   }
-@media(max-width:425px){
+@media(max-width:1000px){
     .wrapper{
         /* border: 1px solid red; */
         margin-left: 20px;
@@ -45,4 +45,21 @@
       }
   }
 
-  
+  @media(max-width:425px){
+    .contact_top {
+        width: 330px;
+        height:199px ;
+        top: -120px;
+        right: 0;
+      }
+    .contact_top img{
+        width: 330px;
+        height:199px ;
+     
+      }
+    .indexContact{
+        margin-top: -300px;
+    }
+   
+
+  }

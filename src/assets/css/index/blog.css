@@ -291,6 +291,9 @@
   
     /* border: 5px solid green; */
   }
+  .slider{
+    padding-bottom: 0;
+  }
 }
 
 .slider-container {

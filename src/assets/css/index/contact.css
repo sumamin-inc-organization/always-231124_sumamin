@@ -415,16 +415,3 @@ input[type="radio"]:not(:disabled):checked {
   }
 }
 
-@media(max-width:425px){
-  .contact_top{
-    width: 330px;
-    height:199px ;
-  }
-  .contact-top_wrapper {
-    position: absolute;
-    top: -340px;
-    right: 0;
-    z-index: -1;
-  }
-  
-}
