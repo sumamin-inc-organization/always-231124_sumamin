@@ -281,6 +281,7 @@
   }
   .blog-title_wrapper::after {
     right: 20px;
+    bottom: 10px;
   }
   .blog-container {
    margin-bottom: 25px;
@@ -294,6 +295,7 @@
   .slider{
     padding-bottom: 0;
   }
+  
 }
 
 .slider-container {
