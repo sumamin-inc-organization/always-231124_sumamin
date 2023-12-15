@@ -244,15 +244,11 @@
     margin-top: 0px;
   }
   .kv-right{
-    /* border: 1px solid red; */
     margin-top: -20px;
- 
   }
   .see-more {
-  /* position: absolute; */
   width: 100%;
   margin-left: 0;
-  /* border: 1px solid green; */
   }
   .see-more p {
     margin-right: 0;

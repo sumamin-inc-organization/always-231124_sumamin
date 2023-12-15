@@ -62,9 +62,9 @@
   text-decoration: none;
   color: #002d80;
 }
-.primary_link:hover{
+.primary_link:hover {
   transition: 0.3s;
-  color: #2BB9FC;
+  color: #2bb9fc;
 }
 .primary_link:hover,
 .primary_contact-wrapper img:hover {
@@ -107,7 +107,7 @@
 }
 .bottom_link:hover {
   transition: 0.3s;
-  color: #2BB9FC;
+  color: #2bb9fc;
   cursor: pointer;
 }
 
@@ -133,17 +133,17 @@
   border-radius: 1rem;
   z-index: 9998;
   /* border: 1px solid red; */
-width: 30px;
-height: 30px;
-padding: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
 }
-.hamburger{
+.hamburger {
   object-fit: cover;
 }
 
 .button-one .line {
   transition: transform 300ms ease-in 300ms, rotate 300ms ease-in,
-  opacity 0ms 300ms;
+    opacity 0ms 300ms;
   transform-origin: center;
 }
 
@@ -318,69 +318,57 @@ padding: 0;
   }
 }
 
-
 /*----------------------------
   Bottom Navbar Mobile
 ----------------------------*/
 
-@media(max-width:1000px){
-  .bottom-nav-list{
-    padding:0;
+@media (max-width: 1000px) {
+  .bottom-nav-list {
+    padding: 0;
     height: max-content;
     display: grid;
-    /* row-gap: 15px; 
-    column-gap: 20px;  */
-    /* border: 1px solid red; */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-            "about  price blog"
-          
-            " notice recruit contact ";
+    grid-template-areas:
+      "about  price blog"
+      " notice recruit contact ";
     padding-left: 20px;
     padding-right: 20px;
-    
   }
-  #bottom-about{
+  #bottom-about {
     grid-area: about;
     margin-left: 35px;
     width: max-content;
   }
-  #bottom-price{
+  #bottom-price {
     grid-area: price;
     margin-left: 47px;
     margin-left: 30px;
-    /* margin-left: 5px; */
-    /* border: 1px solid red; */
-    /* width: max-content; */
     justify-self: self-start;
     justify-self: center;
   }
-  #bottom-blog{
+  #bottom-blog {
     grid-area: blog;
     margin-left: 10px;
     width: max-content;
   }
-  #bottom-notice{
-    grid-area: notice;  
+  #bottom-notice {
+    grid-area: notice;
     width: max-content;
     justify-self: center;
-    /* margin-left: -30px; */
-
   }
-  
-  #bottom-recruit{
+
+  #bottom-recruit {
     grid-area: recruit;
     margin-left: -20px;
     width: max-content;
     justify-self: self-start;
   }
-  #bottom-contact{
+  #bottom-contact {
     grid-area: contact;
     margin-left: -60px;
     width: max-content;
   }
   .bottom_contact-wrapper {
     padding-left: 10px;
-    /* margin-right: 40px; */
   }
 }

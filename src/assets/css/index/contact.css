@@ -2,12 +2,6 @@
 /*       CONTACT       */
 /* ------------------- */
 
-/* #contact {
-  z-index: 2;
-  background-color: #2bb9fc;
-  position: relative;
-  
-} */
 #top_contact{
   background-color: #2bb9fc;
 
@@ -16,9 +10,6 @@
   z-index: 2;
   position: relative;
 }
-.contact_top{
-  /* border: 1px solid red; */
-}
 .contact_top {
   width: 1084px;
   height: 586px;
@@ -26,7 +17,6 @@
   position: absolute;
   top: -300px;
   right: 0;
-  /* grid-column: 3; */
 }
 .contact_img {
   inset: 0;
@@ -38,11 +28,7 @@
   z-index: 2;
   opacity: 0.6;
 }
-/* .contact-top_wrapper {
-  position: absolute;
-  top: -260px;
-  right: 0;
-} */
+
 .contact-title_wrapper {
   z-index: 5;
   position: relative;

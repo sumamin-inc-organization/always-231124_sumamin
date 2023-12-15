@@ -1,73 +1,50 @@
-.wrapper{
-    /* margin-top: 1000px; */
+@media (min-width: 1000px) {
+  .indexContact {
+    display: grid;
+    place-content: center;
+  }
+  .wrapper {
+    min-width: 960px;
+    width: 960px;
+    grid-column: 2;
+  }
+  .indexContact {
+    background-color: #2bb9fc;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .indexContact {
+    background-color: #2bb9fc;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
-/* .indexContact{
-    z-index: 2;
-} */
-  @media(min-width:1000px){
-    .indexContact{
-        display: grid;
-        place-content: center;
-    }
-    .wrapper{
-        /* border: 1px solid red; */
-       min-width: 960px;
-       width: 960px;
-       grid-column: 2;
-        /* background-color: #2bb9fc; */
-      }
-      .indexContact.contact_page{
-        /* background-color: #2bb9fc; */
-      }
-      .indexContact{
-        /* border: 1px solid red; */
-        background-color: #2bb9fc;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
+@media (max-width: 425px) {
+  .contact_top {
+    width: 330px;
+    height: 199px;
+    top: -120px;
+    right: 0;
   }
-@media(max-width:1000px){
-    .wrapper{
-        /* border: 1px solid red; */
-        margin-left: 20px;
-        margin-right: 20px;
-        /* background-color: #2bb9fc; */
-      }
-      .indexContact.contact_page{
-        /* background-color: #2bb9fc; */
-      }
-      .indexContact{
-        /* border: 1px solid red; */
-        background-color: #2bb9fc;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
+  .contact_top img {
+    width: 330px;
+    height: 199px;
   }
-
-  @media(max-width:425px){
-    .contact_top {
-        width: 330px;
-        height:199px ;
-        top: -120px;
-        right: 0;
-      }
-    .contact_top img{
-        width: 330px;
-        height:199px ;
-     
-      }
-    .indexContact{
-        margin-top: -300px;
-    }
-    .contact-title_wrapper {
-      margin-bottom: 30px;
-       
-      }
-
-      .wrapper{
-        margin-left: 0;
-        margin-right: 0;
-      }
-
+  .indexContact {
+    margin-top: -300px;
   }
+  .contact-title_wrapper {
+    margin-bottom: 30px;
+  }
+  .wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

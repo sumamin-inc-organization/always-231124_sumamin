@@ -78,12 +78,11 @@
     position: absolute;
     right: -65%;
     top: 50%;
-    transform: translateYY(-60%);
-    /* display: none; */
+    transform: translateY(-60%);
   }
   .reasons_btn .btn_a::before {
     content: "";
-    width: 35px;
+    width: 30px;
     height: 1px;
     background-color: #ffffff;
     position: absolute;
@@ -93,11 +92,9 @@
     z-index: 2;
   }
 }
-
 /*----------------------------
   Reasons Bottom Styles    
 ----------------------------*/
-
 .reasons_list {
   width: 657.63px;
   aspect-ratio: 1;
@@ -105,7 +102,6 @@
   border: 1px solid #2bb9fc;
   position: relative;
 }
-
 .reasons-list_item {
   height: 266.67px;
   width: 200px;
