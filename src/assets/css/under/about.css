@@ -108,22 +108,45 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.swiper-slide{
+.about-card-carousel{
+  overflow: hidden;
+}
+.about-card-carousel_list{
   background-color: #fff;
   padding: 50px 60px;
   border-radius: 10px;
 }
-.swiper-inner{
+.about-card-mobile{
   display: flex;
   gap: 40px;
   align-items: start;
   text-align: left;
 }
-.swiper-inner h4{
+.about-card-mobile h4{
   margin-bottom: 20px;
 }
-.swiper-inner img{
+.about-card-mobile img{
   width: 360px;
+}
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+.about_prev {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+}
+.about_next {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+.about-btn img {
+  min-width: 30px;
+  min-height: 30px;
 }
 
 /* greeting */
@@ -215,11 +238,11 @@
   }
 
   /* voice */
-  .swiper-slide{
+  .about-card-carousel_list{
     background-color: #fff;
     padding: 40px 50px;
   }
-  .swiper-inner img{
+  .about-card-mobile img{
     width: 280px;
   }
 
@@ -305,11 +328,11 @@
     padding: 60px 0;
     background-image: url(../../images/underPage/sp/voice_bg_sp.jpg);
   }
-  .swiper-slide{
+  .about-card-carousel_list{
     padding: 30px;
     border-radius: 10px;
   }
-  .swiper-inner{
+  .about-card-mobile{
     flex-flow: column;
     gap: 20px;
   }
