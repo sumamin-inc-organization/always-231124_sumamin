@@ -332,6 +332,9 @@
     right: 20px;
     top: 50%;
   }
+  .case_subtitle {
+   margin-right: 20px;
+  }
 }
 
 .case-card-carousel_list {

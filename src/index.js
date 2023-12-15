@@ -328,3 +328,4 @@ console.log(sliderIndex);
 casePrevBtn.addEventListener('click',(e)=>{
  prevSlide();
 })
+
