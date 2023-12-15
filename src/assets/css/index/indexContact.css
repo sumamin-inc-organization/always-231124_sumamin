@@ -29,7 +29,7 @@
 @media (max-width: 425px) {
   .contact_top {
     width: 330px;
-    height: 199px;
+    height: auto;
     top: -120px;
     right: 0;
   }
