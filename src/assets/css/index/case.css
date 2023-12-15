@@ -13,7 +13,11 @@
   overflow: hidden;
   padding-bottom: 100px;
 }
-
+@media(max-width:1650px){
+  #case {
+    padding-bottom: 200px;
+  }
+}
 .case-main {
   justify-items: end;
   margin-top: 100px;
@@ -316,10 +320,12 @@
     top: 50%;
   }
 }
-@media (max-width: 425px) {
-  #case{
+@media(max-width:769px){
+  #case {
     padding-bottom: 300px;
   }
+}
+@media (max-width: 425px) {
   .case-main {
     padding: 0px;
     margin-top: 10px;
