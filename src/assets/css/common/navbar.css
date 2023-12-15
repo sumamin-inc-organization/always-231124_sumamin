@@ -132,6 +132,13 @@
   border: none;
   border-radius: 1rem;
   z-index: 9998;
+  /* border: 1px solid red; */
+width: 30px;
+height: 30px;
+padding: 0;
+}
+.hamburger{
+  object-fit: cover;
 }
 
 .button-one .line {
@@ -370,7 +377,5 @@
   .bottom_contact-wrapper {
     padding-left: 10px;
     /* margin-right: 40px; */
-
-    
   }
 }
