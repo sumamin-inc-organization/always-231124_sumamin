@@ -399,5 +399,6 @@ input[type="radio"]:not(:disabled):checked {
   .required_item::after{
     top: 0;
   }
+  
 }
 
