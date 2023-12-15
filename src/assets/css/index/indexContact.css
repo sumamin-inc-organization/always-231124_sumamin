@@ -29,13 +29,13 @@
 @media (max-width: 425px) {
   .contact_top {
     width: 330px;
-    height: auto;
+    height: 199px;
     top: -120px;
     right: 0;
   }
   .contact_top img {
     width: 330px;
-    height: 199px;
+    height: auto;
   }
   .indexContact {
     margin-top: -300px;
