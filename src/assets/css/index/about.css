@@ -73,7 +73,7 @@
   }
   .about-img_container {
     position: relative;
-    transform: translateY(-40%);
+    transform: translateY(-37%);
     /* width: 350px;
     height: 550px; */
     background-image: url(../../images/aboutSection/abt-imgMV.jpg);
@@ -87,7 +87,7 @@
    
   }
   .about_title {
-    margin-top: 65px;
+    margin-top: 83px;
   }
   .about-logo {
     position: absolute;
