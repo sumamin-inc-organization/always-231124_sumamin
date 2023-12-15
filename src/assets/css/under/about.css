@@ -109,14 +109,15 @@
   -ms-transform: translate(-50%, -50%);
 }
 .about-card-carousel{
-  overflow: hidden;
-  border: 1px solid black;
+  /* overflow: hidden; */
+  /* border: 1px solid black; */
+  position: relative;
 }
 .about-card-carousel_list{
   background-color: #fff;
   padding: 50px 60px;
   border-radius: 10px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 
   /* new */
   overflow-x: hidden;
@@ -128,7 +129,7 @@
   gap: 40px;
   align-items: start;
   text-align: left;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   min-width: 100%;
 }
 .about-card-mobile h4{
@@ -146,12 +147,14 @@ button {
 .about_prev {
   position: absolute;
   top: 50%;
-  left: 5px;
+  left: -30px;
+  transform: translateY(-50%);
 }
 .about_next {
   position: absolute;
-  right: 20px;
+  right: -30px;
   top: 50%;
+  transform: translateY(-50%);
 }
 .about-btn img {
   min-width: 30px;
