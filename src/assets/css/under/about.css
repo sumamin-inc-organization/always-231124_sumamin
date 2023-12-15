@@ -110,17 +110,26 @@
 }
 .about-card-carousel{
   overflow: hidden;
+  border: 1px solid black;
 }
 .about-card-carousel_list{
   background-color: #fff;
   padding: 50px 60px;
   border-radius: 10px;
+  border: 1px solid green;
+
+  /* new */
+  overflow-x: hidden;
+  display: flex;
+  gap: 60px;
 }
 .about-card-mobile{
   display: flex;
   gap: 40px;
   align-items: start;
   text-align: left;
+  border: 1px solid red;
+  min-width: 100%;
 }
 .about-card-mobile h4{
   margin-bottom: 20px;
