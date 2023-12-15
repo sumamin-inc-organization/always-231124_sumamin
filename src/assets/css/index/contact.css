@@ -399,6 +399,9 @@ input[type="radio"]:not(:disabled):checked {
   .required_item::after{
     top: 0;
   }
+  .contact_title{
+    transform: translateY(-15px);
+  }
   
 }
 

@@ -35,7 +35,7 @@
   }
   .contact_top img {
     width: 330px;
-    height: 199px;
+    height: auto;
   }
   .indexContact {
     margin-top: -300px;
