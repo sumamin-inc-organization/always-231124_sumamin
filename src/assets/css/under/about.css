@@ -176,12 +176,12 @@ button {
   .about_prev {
     position: absolute;
     top: 50%;
-    left: -30px;
+    left: -20px;
     transform: translateY(-50%);
   }
   .about_next {
     position: absolute;
-    right: -30px;
+    right: -20px;
     top: 50%;
     transform: translateY(-50%);
   }
