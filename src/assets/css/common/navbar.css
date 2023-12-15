@@ -328,8 +328,8 @@ padding: 0;
     padding:0;
     height: max-content;
     display: grid;
-    row-gap: 15px; /* Sets the gap between rows */
-    column-gap: 20px; 
+    /* row-gap: 15px; 
+    column-gap: 20px;  */
     /* border: 1px solid red; */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
@@ -338,6 +338,7 @@ padding: 0;
             " notice recruit contact ";
     padding-left: 20px;
     padding-right: 20px;
+    
   }
   #bottom-about{
     grid-area: about;
@@ -347,8 +348,12 @@ padding: 0;
   #bottom-price{
     grid-area: price;
     margin-left: 47px;
-    width: max-content;
+    margin-left: 30px;
+    /* margin-left: 5px; */
+    /* border: 1px solid red; */
+    /* width: max-content; */
     justify-self: self-start;
+    justify-self: center;
   }
   #bottom-blog{
     grid-area: blog;
