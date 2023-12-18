@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>オールウェイズ日中通訳サービス | 寄り添い型の日中通訳</title>
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <link rel="stylesheet" href="https://use.typekit.net/gpf2zew.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +37,7 @@
     <meta property="og:site_name" content="オールウェイズ日中通訳サービス">
     <meta property="og:image" content="assets/img/ogp.jpg">
     <!-- end ogp -->
-<script defer src="vendors-node_modules_barba_core_dist_barba_umd_js-node_modules_gsap_ScrollTrigger_js-node_mod-124086.d1c0a84c841f6486ed7e.js"></script><script defer src="index.0dc7e1899c07b2e5f4a6.js"></script><link href="src_assets_css_common_animation_css-src_assets_css_common_footer_css-src_assets_css_common_na-ad23d7.085fccc9ec385c84fc70.css" rel="stylesheet"><link href="index.455f7062d35e5f99b8ae.css" rel="stylesheet"></head>
+<script defer src="vendors-node_modules_barba_core_dist_barba_umd_js-node_modules_gsap_ScrollTrigger_js-node_mod-124086.d1c0a84c841f6486ed7e.js"></script><script defer src="index.c528ff1fbb714eac059a.js"></script><link href="src_assets_css_common_animation_css-src_assets_css_common_footer_css-src_assets_css_common_na-ad23d7.085fccc9ec385c84fc70.css" rel="stylesheet"><link href="index.7635eefcac58cae87d28.css" rel="stylesheet"></head>
   <body data-barba="wrapper" id="top">
      <!-- Transition-->
     <div class="transition">
@@ -238,12 +241,12 @@
                 </li>
               </ul>
             </div>
-            <div class="case-card-carousel mobile ">
+            <!-- <div class="case-card-carousel mobile ">
               <button aria-label="Previous" class=" case-btn case_prev slider_btn" id="case-prev">
-                <img src="assets/img/prevbtn.svg" alt="previous_slide">
+                <img src="../images/caseSection/prevbtn.svg" alt="previous_slide">
               </button>
               <button aria-label="Next" class=" case-btn case_next slider_btn " id="case-next">
-                <img src="assets/img/nextbtn.svg" alt="next_slide">
+                <img src="../images/caseSection/nextbtn.svg" alt="next_slide">
               </button>
               <ul class="case-card-carousel_list" role="list">
                 <li class=" case-card-mobile " data-card="1" >
@@ -324,6 +327,95 @@
                   </div>
                 </li>
               </ul>
+            </div> -->
+
+            <!-- slick -->
+            <div class="case-slick-wrapper mobile">
+              <button aria-label="Previous" class=" case-btn case_prev slider_btn" id="case-prev">
+                <img src="assets/img/prevbtn.svg" alt="previous_slide">
+              </button>
+              <button aria-label="Next" class=" case-btn case_next slider_btn " id="case-next">
+                <img src="assets/img/nextbtn.svg" alt="next_slide">
+              </button>
+              <div class="case-card-carousel mobile">
+                <div class=" case-card-mobile " data-card="1" >
+                  <div class="case-card_top">
+                    <h4 class="case_number fs-32 yellow gothic-italic">1</h4>
+                    <h4 class="case-card_title fs-24 bold white">中国企業の国際イベント</h4>
+                  </div>
+                  <div class="case-card_bottom">
+                    <p class="case-card_description fs-16 medium white">
+                      日本国内のイベントにおいて、<br>
+                      中国企業とイベント制作会社の間で通訳を提供。プレゼンテーション、交渉、および詳細なイベントの進行においてコミュニケーションを円滑化。
+                    </p>
+                  </div>
+                </div>
+                <div class=" case-card-mobile " data-card="2">
+                  <div class="case-card_top">
+                    <h4 class="case_number fs-32 yellow gothic-italic">2</h4>
+                    <h4 class="case-card_title fs-24 bold white">日本のSEチームの<br>トレーニングセミナー</h4>
+                  </div>
+                  <div class="case-card_bottom">
+                    <p class="case-card_description fs-16 medium white">
+                      日本のSEが中国のSEに技術トレーニングを行うオンラインセミナーにおいて通訳を提供。技術用語とプロセスの説明を助け、双方のチーム間のスムーズな情報共有を支援。
+                    </p>
+                  </div>
+                </div>
+                <div class=" case-card-mobile " data-card="3">
+                  <div class="case-card_top">
+                    <h4 class="case_number fs-32 yellow gothic-italic">3</h4>
+                    <h4 class="case-card_title fs-24 bold white">海外の外資系企業の<br>健康診断プログラム</h4>
+                  </div>
+                  <div class="case-card_bottom">
+                    <p class="case-card_description fs-16 medium white">外資系企業の健康診断プログラムを日本で実施する際、通訳を提供。医療専門用語や診断プロセスの説明を通じて、患者と医師との効果的なコミュニケーションを確保。</p>
+                  </div>
+                </div>
+                <div class="case-card-mobile "  data-card="4">
+                  <div class="case-card_top">
+                    <h4 class="case_number fs-32 yellow gothic-italic">4</h4>
+                    <h4 class="case-card_title fs-24 bold white">国際的な結婚式</h4>
+                  </div>
+                  <div class="case-card_bottom">
+                    <p class="case-card_description fs-16 medium white">結婚式の司会者や親とのコミュニケーションを通訳。誓いの交換、スピーチ、お祝いの瞬間などで文化的な違いを理解し、感動的な結婚式を演出。</p>
+                  </div>
+                </div>
+                <div class="case-card-mobile "  data-card="5">
+                  <div class="case-card_top">
+                    <h4 class="case_number fs-32 yellow gothic-italic">5</h4>
+                    <h4 class="case-card_title fs-24 bold white">不動産取引</h4>
+                  </div>
+                  <div class="case-card_bottom">
+                    <p class="case-card_description fs-16 medium white">中国からの不動産購入者と現地の不動産エージェントとの間で通訳を提供。物件の説明、価格交渉、契約の詳細を明確に伝え、スムーズな取引をサポート。</p>
+                  </div>
+                </div>
+                <div class="case-card-mobile "  data-card="6">
+                  <div class="case-card_top">
+                    <h4 class="case_number fs-32 yellow gothic-italic">6</h4>
+                    <h4 class="case-card_title fs-24 bold white">ゴルフツアー</h4>
+                  </div>
+                  <div class="case-card_bottom">
+                    <p class="case-card_description fs-16 medium white">ゴルフツアー中の通訳を提供。プレイ中や食事の際、参加者間のコミュニケーションを円滑化し、楽しいゴルフ体験を確保。</p>
+                  </div>
+                </div>
+                <div class="case-card-mobile "  data-card="7">
+                  <div class="case-card_top">
+                    <h4 class="case_number fs-32 yellow gothic-italic">7</h4>
+                    <h4 class="case-card_title fs-24 bold white">ボランティア団体</h4>
+                  </div>
+                  <div class="case-card_bottom">
+                    <p class="case-card_description fs-16 medium white">ボランティアの通訳として、異なる言語を話すボランティアと地域住民とのコミュニケーションを支援。地域コミュニティの協力と理解を促進。</p>
+                  </div>
+                </div>
+                <div class="case-card-mobile "  data-card="8">
+                  <div class="case-card_top">
+                    <h4 class="case_number fs-32 yellow gothic-italic">8</h4>
+                    <h4 class="case-card_title fs-24 bold white">国内ツアー</h4>
+                  </div>
+                  <div class="case-card_bottom">
+                    <p class="case-card_description fs-16 medium white">具体的な事例</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         <div class="case-banner_wrapper">
@@ -705,5 +797,24 @@
     <footer id="footer">
       <small><p class="copyright fs-16 bold white">&copy;2023オールウェイズ日中通訳サービス All Rights Reserved.</p></small>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  $('.case-card-carousel').slick({
+    // nextArrow: '<button class=" case-btn case_next slider_btn " id="case-next"><img src="../images/caseSection/nextbtn.svg" alt="next_slide"></button>',
+    // prevArrow:  '<button class=" case-btn case_prev slider_btn" id="case-prev"><img src="../images/caseSection/prevbtn.svg" alt="previous_slide"></button>'
+    nextArrow: document.getElementById('case-next'),
+    prevArrow: document.getElementById('case-prev'),
+  
+
+
+  });
+});
+
+// '<button class=" case-btn case_next slider_btn " id="case-next"><img src="../images/caseSection/nextbtn.svg" alt="next_slide"></button>'
+
+    </script>
   </body>
 </html> 
