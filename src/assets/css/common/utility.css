@@ -161,6 +161,12 @@
 .tab-and-pc {
   display: block;
 }
+.medium-mobile{
+  display: block;
+}
+.small-mobile{
+  display: none;
+}
 
 @media (max-width: 1025px) {
   .nav-container_right .pc {
@@ -180,7 +186,11 @@
     display: none;
   }
 }
-
+@media (min-width: 426) and (max-width: 768px) {
+  .medium-mobile {
+    display: block;
+  }
+}
 @media (min-width: 768) and (max-width: 1000px) {
   .tab {
     display: block;
@@ -190,6 +200,12 @@
 @media (max-width: 1000px) {
   .pc {
     display: none;
+  }
+}
+
+@media(max-width:425px){
+  .small-mobile{
+    display: block;
   }
 }
 
