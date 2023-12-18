@@ -357,3 +357,7 @@
 .slick-list{
   background-color: #002d80;
 }
+
+.ase-slick-wrapper{
+  position: relative;
+}
