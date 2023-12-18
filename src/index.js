@@ -277,55 +277,55 @@ toggleNav();
 
 //case slider
 
-const caseSlideContainer= document.querySelector('.case-card-carousel'); //スライド / カルーセルのコンテナ
-const caseSlide = document.querySelector('.case-card-carousel_list'); //カルーセルのトラック
-let caseSlides = document.querySelectorAll('.case-card-mobile');   //スライド / カード
+// const caseSlideContainer= document.querySelector('.case-card-carousel'); //スライド / カルーセルのコンテナ
+// const caseSlide = document.querySelector('.case-card-carousel_list'); //カルーセルのトラック
+// let caseSlides = document.querySelectorAll('.case-card-mobile');   //スライド / カード
 
-// 「次へ」ボタンと「前へ」ボタン
-const caseNextBtn = document.getElementById('case-next');
-const casePrevBtn = document.getElementById('case-prev');
+// // 「次へ」ボタンと「前へ」ボタン
+// const caseNextBtn = document.getElementById('case-next');
+// const casePrevBtn = document.getElementById('case-prev');
 
-let sliderIndex = 0;
+// let sliderIndex = 0;
 
-// console.log(slideWidth)
+// // console.log(slideWidth)
 
-const nextSlide = () => {
-  caseSlides = document.querySelectorAll('.case-card-mobile');
-  if (sliderIndex >= caseSlides.length - 1) {
-    return;
-  } else {
-    sliderIndex++;
-    caseSlides.forEach((slide) => {
-      const slidesWidth = slide.clientWidth; // Use slide.clientWidth directly
-      slide.style.transform = `translateX(${-slidesWidth * sliderIndex}px)`;
-      slide.style.transition = '0.7s';
-    });
-  }
-};
+// const nextSlide = () => {
+//   caseSlides = document.querySelectorAll('.case-card-mobile');
+//   if (sliderIndex >= caseSlides.length - 1) {
+//     return;
+//   } else {
+//     sliderIndex++;
+//     caseSlides.forEach((slide) => {
+//       const slidesWidth = slide.clientWidth; // Use slide.clientWidth directly
+//       slide.style.transform = `translateX(${-slidesWidth * sliderIndex}px)`;
+//       slide.style.transition = '0.7s';
+//     });
+//   }
+// };
 
-const prevSlide = () => {
-  caseSlides = document.querySelectorAll('.case-card-mobile');
-  if (sliderIndex === 0) {
-    return;
-  } else {
-    sliderIndex--;
-    caseSlides.forEach((slide) => {
-      const slidesWidth = slide.clientWidth; // Use slide.clientWidth directly
-      slide.style.transform = `translateX(${-slidesWidth * sliderIndex}px)`;
-      slide.style.transition = '0.7s';
-    });
-  }
-};
+// const prevSlide = () => {
+//   caseSlides = document.querySelectorAll('.case-card-mobile');
+//   if (sliderIndex === 0) {
+//     return;
+//   } else {
+//     sliderIndex--;
+//     caseSlides.forEach((slide) => {
+//       const slidesWidth = slide.clientWidth; // Use slide.clientWidth directly
+//       slide.style.transform = `translateX(${-slidesWidth * sliderIndex}px)`;
+//       slide.style.transition = '0.7s';
+//     });
+//   }
+// };
 
 
-// slide.style.transition ='0.7s';
-caseNextBtn.addEventListener('click',(e)=>{
-nextSlide()
-})
+// // slide.style.transition ='0.7s';
+// caseNextBtn.addEventListener('click',(e)=>{
+// nextSlide()
+// })
 
-console.log(sliderIndex);
+// console.log(sliderIndex);
 
-casePrevBtn.addEventListener('click',(e)=>{
- prevSlide();
-})
+// casePrevBtn.addEventListener('click',(e)=>{
+//  prevSlide();
+// })
 
