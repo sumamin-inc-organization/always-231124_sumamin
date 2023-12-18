@@ -141,6 +141,9 @@
   transform: translate(-80px, -50px);
   z-index: 3;
 }
+.reasons-list_item p {
+  margin: 0;
+}
 
 /*----------------------------
    Mobile
