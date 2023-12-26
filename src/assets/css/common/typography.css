@@ -118,7 +118,7 @@ body {
 /* PC -> 86px 
 mobile -> 60px */
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .fs-86 {
     font-size: 60px;
   }
@@ -130,7 +130,7 @@ mobile -> 60px */
 
 /* PC -> 40px 
 mobile -> 24px */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .fs-40 {
     font-size: 24px;
   }
@@ -143,7 +143,7 @@ Top Page - normal font size (responsive)
 /* PC -> 16px 
 mobile -> 14px */
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .fs-16 {
     font-size: 14px;
   }
@@ -155,7 +155,7 @@ mobile -> 14px */
 
 /* PC -> 20px 
 mobile -> 18px */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .section_btn .fs-20 {
     font-size: 18px;
   }
@@ -169,7 +169,7 @@ mobile -> 18px */
 
 /* PC -> 24px 
 mobile -> 18px */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .fs-24 {
     font-size: 18px;
   }
@@ -182,7 +182,7 @@ mobile -> 18px */
 
 /* PC -> 16px 
 mobile -> 14px */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .case-card-mobile .fs-16 {
     font-size: 14px;
   }
@@ -227,7 +227,7 @@ mobile -> 14px */
 
 /* PC -> 16px 
 mobile -> 12px */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
  footer .fs-16 {
     font-size: 12px;
   }
@@ -240,7 +240,7 @@ mobile -> 12px */
 
 /* PC -> 16px 
 mobile -> 16px */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .bottom_link.fs-16 {
      font-size: 16px;
    }

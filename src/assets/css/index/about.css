@@ -66,9 +66,8 @@
     margin-bottom: 0;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   #about {
-  
     padding-bottom: 80px;
   }
   .about-img_container {

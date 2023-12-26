@@ -69,7 +69,7 @@
   top: 50%;
   transform: translateY(-60%);
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .reasons_btn .btn_a::after {
     content: "";
     width: 30px;
@@ -167,7 +167,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .reasons_title {
     width: 80%;
     border-bottom: 2px solid #002d80;

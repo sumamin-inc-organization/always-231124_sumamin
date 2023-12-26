@@ -237,7 +237,7 @@
     padding-right: 30px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .case-card-carousel {
     width: calc(100vw -40px);
     display: grid;

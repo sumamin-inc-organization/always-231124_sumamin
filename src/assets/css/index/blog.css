@@ -214,7 +214,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .slider_btn {
     background-color: transparent;
     min-width: 30px;

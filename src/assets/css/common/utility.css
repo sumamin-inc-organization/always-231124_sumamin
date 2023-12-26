@@ -37,7 +37,7 @@
   main btns in sections mobile
  セクション内のメインボタン (モバイル)
 ----------------------------*/
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .section_btn {
     padding: 10px 30px;
     margin-top: 50px;
@@ -203,7 +203,7 @@
   }
 }
 
-@media(max-width:425px){
+@media(max-width:500px){
   .small-mobile{
     display: block;
   }
@@ -214,7 +214,7 @@
   左右に20pxのパディングを追加
 ---------------------------------------*/
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .mv-padding-20 {
     padding-left: 20px;
     padding-right: 20px;
@@ -226,7 +226,7 @@
   左右に20pxのマージンを追加
 ---------------------------------------*/
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .mv-margin-20 {
     margin-left: 20px;
     margin-right: 20px;
@@ -255,7 +255,7 @@
   Aboutセクションのモバイル版ボタン
 ---------------------------------------*/
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .about-btn .btn_a::after {
     content: "";
     width: 35px;

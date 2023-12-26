@@ -124,7 +124,7 @@
     object-fit: fill;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .kv {
     min-width: 370px;
     min-height: 349px;
@@ -202,7 +202,7 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 500px) {
   .see-more {
     width: 50%;
     margin-bottom: 32px;
