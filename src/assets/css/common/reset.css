@@ -100,3 +100,8 @@ body {
   margin: 0;
   position: relative;
 }
+
+body {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; /* Safari */
+}
