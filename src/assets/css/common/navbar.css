@@ -325,57 +325,90 @@
 /*----------------------------
   Bottom Navbar Mobile
 ----------------------------*/
-
-@media (max-width: 1000px) {
+.bottom-nav-mobile{
+  display: none;
+}
+/* @media (max-width: 1000px) {
   .bottom-nav-list {
     padding: 0;
     height: max-content;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
     grid-template-areas:
-      "about  price blog"
-      " notice recruit contact ";
+      "about  price ."
+      "notice recruit contact ";
     padding-left: 20px;
     padding-right: 20px;
+    border: 1px solid red;
   }
   #bottom-about {
-    grid-area: about;
-    margin-left: 35px;
+    grid-column: 2/3;
+    margin-right: -45px;
     width: max-content;
+    
   }
   #bottom-price {
-    grid-area: price;
-    margin-left: 47px;
-    margin-left: 30px;
+    grid-column: 3/4;
+    margin-left: 80px; 
     justify-self: self-start;
     justify-self: center;
   }
-  #bottom-blog {
-    grid-area: blog;
-    margin-left: 10px;
-    width: max-content;
-  }
+
   #bottom-notice {
-    grid-area: notice;
+    grid-column: 2;
     width: max-content;
     justify-self: center;
   }
 
   #bottom-recruit {
-    grid-area: recruit;
-    margin-left: -20px;
+    grid-column: 3;
     width: max-content;
     justify-self: self-start;
   }
   #bottom-contact {
-    grid-area: contact;
-    margin-left: -60px;
+    grid-column: 4;
     width: max-content;
   }
   .bottom_contact-wrapper {
     padding-left: 10px;
   }
+} */
+
+@media (max-width: 1000px) {
+  .bottom-nav-mobile{
+    display: block;
+ 
+  }
+  .bottom-nav_top{
+    padding: 0;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .bottom-nav_bottom{
+    padding: 0;
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    margin: 0 !important;
+  }
+  .bottom_contact-wrapper {
+    gap: 5px;
+    padding-left: 0px;
+    border-left: none;
+  
+  }
+  #bottom-recruit{
+    border-right: 1px solid white;
+    padding-right: 20px;
+
+  }
 }
+
 
 
 .index-bottom_nav{
