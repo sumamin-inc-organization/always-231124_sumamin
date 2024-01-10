@@ -2,17 +2,15 @@
 /*       FOOTER        */
 /* ------------------- */
 
-
-#footer{
-background-color: #002D80;
-height: 80px;
-display: grid;
-place-content: center;
+#footer {
+  background-color: #002d80;
+  height: 80px;
+  display: grid;
+  place-content: center;
 }
 
-@media(max-width:500px){
-  
-#footer{
+@media (max-width: 500px) {
+  #footer {
     height: 77px;
-    }
+  }
 }
