@@ -7,8 +7,9 @@
 
 }
 .indexContact{
-  z-index: 2;
+  /* z-index: 2; */
   position: relative;
+  background-color: #002D80;
 }
 .contact_top {
   width: 1084px;
@@ -405,3 +406,9 @@ input[type="radio"]:not(:disabled):checked {
   
 }
 
+
+
+#filler{
+  background-color: #002D80;
+  height: 370px;
+}

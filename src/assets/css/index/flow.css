@@ -194,3 +194,10 @@
   line-height: 42px;
   margin-top: -20px;
 }
+
+
+@media (max-width: 500px) {
+  .flow-description_mobile.fs-16 {
+    font-size: 14px;
+  }
+}
