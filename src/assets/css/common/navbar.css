@@ -328,6 +328,12 @@
 .bottom-nav-mobile{
   display: none;
 }
+.bottom-nav-list{
+  margin: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 /* @media (max-width: 1000px) {
   .bottom-nav-list {
     padding: 0;
@@ -412,4 +418,8 @@
     border-right: 1px solid #002D80 !important ;
   }
  
+}
+
+.index-bottom_nav{
+  background-color: #002D80;
 }
