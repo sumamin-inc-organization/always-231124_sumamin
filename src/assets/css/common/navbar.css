@@ -399,14 +399,19 @@
   .bottom_contact-wrapper {
     gap: 5px;
     padding-left: 0px;
-    border-left: none;
+    border-left: none !important;
   
   }
   #bottom-recruit{
-    border-right: 1px solid white;
+    border-right: 1px solid white ;
     padding-right: 20px;
 
   }
+
+  .primary_recruit.under-recruit{
+    border-right: 1px solid #002D80 !important ;
+  }
+ 
 }
 
 
