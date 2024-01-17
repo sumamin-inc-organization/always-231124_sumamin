@@ -140,6 +140,12 @@
   transform: translateY(-20%);
 }
 
+.flow-contact{
+  color: white;
+}
+.flow-contact:hover{
+  color: white;
+}
 /*----------------------------
   Flow-Bottom     
 ----------------------------*/
