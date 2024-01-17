@@ -103,8 +103,8 @@ body {
   color: #002d80;
 }
 
-.lightblue{
-  color: #2BB9FC;
+.lightblue {
+  color: #2bb9fc;
 }
 
 /*----------------------------
@@ -161,7 +161,6 @@ mobile -> 18px */
   }
 }
 
-
 /*---------------------------------------------------------
   Top Page - Case Card title-Font Size (responsive)
 トップページ - Caseカードのタイトルのフォントサイズ（レスポンシブ）
@@ -187,8 +186,6 @@ mobile -> 14px */
     font-size: 14px;
   }
 }
-
-
 
 /*---------------------------------------------------
   Top Page - Hero: KV font size (responsive)
@@ -228,7 +225,7 @@ mobile -> 14px */
 /* PC -> 16px 
 mobile -> 12px */
 @media (max-width: 500px) {
- footer .fs-16 {
+  footer .fs-16 {
     font-size: 12px;
   }
 }
@@ -242,6 +239,6 @@ mobile -> 12px */
 mobile -> 16px */
 @media (max-width: 500px) {
   .bottom_link.fs-16 {
-     font-size: 16px;
-   }
- }
+    font-size: 16px;
+  }
+}

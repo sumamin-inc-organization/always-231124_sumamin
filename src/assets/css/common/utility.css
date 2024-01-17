@@ -139,7 +139,7 @@
   width: 1px;
 }
 
-.space{
+.space {
   margin-left: 5px;
 }
 
@@ -161,10 +161,10 @@
 .tab-and-pc {
   display: block;
 }
-.medium-mobile{
+.medium-mobile {
   display: block;
 }
-.small-mobile{
+.small-mobile {
   display: none;
 }
 
@@ -203,8 +203,8 @@
   }
 }
 
-@media(max-width:500px){
-  .small-mobile{
+@media (max-width: 500px) {
+  .small-mobile {
     display: block;
   }
 }
@@ -237,7 +237,7 @@
   background-color: white;
 }
 .nav-blue {
-  background-color: #002D80;
+  background-color: #002d80;
 }
 .nav-lightblue {
   background-color: #e6f5fc;
@@ -303,7 +303,3 @@
   top: 50%;
   transform: translateY(-60%);
 }
-
-
-
-

@@ -44,20 +44,6 @@ images.forEach((image) => {
   });
 });
 
-// function contentAnimation(){
-//   let images = gsap.utils.toArray(".case-decor");
-
-//   images.forEach((image) => {
-//     gsap.to(image, {
-//       yPercent: -100 * image.dataset.speed,
-//       ease: "none",
-//       scrollTrigger: {
-//         scrub: image.dataset.speed,
-//       },
-//     });
-//   });
-// }
-
 
 /*----------------------------
   SLIDER INDICATOR
@@ -89,60 +75,6 @@ indicators.forEach((indicator) => {
   トップへスムーススクロール
 ----------------------------*/
 activateSmoothScroll();
-
-
-
-//transitopn 
-
-
-// function delay(n) {
-//   n = n || 2000
-  
-//   return new Promise(resolve => {
-//     setTimeout(resolve, n)
-//   })
-// }
-
-
-// const loadingScreen = document.querySelector('.transition');
-// function pageTransitionIn(){
-//   let tl = gsap.timeline();
-//     tl.to(loadingScreen, { duration: 0.7, x: 0, transformOrigin: 'bottom left'})
-//    .to(loadingScreen, { duration: 0.7, x:"-100%", transformOrigin: 'bottom left', delay: 0.3})
-//    .set(loadingScreen, {  x:  "100%"})
-      
-// }
-
-// barba.init({
-//   sync:true,
-//   transitions:[
-//       {
-//           async leave(data){
-//               const done = this.async();
-//               pageTransitionIn();
-              
-//               await delay(1000);
-//               done();
-//           },
-//           async enter(data){
-//             contentAnimation()
-//             slider();
-//           },
-
-//           async once(data) {
-//             contentAnimation();
-//             slider();
-//         },
-//       }
-//   ]
-// })
-
-
-// animation test
-
-// gsap.from('.kv_subtitle',{opacity:0,x:100,duration:3,})
-
-
 
 /*----------------------------
   HAMBURGER MENU ANIMATIONS
