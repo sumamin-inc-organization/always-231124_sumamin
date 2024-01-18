@@ -24,6 +24,8 @@ import activateSmoothScroll from "./assets/jsfunctions/smoothscroll";
 import animateHamburgerMenu from "./assets/jsfunctions/mobileNav";
 import toggleNav from "./assets/jsfunctions/mobileNavOpen";
 import activateSlider from "./assets/jsfunctions/slider";
+import setStorageItem from "./assets/jsfunctions/setStorage";
+import GetStorageItems from "./assets/jsfunctions/getStorage";
 
 
 /*-------------------------------------------------------
@@ -88,3 +90,10 @@ animateHamburgerMenu();
 ----------------------------*/
 
 toggleNav();
+
+
+// setStorageItem("language", "jp");
+
+
+// const currentLang =  GetStorageItems("language");
+// console.log(currentLang);
