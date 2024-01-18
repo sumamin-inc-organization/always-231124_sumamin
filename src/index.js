@@ -14,7 +14,7 @@ import "./assets/css/common/typography.css";
 import "./assets/css/common/utility.css";
 import "./assets/css/common/animation.css";
 
-
+import langData from './assets/json/language.json';
 //-----------JAVASCRIPT----------- //
 
 import { gsap } from "gsap";
@@ -97,3 +97,17 @@ toggleNav();
 
 // const currentLang =  GetStorageItems("language");
 // console.log(currentLang);
+
+
+
+
+
+
+// // Check if a variable is a string
+// var myVariable = langData.index.jp["kv-title-jp"][0];;
+
+// if (typeof myVariable === "string") {
+//     console.log("myVariable is a string.");
+// } else {
+//     console.log("myVariable is not a string.");
+// }
