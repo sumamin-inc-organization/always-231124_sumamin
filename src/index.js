@@ -27,6 +27,8 @@ import activateSlider from "./assets/jsfunctions/slider";
 import setStorageItem from "./assets/jsfunctions/setStorage";
 import GetStorageItems from "./assets/jsfunctions/getStorage";
 import SetActiveLangBtnClass from "./assets/jsfunctions/setLangBtnClass";
+import changeText from "./assets/jsfunctions/changeTextLang";
+import hideElements from "./assets/jsfunctions/hideElements";
 
 
 /*-------------------------------------------------------
@@ -113,6 +115,7 @@ toggleNav();
 //     console.log("myVariable is not a string.");
 // }
 
+
 const toBeTranslated = document.querySelectorAll('[data-lang-change]');
 console.log(toBeTranslated);
 
@@ -124,12 +127,13 @@ setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang);
 const langBtns = document.querySelectorAll(".lang-btn-text");
 
 // console.log(temp.dataset.btnLang);
-
+hideElements(currentLang);
 langBtns.forEach(btn =>{
   btn.addEventListener("click",(e)=>{
     SetActiveLangBtnClass(btn) 
     const currentLang = btn.dataset.btnLang; //set the current langaue to the language of the btn
     setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang); //save the newly selected langaue in the local storage
+    hideElements(currentLang);
   })
 })
 
