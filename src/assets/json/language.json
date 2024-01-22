@@ -32,22 +32,17 @@
                 "case-card_title":["不動産取引"],
                 "case-card_description":["中国からの不動産購入者と現地の不動産エージェントとの間で通訳を提供。物件の説明、価格交渉、契約の詳細を明確に伝え、スムーズな取引をサポート。"]
             },
-            "case-card-5":{
-                "case_number":"5",
-                "case-card_title":["不動産取引"],
-                "case-card_description":["中国からの不動産購入者と現地の不動産エージェントとの間で通訳を提供。物件の説明、価格交渉、契約の詳細を明確に伝え、スムーズな取引をサポート。"]
-            },
             "case-card-6":{
                 "case_number":"6",
                 "case-card_title":["ゴルフツアー"],
                 "case-card_description":["ゴルフツアー中の通訳を提供。プレイ中や食事の際、参加者間のコミュニケーションを円滑化し、楽しいゴルフ体験を確保。"]
             },
-            "case-card-3":{
+            "case-card-7":{
                 "case_number":"7",
                 "case-card_title":["ボランティア団体"],
                 "case-card_description":["ボランティアの通訳として、異なる言語を話すボランティアと地域住民とのコミュニケーションを支援。地域コミュニティの協力と理解を促進。"]
             },
-            "case-card-3":{
+            "case-card-8":{
                 "case_number":"8",
                 "case-card_title":["国内ツアー"],
                 "case-card_description":["具体的な事例"]
@@ -58,7 +53,53 @@
         
         },
         "ch":{
-             "kv-title" : ["关于我们的","中日文双语口译服务"]
+             "kv-title" : ["关于我们的","中日文双语口译服务"],
+             "kv_subtitle" :["丰富的知识和经验","灵活机动的协调对应能力","为客户着想的日中口译服务"],
+             "about-main_title":["关于我们的","中日文双语口译服务"],
+             "about-main_description":["我们在日本拥有非常优秀的双语口译人才，为客户提供专业的口译服务和其他完善的配套服务。针对顾客的要求量身定制，为您的商务成功提供最好的后援和支持,"],
+             "about-btn":"欲了解更多信息。",
+             "case_subtitle":["我们的口译服务领域广泛，","涉及到各行各业"],
+             "case-card-1":{
+                "case_number":"1",
+                "case-card_title":["中国企业在日本国内举行的各种商务活动"],
+                "case-card_description":["为中国企业和策划活动的日本制作方提供口译服务。在推广、交涉等各种细节方面进行协调，为活动顺利展开提供口译交流服务。"]
+            },
+            "case-card-2":{
+                "case_number":"2",
+                "case-card_title":["日本SE团队的培训活动"],
+                "case-card_description":["提供日本SE团队对中国国内SE团队进行网上培训的口译服务。我们的口译人员掌握了专业的技术用语，为双方团队的丝滑交流提供支援"]
+            },
+            "case-card-3":{
+                "case_number":"3",
+                "case-card_title":["海外的外资企业员工赴日体检"],
+                "case-card_description":["为外资企业员工赴日体检提供口译服务。拥有医疗口译资格的专业人员，会给客户进行详细的诊断说明，确保客户和医生间的意向交流"]
+            },
+            "case-card-4":{
+                "case_number":"4",
+                "case-card_title":["国际结婚"],
+                "case-card_description":["对前来日本参加婚礼的中国家属进行全程口译，包括新人誓言交换，亲朋好友各种发言和祝福等等。加深双方对互相文化的理解，演绎出完美感人的婚礼。"]
+            },
+            "case-card-5":{
+                "case_number":"5",
+                "case-card_title":["不动产交易"],
+                "case-card_description":["介于赴日购买不动产的中国客人和日本的不动产中介公司之间进行口译服务。正确说明物件内容以及价格交涉和签约的各种详情，为顺利购置日本不动产提供后援。"]
+            },
+            "case-card-6":{
+                "case_number":"6",
+                "case-card_title":["高尔夫旅行团"],
+                "case-card_description":["定制属于您专用的日本高尔夫旅行，在旅行途中提供口译服务。包括预约各地名门球场，根据客人要求安排交通住宿等等。让您更好的享受到在日本打高尔夫的至上愉悦。"]
+            },
+            "case-card-7":{
+                "case_number":"7",
+                "case-card_title":["志愿者组织"],
+                "case-card_description":["为志愿者组织做口译，以协助志愿者和地域住民的沟通理解，更好地促进地域文化交流"]
+            },
+            "case-card-8":{
+                "case_number":"8",
+                "case-card_title":["日本国内旅行"],
+                "case-card_description":["定制少人数旅行以及提供旅行途中的口译服务，根据客人要求定身制作，最大限度满足客人的喜好要求"]
+            },
+            "case-banner_text":["如有其他需求，敬请与我们联络"]
          }
     },
     "about":{
