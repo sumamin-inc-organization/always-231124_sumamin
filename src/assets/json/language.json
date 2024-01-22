@@ -16,7 +16,43 @@
                 "case_number":"2",
                 "case-card_title":["日本のSEチームの","トレーニングセミナー"],
                 "case-card_description":["日本のSEが中国のSEに技術トレーニングを行うオンラインセミナーにおいて通訳を提供。技術用語とプロセスの説明を助け、双方のチーム間のスムーズな情報共有を支援。"]
-            }
+            },
+            "case-card-3":{
+                "case_number":"3",
+                "case-card_title":["海外の外資系企業の","健康診断プログラム"],
+                "case-card_description":["外資系企業の健康診断プログラムを日本で実施する際、通訳を提供。医療専門用語や診断プロセスの説明を通じて、患者と医師との効果的なコミュニケーションを確保。"]
+            },
+            "case-card-4":{
+                "case_number":"4",
+                "case-card_title":["国際的な結婚式"],
+                "case-card_description":["結婚式の司会者や親とのコミュニケーションを通訳。誓いの交換、スピーチ、お祝いの瞬間などで文化的な違いを理解し、感動的な結婚式を演出。"]
+            },
+            "case-card-5":{
+                "case_number":"5",
+                "case-card_title":["不動産取引"],
+                "case-card_description":["中国からの不動産購入者と現地の不動産エージェントとの間で通訳を提供。物件の説明、価格交渉、契約の詳細を明確に伝え、スムーズな取引をサポート。"]
+            },
+            "case-card-5":{
+                "case_number":"5",
+                "case-card_title":["不動産取引"],
+                "case-card_description":["中国からの不動産購入者と現地の不動産エージェントとの間で通訳を提供。物件の説明、価格交渉、契約の詳細を明確に伝え、スムーズな取引をサポート。"]
+            },
+            "case-card-6":{
+                "case_number":"6",
+                "case-card_title":["ゴルフツアー"],
+                "case-card_description":["ゴルフツアー中の通訳を提供。プレイ中や食事の際、参加者間のコミュニケーションを円滑化し、楽しいゴルフ体験を確保。"]
+            },
+            "case-card-3":{
+                "case_number":"7",
+                "case-card_title":["ボランティア団体"],
+                "case-card_description":["ボランティアの通訳として、異なる言語を話すボランティアと地域住民とのコミュニケーションを支援。地域コミュニティの協力と理解を促進。"]
+            },
+            "case-card-3":{
+                "case_number":"8",
+                "case-card_title":["国内ツアー"],
+                "case-card_description":["具体的な事例"]
+            },
+            "case-banner_text":["その他のお悩みも、お気軽に","オールウェイズ日中通訳サービスにご相談ください！"]
 
 
         
