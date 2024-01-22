@@ -10,7 +10,16 @@
     place-content: center;
 }
  */
+ 
  .kv-subtitle_containerCN{
     /* border: 1px solid red; */
     left: 10px !important;
   }
+
+
+  /* hides elements which arnt that of the selected language */
+
+  .hidden{
+    display: none !important;
+  }
+  
