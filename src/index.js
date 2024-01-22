@@ -26,6 +26,7 @@ import toggleNav from "./assets/jsfunctions/mobileNavOpen";
 import activateSlider from "./assets/jsfunctions/slider";
 import setStorageItem from "./assets/jsfunctions/setStorage";
 import GetStorageItems from "./assets/jsfunctions/getStorage";
+import SetActiveLangBtnClass from "./assets/jsfunctions/setLangBtnClass";
 
 
 /*-------------------------------------------------------
@@ -118,3 +119,12 @@ let currentLang = GetStorageItems(LOCAL_STORAGE_LANGUAGE_KEY) || "jp"; //checks 
 
 setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang);
 
+const langBtns = document.querySelectorAll(".lang-btn-text");
+
+// console.log(temp.dataset.btnLang);
+
+langBtns.forEach(btn =>{
+  btn.addEventListener("click",(e)=>{
+    SetActiveLangBtnClass(btn)
+  })
+})

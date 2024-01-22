@@ -143,6 +143,7 @@
   margin-left: 5px;
 }
 
+
 /*----------------------------
   Responsive  
   PCタブかモバイルに応じてアイテムを表示する
@@ -303,3 +304,5 @@
   top: 50%;
   transform: translateY(-60%);
 }
+
+

@@ -40,6 +40,7 @@
   cursor: pointer;
 }
 
+
 .active-lang {
   color: #000000;
 }
@@ -345,4 +346,9 @@
 }
 .index-bottom_nav {
   background-color: #002d80;
+}
+
+
+#alwaysbold{
+ color: #000000;
 }
