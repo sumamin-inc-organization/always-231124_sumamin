@@ -126,5 +126,8 @@ const langBtns = document.querySelectorAll(".lang-btn-text");
 langBtns.forEach(btn =>{
   btn.addEventListener("click",(e)=>{
     SetActiveLangBtnClass(btn)
+    const currentLang = btn.dataset.btnLang;
+    console.log(currentLang);
+    setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang);
   })
 })
