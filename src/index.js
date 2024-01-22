@@ -125,9 +125,13 @@ const langBtns = document.querySelectorAll(".lang-btn-text");
 
 langBtns.forEach(btn =>{
   btn.addEventListener("click",(e)=>{
-    SetActiveLangBtnClass(btn)
-    const currentLang = btn.dataset.btnLang;
-    console.log(currentLang);
-    setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang);
+    SetActiveLangBtnClass(btn) 
+    const currentLang = btn.dataset.btnLang; //set the current langaue to the language of the btn
+    setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang); //save the newly selected langaue in the local storage
   })
 })
+
+
+
+// const test = document.querySelector('[data-btn-lang="jp"]');
+// console.log(test)
