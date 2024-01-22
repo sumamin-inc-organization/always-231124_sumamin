@@ -113,6 +113,8 @@ toggleNav();
 //     console.log("myVariable is not a string.");
 // }
 
+const toBeTranslated = document.querySelectorAll('[data-lang-change]');
+console.log(toBeTranslated);
 
 const LOCAL_STORAGE_LANGUAGE_KEY = "always.lang" ; //the key to the local storage language
 let currentLang = GetStorageItems(LOCAL_STORAGE_LANGUAGE_KEY) || "jp"; //checks whether theres a language preffred by  a user who has visited before. if not it will default to "jp"
