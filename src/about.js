@@ -16,6 +16,7 @@ import setHtmlAttribute from "./assets/jsfunctions/setHtmlAttribute";
 import setActiveClassOnload from "./assets/jsfunctions/setActiveClassOnload";
 import hideElements from "./assets/jsfunctions/hideElements";
 import SetActiveLangBtnClass from "./assets/jsfunctions/setLangBtnClass";
+import GetStorageItems from "./assets/jsfunctions/getStorage";
 
 
 /*----------------------------
