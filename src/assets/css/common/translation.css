@@ -19,9 +19,14 @@
   中国語バージョンのスタイル修正
 ------------------------------------------------*/
 
-/*------------
+/*-------------
   Index.js
 --------------*/
+
+/*--------------------
+  Button Fixes
+  ボタンの修正
+----------------------*/
 
 .about-btnCN .btn_a::after {
   right: -93%;
@@ -44,3 +49,49 @@
     z-index: 3;
   }
 }
+
+.reasons_btnCN .btn_a::after {
+    width: 35px;
+    right: -120%;
+  }
+  
+  .reasons_btnCN .btn_a::before {
+    width: 35px;
+    right: -83%;
+    z-index: 3;
+  }
+
+  @media (max-width: 500px) {
+    .reasons_btnCN .btn_a::after {
+        right: -80%;
+      }
+      
+      .reasons_btnCN .btn_a::before {
+        width: 25px;
+        right: -43%;
+        top: 50%;
+        z-index: 3;
+      }
+  }
+
+
+  .flow_btnCH .btn_a::after {
+    width: 35px;
+    right: -45%;
+  }
+  .flow_btnCH .btn_a::before {
+    width: 35px;
+    right: -25%;
+    z-index: 3;
+  }
+  @media (max-width: 500px) {
+    .flow_btnCH .btn_a::after {
+        width: 25px;
+        right: -35%;
+      }
+      .flow_btnCH .btn_a::before {
+        width: 25px;
+        right: -21%;
+        z-index: 3;
+      }
+  }
