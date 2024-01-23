@@ -23,3 +23,13 @@
     display: none !important;
   }
   
+
+  [data-main-lang]{
+    /* border: 1px solid red; */
+  }
+
+  .contact-form .inner{
+    /* padding-left:50px ;
+    padding-right: 50px; */
+    
+  }
