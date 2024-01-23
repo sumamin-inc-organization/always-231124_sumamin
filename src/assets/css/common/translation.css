@@ -28,13 +28,14 @@
   ボタンの修正
 ----------------------*/
 
-.about-btnCN .btn_a::after {
+#about-btnCN .btn_a::after {
   right: -93%;
   top: 50%;
 }
-.about-btnCN .btn_a::before {
+#about-btnCN .btn_a::before {
   right: -50%;
   top: 50%;
+  z-index: 3;
 }
 
 @media (max-width: 500px) {
@@ -50,27 +51,29 @@
   }
 }
 
-.reasons_btnCN .btn_a::after {
+#reasons_btnCN .btn_a::after {
+  content: "";
     width: 35px;
-    right: -120%;
+    right: -125%;
   }
   
-  .reasons_btnCN .btn_a::before {
+  #reasons_btnCN .btn_a::before {
     width: 35px;
     right: -83%;
     z-index: 3;
   }
 
   @media (max-width: 500px) {
-    .reasons_btnCN .btn_a::after {
+    #reasons_btnCN .btn_a::after {
         right: -80%;
       }
       
-      .reasons_btnCN .btn_a::before {
+      #reasons_btnCN .btn_a::before {
         width: 25px;
-        right: -43%;
+        right: -30px;
         top: 50%;
         z-index: 3;
+;
       }
   }
 

@@ -17,6 +17,7 @@ import setHtmlAttribute from "./assets/jsfunctions/setHtmlAttribute";
 import setActiveClassOnload from "./assets/jsfunctions/setActiveClassOnload";
 import hideElements from "./assets/jsfunctions/hideElements";
 import SetActiveLangBtnClass from "./assets/jsfunctions/setLangBtnClass";
+import GetStorageItems from "./assets/jsfunctions/getStorage";
 
 var moreNum = 10;
 $('.news_items:nth-child(n + ' + (moreNum + 1) + ')').addClass('is-hidden');
