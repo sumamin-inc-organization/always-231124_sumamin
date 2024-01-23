@@ -1,0 +1,46 @@
+/* ---------------------------------------------------- */
+/*    Chniese version/Translation Specific styles       */
+/* --------------------------------------------------- */
+
+/*-----------------------------------------------
+  Multi-Language functionality related styles
+  多言語機能に関連するスタイル
+------------------------------------------------*/
+
+/* hides elements which arent that of the selected language */
+/* 選択された言語と一致しない要素を非表示にします */
+
+.hidden {
+  display: none !important;
+}
+
+/*-----------------------------------------------
+  Chinese Version Style Fixes
+  中国語バージョンのスタイル修正
+------------------------------------------------*/
+
+/*------------
+  Index.js
+--------------*/
+
+.about-btnCN .btn_a::after {
+  right: -93%;
+  top: 50%;
+}
+.about-btnCN .btn_a::before {
+  right: -50%;
+  top: 50%;
+}
+
+@media (max-width: 500px) {
+  .about-btnCN .btn_a::after {
+    right: -120%;
+    top: 50%;
+  }
+  .about-btnCN .btn_a::before {
+    right: -80%;
+    top: 50%;
+    width: 30px;
+    z-index: 3;
+  }
+}
