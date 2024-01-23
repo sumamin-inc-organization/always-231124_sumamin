@@ -112,7 +112,7 @@ setHtmlAttribute(currentLang);
 setActiveClassOnload(currentLang);
 
 
-// console.log(temp.dataset.btnLang);
+
 hideElements(currentLang);
 langBtns.forEach(btn =>{
   btn.addEventListener("click",(e)=>{
@@ -125,6 +125,3 @@ langBtns.forEach(btn =>{
 })
 
 
-
-// const test = document.querySelector('[data-btn-lang="jp"]');
-// console.log(test)
