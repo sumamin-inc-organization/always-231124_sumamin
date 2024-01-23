@@ -98,28 +98,10 @@ animateHamburgerMenu();
 toggleNav();
 
 
-// setStorageItem("language", "jp");
-
-
-// const currentLang =  GetStorageItems("language");
-// console.log(currentLang);
-
-
-
-
-
-
-// // Check if a variable is a string
-// var myVariable = langData.index.jp["kv-title-jp"][0];;
-
-// if (typeof myVariable === "string") {
-//     console.log("myVariable is a string.");
-// } else {
-//     console.log("myVariable is not a string.");
-// }
-
-
-
+/*-----------------------------------
+  MULTI LANGUAGE SITE RELATED SCRIPTS
+ マルチ言語サイトに関連するスクリプト
+--------------------------------------*/
 
 const LOCAL_STORAGE_LANGUAGE_KEY = "always.lang" ; //the key to the local storage language
 let currentLang = GetStorageItems(LOCAL_STORAGE_LANGUAGE_KEY) || "jp"; //checks whether theres a language preffred by  a user who has visited before. if not it will default to "jp"
