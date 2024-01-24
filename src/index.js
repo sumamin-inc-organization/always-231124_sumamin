@@ -13,8 +13,9 @@ import "./assets/css/common/footer.css";
 import "./assets/css/common/typography.css";
 import "./assets/css/common/utility.css";
 import "./assets/css/common/animation.css";
+import "./assets/css/common/translation.css";
 
-
+// import langData from './assets/json/language.json';
 //-----------JAVASCRIPT----------- //
 
 import { gsap } from "gsap";
@@ -24,6 +25,13 @@ import activateSmoothScroll from "./assets/jsfunctions/smoothscroll";
 import animateHamburgerMenu from "./assets/jsfunctions/mobileNav";
 import toggleNav from "./assets/jsfunctions/mobileNavOpen";
 import activateSlider from "./assets/jsfunctions/slider";
+import setStorageItem from "./assets/jsfunctions/setStorage";
+import GetStorageItems from "./assets/jsfunctions/getStorage";
+import SetActiveLangBtnClass from "./assets/jsfunctions/setLangBtnClass";
+import changeText from "./assets/jsfunctions/changeTextLang";
+import hideElements from "./assets/jsfunctions/hideElements";
+import setHtmlAttribute from "./assets/jsfunctions/setHtmlAttribute";
+import setActiveClassOnload from "./assets/jsfunctions/setActiveClassOnload";
 
 
 /*-------------------------------------------------------
@@ -88,3 +96,36 @@ animateHamburgerMenu();
 ----------------------------*/
 
 toggleNav();
+
+
+/*-----------------------------------
+  MULTI LANGUAGE SITE RELATED SCRIPTS
+ マルチ言語サイトに関連するスクリプト
+--------------------------------------*/
+
+const LOCAL_STORAGE_LANGUAGE_KEY = "always.lang" ; //the key to the local storage language
+let currentLang = GetStorageItems(LOCAL_STORAGE_LANGUAGE_KEY) || "jp"; //checks whether theres a language preffred by  a user who has visited before. if not it will default to "jp"
+const langBtns = document.querySelectorAll(".lang-btn-text");
+
+
+setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang);
+setHtmlAttribute(currentLang);
+setActiveClassOnload(currentLang);
+
+
+// console.log(temp.dataset.btnLang);
+hideElements(currentLang);
+langBtns.forEach(btn =>{
+  btn.addEventListener("click",(e)=>{
+    SetActiveLangBtnClass(btn) 
+    const currentLang = btn.dataset.btnLang; //set the current langaue to the language of the btn
+    setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang); //save the newly selected langaue in the local storage
+    hideElements(currentLang);
+    setHtmlAttribute(currentLang);
+  })
+})
+
+
+
+// const test = document.querySelector('[data-btn-lang="jp"]');
+// console.log(test)

@@ -1,0 +1,102 @@
+/* ---------------------------------------------------- */
+/*    Chniese version/Translation Specific styles       */
+/* --------------------------------------------------- */
+
+/*-----------------------------------------------
+  Multi-Language functionality related styles
+  多言語機能に関連するスタイル
+------------------------------------------------*/
+
+/* hides elements which arent that of the selected language */
+/* 選択された言語と一致しない要素を非表示にします */
+
+.hidden {
+  display: none !important;
+}
+
+/*-----------------------------------------------
+  Chinese Version Style Fixes
+  中国語バージョンのスタイル修正
+------------------------------------------------*/
+
+/*-------------
+  Index.js
+--------------*/
+
+/*--------------------
+  Button Fixes
+  ボタンの修正
+----------------------*/
+
+#about-btnCN .btn_a::after {
+  right: -100%;
+  top: 50%;
+}
+#about-btnCN .btn_a::before {
+  right: -60%;
+  top: 50%;
+  z-index: 3;
+}
+
+@media (max-width: 500px) {
+  #about-btnCN .btn_a::after {
+    right: -120%;
+    top: 50%;
+  }
+  #about-btnCN .btn_a::before {
+    right: -80%;
+    top: 50%;
+    width: 30px;
+    z-index: 3;
+  }
+}
+
+#reasons_btnCN .btn_a::after {
+  content: "";
+    width: 35px;
+    right: -125%;
+  }
+  
+  #reasons_btnCN .btn_a::before {
+    width: 35px;
+    right: -83%;
+    z-index: 3;
+  }
+
+  @media (max-width: 500px) {
+    #reasons_btnCN .btn_a::after {
+        right: -80%;
+      }
+      
+      #reasons_btnCN .btn_a::before {
+        width: 25px;
+        right: -30px;
+        top: 50%;
+        z-index: 3;
+      }
+      .price-cn_fs{
+        font-size: 15px;
+      }
+  }
+
+
+  .flow_btnCH .btn_a::after {
+    width: 35px;
+    right: -50%;
+  }
+  .flow_btnCH .btn_a::before {
+    width: 35px;
+    right: -31%;
+    z-index: 3;
+  }
+  @media (max-width: 500px) {
+    .flow_btnCH .btn_a::after {
+        width: 25px;
+        right: -35%;
+      }
+      .flow_btnCH .btn_a::before {
+        width: 25px;
+        right: -21%;
+        z-index: 3;
+      }
+  }

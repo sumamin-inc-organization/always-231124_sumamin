@@ -6,7 +6,7 @@
   Primary Navbar / Bottom shared
 ----------------------------*/
 .nav-container {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,6 +39,7 @@
 .lang-btn:hover {
   cursor: pointer;
 }
+
 
 .active-lang {
   color: #000000;
@@ -345,4 +346,9 @@
 }
 .index-bottom_nav {
   background-color: #002d80;
+}
+
+
+#alwaysbold{
+ color: #000000;
 }
