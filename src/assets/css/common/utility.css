@@ -30,7 +30,7 @@
   background-color: #002d80;
   border: none;
   border-radius: 30px;
-  padding: 14.6px 41.4px 16.4px 53.6px;
+  padding: 14.6px 50px 16.4px 50px;
   margin-top: 66.3px;
 }
 /*----------------------------
@@ -72,7 +72,7 @@
   height: 1px;
   background-color: #002d80;
   position: absolute;
-  right: -53%;
+  right: -58%;
   top: 50%;
   transform: translateY(-60%);
 }
@@ -82,9 +82,10 @@
   height: 1px;
   background-color: #ffffff;
   position: absolute;
-  right: -30%;
+  right: -35%;
   top: 50%;
   transform: translateY(-60%);
+  z-index: 3;
 }
 
 /*----------------------------
@@ -259,22 +260,22 @@
 @media (max-width: 500px) {
   .about-btn .btn_a::after {
     content: "";
-    width: 35px;
+    width: 30px;
     height: 1px;
     background-color: #002d80;
     position: absolute;
     right: -45%;
-    right: -53%;
+    right: -48%;
     top: 50%;
     transform: translateY(-60%);
   }
   .about-btn .btn_a::before {
     content: "";
-    width: 35px;
+    width: 30px;
     height: 1px;
     background-color: #ffffff;
     position: absolute;
-    right: -30%;
+    right: -25%;
     top: 50%;
     transform: translateY(-60%);
   }
@@ -290,7 +291,7 @@
   height: 1px;
   background-color: #002d80;
   position: absolute;
-  right: -64%;
+  right: -67%;
   top: 50%;
   transform: translateY(-60%);
 }
@@ -300,10 +301,32 @@
   height: 1px;
   background-color: #ffffff;
   position: absolute;
-  right: -35%;
+  right: -42%;
   top: 50%;
   transform: translateY(-60%);
 }
 
 
-
+@media (max-width:500px){
+  .flow_btn .btn_a::after {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #002d80;
+    position: absolute;
+    right: -55%;
+    top: 50%;
+    transform: translateY(-60%);
+  }
+  .flow_btn .btn_a::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    right: -27%;
+    top: 50%;
+    transform: translateY(-60%);
+  }
+  
+}

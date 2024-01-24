@@ -29,21 +29,21 @@
 ----------------------*/
 
 #about-btnCN .btn_a::after {
-  right: -93%;
+  right: -100%;
   top: 50%;
 }
 #about-btnCN .btn_a::before {
-  right: -50%;
+  right: -60%;
   top: 50%;
   z-index: 3;
 }
 
 @media (max-width: 500px) {
-  .about-btnCN .btn_a::after {
+  #about-btnCN .btn_a::after {
     right: -120%;
     top: 50%;
   }
-  .about-btnCN .btn_a::before {
+  #about-btnCN .btn_a::before {
     right: -80%;
     top: 50%;
     width: 30px;
@@ -80,11 +80,11 @@
 
   .flow_btnCH .btn_a::after {
     width: 35px;
-    right: -45%;
+    right: -50%;
   }
   .flow_btnCH .btn_a::before {
     width: 35px;
-    right: -25%;
+    right: -31%;
     z-index: 3;
   }
   @media (max-width: 500px) {
