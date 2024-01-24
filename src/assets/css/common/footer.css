@@ -7,10 +7,19 @@
   height: 80px;
   display: grid;
   place-content: center;
-}
+  }
 
 @media (max-width: 500px) {
   #footer {
     height: 77px;
   }
+}
+
+
+.bottom-nav{
+  padding-bottom: 70px;
+}
+
+.bottom-nav-mobile{
+  padding-bottom: 50px;
 }
