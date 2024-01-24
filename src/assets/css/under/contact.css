@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .under_kv{
-    background-image: url(../../images/underPage/contact_kv.jpg);
+    background-image: url(../../images/underpageNew/contact_kv-v2.jpg);
 }
 .contact_page{
     background-color: #E6F5FC;
@@ -10,7 +10,7 @@
 
 @media (max-width: 767px) {
     .under_kv{
-        background-image: url(../../images/underPage/sp/contact_kv_sp.jpg);
+        background-image: url(../../images/underpageNew/contact_kv_sp-v2.jpg);
     }
     .contact_page{
         padding-top: 80px;
