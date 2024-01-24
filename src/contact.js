@@ -18,6 +18,7 @@ import setActiveClassOnload from "./assets/jsfunctions/setActiveClassOnload";
 import hideElements from "./assets/jsfunctions/hideElements";
 import SetActiveLangBtnClass from "./assets/jsfunctions/setLangBtnClass";
 import changeLogo from "./assets/jsfunctions/changeLogo";
+import GetStorageItems from "./assets/jsfunctions/getStorage";
 
 
 /*----------------------------
