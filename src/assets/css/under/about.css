@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .under_kv{
-  background-image: url(../../images/underPage/about_kv.jpg);
+  background-image: url(../../images/underpageNew/about_kv-v2.jpg);
 }
 
 /* feature */
@@ -75,7 +75,7 @@
 /* repeat */
 .repeat{
   padding: 210px 0 100px;
-  background-image: url(../../images/underPage/repeat_bg.png);
+  background-image: url(../../images/underpageNew/repeat_bg-v3.png);
   background-position: top;
 }
 .repeat_flex{
@@ -98,7 +98,7 @@
 /* voice */
 .voice{
   padding: 80px 0;
-  background-image: url(../../images/underPage/voice_bg.jpg);
+  background-image: url(../../images/underpageNew/voice_bg-v2.jpg);
   text-align: center;
 }
 .voice .title_line{
@@ -307,7 +307,7 @@ button {
 
 @media (max-width: 767px) {
   .under_kv{
-    background-image: url(../../images/underPage/sp/about_kv_sp.jpg);
+    background-image: url(../../images/underpageNew/about_kv_sp-v2.jpg);
   }
 
   /* feature */
@@ -350,7 +350,7 @@ button {
   /* repeat */
   .repeat{
     padding: 100px 0 80px;
-    background-image: url(../../images/underPage/sp/repeat_bg_sp.png);
+    background-image: url(../../images/underpageNew/repeat_bg_sp-v2.png);
   }
   .repeat .title_line{
     left: 50%;
@@ -372,7 +372,7 @@ button {
   /* voice */
   .voice{
     padding: 60px 0;
-    background-image: url(../../images/underPage/sp/voice_bg_sp.jpg);
+    background-image: url(../../images/underpageNew/voice_bg_sp-v2.jpg);
   }
   .about-card-carousel_list{
     padding: 30px;

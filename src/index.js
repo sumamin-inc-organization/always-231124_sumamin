@@ -32,6 +32,7 @@ import changeText from "./assets/jsfunctions/changeTextLang";
 import hideElements from "./assets/jsfunctions/hideElements";
 import setHtmlAttribute from "./assets/jsfunctions/setHtmlAttribute";
 import setActiveClassOnload from "./assets/jsfunctions/setActiveClassOnload";
+import changeLogo from "./assets/jsfunctions/changeLogo";
 
 
 /*-------------------------------------------------------
@@ -115,17 +116,20 @@ setActiveClassOnload(currentLang);
 
 // console.log(temp.dataset.btnLang);
 hideElements(currentLang);
+changeLogo(currentLang);
 langBtns.forEach(btn =>{
   btn.addEventListener("click",(e)=>{
     SetActiveLangBtnClass(btn) 
     const currentLang = btn.dataset.btnLang; //set the current langaue to the language of the btn
     setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang); //save the newly selected langaue in the local storage
     hideElements(currentLang);
+    changeLogo(currentLang);
     setHtmlAttribute(currentLang);
   })
 })
 
 
 
-// const test = document.querySelector('[data-btn-lang="jp"]');
-// console.log(test)
+document.addEventListener("DOMContentLoaded",()=>{
+
+})

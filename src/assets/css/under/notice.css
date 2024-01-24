@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .under_kv{
-    background-image: url(../../images/underPage/news_kv.jpg);
+    background-image: url(../../images/underpageNew/news_kv-v2.jpg);
 }
 
 /* news */
@@ -70,7 +70,7 @@
 
 @media (max-width: 767px) {
     .under_kv{
-    background-image: url(../../images/underPage/sp/news_kv_sp.jpg);
+    background-image: url(../../images/underpageNew/news_kv_sp-v2.jpg);
     }
     .news{
         padding: 80px 0;

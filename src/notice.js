@@ -18,6 +18,7 @@ import setActiveClassOnload from "./assets/jsfunctions/setActiveClassOnload";
 import hideElements from "./assets/jsfunctions/hideElements";
 import SetActiveLangBtnClass from "./assets/jsfunctions/setLangBtnClass";
 import GetStorageItems from "./assets/jsfunctions/getStorage";
+import changeLogo from "./assets/jsfunctions/changeLogo";
 
 var moreNum = 10;
 $('.news_items:nth-child(n + ' + (moreNum + 1) + ')').addClass('is-hidden');
@@ -62,14 +63,16 @@ setHtmlAttribute(currentLang);
 setActiveClassOnload(currentLang);
 
 
-
+// console.log(temp.dataset.btnLang);
 hideElements(currentLang);
+changeLogo(currentLang);
 langBtns.forEach(btn =>{
   btn.addEventListener("click",(e)=>{
     SetActiveLangBtnClass(btn) 
     const currentLang = btn.dataset.btnLang; //set the current langaue to the language of the btn
     setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang); //save the newly selected langaue in the local storage
     hideElements(currentLang);
+    changeLogo(currentLang);
     setHtmlAttribute(currentLang);
   })
 })
