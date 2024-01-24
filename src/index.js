@@ -32,6 +32,7 @@ import changeText from "./assets/jsfunctions/changeTextLang";
 import hideElements from "./assets/jsfunctions/hideElements";
 import setHtmlAttribute from "./assets/jsfunctions/setHtmlAttribute";
 import setActiveClassOnload from "./assets/jsfunctions/setActiveClassOnload";
+import changeLogo from "./assets/jsfunctions/changeLogo";
 
 
 /*-------------------------------------------------------
@@ -129,3 +130,6 @@ langBtns.forEach(btn =>{
 
 // const test = document.querySelector('[data-btn-lang="jp"]');
 // console.log(test)
+
+
+// changeLogo();
