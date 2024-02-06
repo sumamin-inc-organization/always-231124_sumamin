@@ -21,6 +21,7 @@ import setActiveClassOnload from "./assets/jsfunctions/setActiveClassOnload";
 import hideElements from "./assets/jsfunctions/hideElements";
 import SetActiveLangBtnClass from "./assets/jsfunctions/setLangBtnClass";
 import changeLogo from "./assets/jsfunctions/changeLogo";
+import setBottomLogo from "./assets/jsfunctions/changeBottomLogo";
 
 
 /*----------------------------
@@ -55,6 +56,7 @@ setActiveClassOnload(currentLang);
 // console.log(temp.dataset.btnLang);
 hideElements(currentLang);
 changeLogo(currentLang);
+setBottomLogo(currentLang,"rec");
 langBtns.forEach(btn =>{
   btn.addEventListener("click",(e)=>{
     SetActiveLangBtnClass(btn) 
@@ -63,5 +65,7 @@ langBtns.forEach(btn =>{
     hideElements(currentLang);
     changeLogo(currentLang);
     setHtmlAttribute(currentLang);
+    setBottomLogo(currentLang,"rec");
+
   })
 })
