@@ -73,16 +73,12 @@
   .about-img_container {
     position: relative;
     transform: translateY(-37%);
-    /* width: 350px;
-    height: 550px; */
     background-image: url(../../images/aboutSection/abt-imgMV.jpg);
-    /* background-image: none; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
     margin-bottom: 0;
     background-position: -200px 120px;
-    /* border: 1px solid red */
   }
   .about_title {
     margin-top: 83px;

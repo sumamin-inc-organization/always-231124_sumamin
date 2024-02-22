@@ -93,7 +93,6 @@
   グラデーションがかかったテキスト
 ----------------------------*/
 .gradient_text {
-  /* border: 1px solid red; */
   width: min-content;
   background-image: linear-gradient(90deg, #49c9ff, #002d80);
   background-clip: text;
