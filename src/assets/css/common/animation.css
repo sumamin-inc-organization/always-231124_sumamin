@@ -1,18 +1,5 @@
-/* .transition{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 50;
-    background-color: #2BB9FC;
-    inset: 0;
-    transform: translateX(100%);
-    display: grid;
-    place-content: center;
-}
- */
- 
+
  .kv-subtitle_containerCN{
-    /* border: 1px solid red; */
     left: 10px !important;
   }
 
