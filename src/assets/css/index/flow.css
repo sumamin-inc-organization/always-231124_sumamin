@@ -181,8 +181,6 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .flow_card {
-  }
   .c-4::after{
     content: url("../../images/flowSection/arrow.svg");
     position: absolute;
@@ -200,8 +198,6 @@
   line-height: 42px;
   margin-top: -20px;
 }
-
-
 @media (max-width: 500px) {
   .flow-description_mobile.fs-16 {
     font-size: 14px;
