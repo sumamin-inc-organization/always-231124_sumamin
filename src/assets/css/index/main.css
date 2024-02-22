@@ -79,9 +79,6 @@
   
   }
   @media(max-width:500px){
-    .about-img_container {
-     /* z-index: 5; */
-    }
     .about_title {
       margin-top: 90px;
     }
