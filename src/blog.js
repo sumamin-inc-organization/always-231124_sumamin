@@ -5,6 +5,7 @@ import "./assets/css/common/typography.css";
 import "./assets/css/common/utility.css";
 import "./assets/css/common/animation.css";
 import "./assets/css/common/under.css";
+import "./assets/css/under/notice.css";
 import "./assets/css/under/blog.css";
 import "./assets/css/common/translation.css";
 
