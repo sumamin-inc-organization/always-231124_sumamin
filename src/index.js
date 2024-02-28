@@ -118,7 +118,7 @@ setActiveClassOnload(currentLang);
 // console.log(temp.dataset.btnLang);
 hideElements(currentLang);
 changeLogo(currentLang);
-setBottomLogo(currentLang,"index")
+// setBottomLogo(currentLang,"index")
 langBtns.forEach(btn =>{
   btn.addEventListener("click",(e)=>{
     SetActiveLangBtnClass(btn) 
@@ -126,7 +126,7 @@ langBtns.forEach(btn =>{
     setStorageItem(LOCAL_STORAGE_LANGUAGE_KEY,currentLang); //save the newly selected langaue in the local storage
     hideElements(currentLang);
     changeLogo(currentLang);
-    setBottomLogo(currentLang,"index")
+    // setBottomLogo(currentLang,"index")
     setHtmlAttribute(currentLang);
   })
 })

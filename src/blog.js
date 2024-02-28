@@ -22,20 +22,7 @@ import changeLogo from "./assets/jsfunctions/changeLogo";
 import setBottomLogo from "./assets/jsfunctions/changeBottomLogo";
 
 
-var moreNum = 6;
-$('.blog_content:nth-child(n + ' + (moreNum + 1) + ')').addClass('is-hidden');
-$('.section_btn').on('click', function() {
-    $('.blog_content.is-hidden').slice(0, moreNum).removeClass('is-hidden');
-    if ($('.blog_content.is-hidden').length == 0) {
-        $('.section_btn').fadeOut();
-    } 
-});
-$(function() {
-    var list = $(".blog_inner .blog_content").length;  
-    if (list < moreNum) {
-        $('.section_btn').addClass('is-btn-hidden');
-    }
-});
+
 
 /*----------------------------
   HAMBURGER MENU ANIMATIONS
