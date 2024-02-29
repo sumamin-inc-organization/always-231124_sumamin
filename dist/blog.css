@@ -281,7 +281,7 @@ body {
 /*!***********************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/under/notice.css ***!
   \***********************************************************************************/
-
+/* @charset "utf-8"; */
 
 .under_kv{
     background-image: url(assets/img/news_kv-v2.jpg);
